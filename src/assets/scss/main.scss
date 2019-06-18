@@ -605,10 +605,30 @@
 	display:inline-block;
 }
 
-#nav {
+.nav {
 	z-index:4000;
 	position:absolute;
 	width:100%;
+}
+.sticky {
+    padding: 0px;
+    background:rgba(184, 216, 216, 1);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+	border-top: 0; 
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.sticky nav {
+	margin-top:0px;
+	font-size:1em;
 }
 
 @media (min-width:650px) {

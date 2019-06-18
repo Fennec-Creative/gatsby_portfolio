@@ -28,21 +28,21 @@ class Header extends React.Component {
 
   render() {
     return (
-      <section id="nav">
+      <section className={this.props.scrolled ? 'nav sticky' : 'nav'} id="nav">
         <nav>
           <ul className="menu">
             <li>
-              <a href="#">About</a>
+              <Link to="/#about">About</Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/#skills"
                 className="dropdownStart"
                 id="1"
                 onClick={this.dropdownOneStart}
               >
                 Skills <span className="arrow">&#9660;</span>
-              </a>
+              </Link>
               <ul className="dropdown" id="dropdown_1">
                 <li>
                   <Link to="./code-skills">Code Skills</Link>
@@ -65,14 +65,14 @@ class Header extends React.Component {
               </Link>
             </div>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/#case-studies"
                 className="dropdownStart"
                 id="2"
                 onClick={this.dropdownTwoStart}
               >
                 Case Studies <span className="arrow">&#9660;</span>
-              </a>
+              </Link>
               <ul className="dropdown" id="dropdown_2">
                 <li>
                   <Link to="./case-study-one/">Case Study 1</Link>
@@ -88,7 +88,7 @@ class Header extends React.Component {
               </ul>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <Link to="/#contact">Contact</Link>
             </li>
           </ul>
           <div className="toggle" onClick={this.toggleHidden}>

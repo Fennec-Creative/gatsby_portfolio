@@ -9,6 +9,7 @@ class Template extends React.Component {
     super(props)
     this.state = {
       loading: 'is-loading',
+      scrolled: false,
     }
   }
 
@@ -16,20 +17,36 @@ class Template extends React.Component {
     this.timeoutId = setTimeout(() => {
       this.setState({ loading: '' })
     }, 100)
+
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 200
+      if (isTop !== true) {
+        this.setState({ scrolled: true })
+      } else {
+        this.setState({ scrolled: false })
+      }
+    })
   }
 
   componentWillUnmount() {
     if (this.timeoutId) {
       clearTimeout(this.timeoutId)
     }
+
+    //window.removeEventListene('scroll')
   }
 
   render() {
     const { children } = this.props
 
+    if (typeof window !== 'undefined') {
+      // eslint-disable-next-line global-require
+      require('smooth-scroll')('a[href*="#"]')
+    }
+
     return (
       <div className={`body ${this.state.loading}`}>
-        <Header />
+        <Header scrolled={this.state.scrolled} />
         {children}
         <Footer />
       </div>

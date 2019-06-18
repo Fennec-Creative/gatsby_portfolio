@@ -25,15 +25,15 @@ class Homepage extends React.Component {
             <p class="sub-header">UX Design / Development</p>
             <ul className="actions">
               <li>
-                <a href="#one" className="button scrolly">
+                <Link to="/#about" className="button scrolly">
                   Discover
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </section>
 
-        <section id="about_me" className="main style1 image_container_1">
+        <section id="about" className="main style1 image_container_1">
           <div className="grid-wrapper">
             <div className="col-6">
               <div
@@ -66,7 +66,7 @@ class Homepage extends React.Component {
             </div>
           </div>
         </section>
-        <section id="two" className="main style3 special">
+        <section id="skills" className="main style3 special">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
@@ -106,7 +106,7 @@ class Homepage extends React.Component {
             </div>
           </div>
         </section>
-        <section id="three" className="main style1 special">
+        <section id="case-studies" className="main style1 special">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
@@ -146,7 +146,7 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id="five" className="main in-touch">
+        <section id="contact" className="main in-touch">
           <div className="container">
             <header className="major">
               <h2>Let's Get in Touch</h2>
