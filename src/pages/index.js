@@ -12,6 +12,36 @@ import pic05 from '../assets/images/privo_2.png'
 import pic06 from '../assets/images/connectmevoice_2.png'
 
 class Homepage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      selfAnimate: false,
+    }
+  }
+
+  componentDidMount() {
+    this.timeoutId = setTimeout(() => {
+      this.setState({ loading: '' })
+    }, 100)
+
+    window.addEventListener('scroll', () => {
+      const isAnimate = window.scrollY < 400
+      if (isAnimate !== true) {
+        this.setState({ selfAnimate: true })
+      } else {
+        this.setState({ selfAnimate: false })
+      }
+    })
+  }
+
+  componentWillUnmount() {
+    if (this.timeoutId) {
+      clearTimeout(this.timeoutId)
+    }
+
+    //window.removeEventListener('scroll')
+  }
+
   render() {
     const siteTitle = 'Gatsby Starter - Photon'
 
@@ -37,12 +67,18 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <div
-                class="slide-left show"
+                class={
+                  this.state.selfAnimate ? 'slide-left show' : 'slide-left'
+                }
                 title="Cartoon Character of Chelsea"
               />
               <div
                 id="to-top"
-                class="black slide-up show-black"
+                class={
+                  this.state.selfAnimate
+                    ? 'black slide-up show-black'
+                    : 'black slide-up'
+                }
                 title="Background Image"
               />
             </div>

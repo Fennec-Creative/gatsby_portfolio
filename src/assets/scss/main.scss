@@ -246,19 +246,7 @@
 	animation: ears 1.7s steps(7) infinite; }
 	
 	.slide-left {
-		-moz-transition: all 500ms ease-in-out;
-		-webkit-transition: all 500ms ease-in-out;
-		-ms-transition: all 500ms ease-in-out;
-		-o-transtion: all 500ms ease-in-out;
-		transition: all 500ms ease-in-out;
-		-moz-transform: translate3d(-100px, 0px, 0px);
-		-webkit-transform: translate3d(-100px, 0px, 0px);
-		-ms-transform: translate3d(-100px, 0px, 0px);
-		-o-transform: translate3d(-100px, 0px, 0px);
-		transform: translate(-100px); }
-
-		.slide-left.show {
-			background-image: url('../images/photo_retouch.png');
+		background-image: url('../images/photo_retouch.png');
 			background-size: contain;
 			background-repeat:no-repeat;
 			width: 26.5em;
@@ -271,24 +259,25 @@
 			left: 0px;
 			margin-left: 10%;
 			z-index: 50;
+		-moz-transition: all 500ms ease-in-out;
+		-webkit-transition: all 500ms ease-in-out;
+		-ms-transition: all 500ms ease-in-out;
+		-o-transtion: all 500ms ease-in-out;
+		transition: all 500ms ease-in-out;
+		-moz-transform: translate3d(-200px, 0px, 0px);
+		-webkit-transform: translate3d(-200px, 0px, 0px);
+		-ms-transform: translate3d(-200px, 0px, 0px);
+		-o-transform: translate3d(-200px, 0px, 0px);
+		transform: translate(-200px); }
+
+		.slide-left.show {
 			-moz-transform: translate3d(0px, 0px, 0px);
 			-webkit-transform: translate3d(0px, 0px, 0px);
 			-ms-transform: translate(0px, 0px);
 			-o-transform: translate(0px, 0px);
 			transform: translate3d(0px, 0px, 0px); }
 			.black.slide-up {
-				-moz-transition: all 500ms ease-in-out;
-				-webkit-transition: all 500ms ease-in-out;
-				-ms-transition: all 500ms ease-in-out;
-				-o-transition: all 500ms ease-in-out;
-				transition: all 800ms ease-in-out;
-				-moz-transform: translate3d(-100px, 0px, 0px);
-				-webkit-transform: translate3d(-100px, 0px, 0px);
-				-ms-transform: translate3d(-100px, 0px, 0px);
-				-o-transform: translate3d(-100px, 0px, 0px);
-				transform: translate(-500); }
-				.slide-up.show-black {
-					background-image: url('../images/about.png');
+				background-image: url('../images/about.png');
 					background-size: contain;
 					background-repeat:no-repeat;
 					width:57.8em;
@@ -300,6 +289,17 @@
 					top: 24.6em;
 					left: 0px;
 					z-index: 1;
+				-moz-transition: all 500ms ease-in-out;
+				-webkit-transition: all 500ms ease-in-out;
+				-ms-transition: all 500ms ease-in-out;
+				-o-transition: all 500ms ease-in-out;
+				transition: all 800ms ease-in-out;
+				-moz-transform: translate3d(-500px, 0px, 0px);
+				-webkit-transform: translate3d(-500px, 0px, 0px);
+				-ms-transform: translate3d(-500px, 0px, 0px);
+				-o-transform: translate3d(-500px, 0px, 0px);
+				transform: translate(-500); }
+				.slide-up.show-black {
 					-moz-transform: translate3d(0px, 0px, 0px);
 					-webkit-transform: translate3d(0px, 0px, 0px);
 					-ms-transform: translate(0px, 0px);
@@ -571,7 +571,7 @@
 	  }
 
 	  .thumbUnit:hover h3 {
-		color:_palette(accent5);
+		color:#343434;
 	  }
 
 	  .thumbUnit img {
@@ -594,7 +594,7 @@
 	
 	
 	@media (min-width: 1681px){
-		.black.slide-up.show-black {
+		.black.slide-up{
 			top:481.5px !important;
 		}
 	}
