@@ -592,7 +592,50 @@
 		opacity:1;
 	  }
 	
-	
+
+	  .acuImg {
+		position:relative;
+		margin: 0 auto;
+		width:55em;
+		max-width:100%;
+		height:32em;
+		background-image:url('../images/monitor.png');
+		background-position:top center;
+		background-repeat:no-repeat;
+		background-size:contain;
+		margin-bottom:40px;
+	  }
+
+	  .acu_image_container::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+    }
+
+    .acu_image_container::-webkit-scrollbar
+    {
+      width: 12px;
+      background-color: #F5F5F5;
+    }
+
+    .acu_image_container::-webkit-scrollbar-thumb
+    {
+      height:10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #888;
+    }
+
+    .acu_image_container {
+      display:block;
+      position:absolute;
+      width:71.65%;
+      height:24.7em;
+      overflow-y:scroll;
+      top:5.5%;
+      left:14.5%;
+    }
+
+
 	@media (min-width: 1681px){
 		.black.slide-up{
 			top:481.5px !important;

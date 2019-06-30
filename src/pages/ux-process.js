@@ -159,7 +159,7 @@ const UxProcess = () => (
             <div className="col-6">
               <ul>
                 <li>Quality Assurance</li>
-                <li>Feedbacn and Updates</li>
+                <li>Feedback and Updates</li>
                 <li>Optimization</li>
               </ul>
             </div>

@@ -4,9 +4,9 @@ import Contact from '../components/Contact'
 
 import Layout from '../components/layout'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+import pic01 from '../assets/images/TeamConnect-full.jpg'
+import pic02 from '../assets/images/teamconnect_personas.png'
+import pic03 from '../assets/images/teamconnect_design.png'
 import pic04 from '../assets/images/pic04.jpg'
 
 const CaseStudyTwo = () => (
@@ -28,7 +28,11 @@ const CaseStudyTwo = () => (
       <div className="grid-wrapper">
         <div className="col-12">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <div class="acuImg">
+              <div class="acu_image_container">
+                <img src={pic01} alt="Team Connet Hoome Page" />
+              </div>
+            </div>
           </span>
         </div>
         <div className="col-12">
@@ -65,7 +69,7 @@ const CaseStudyTwo = () => (
       <div className="grid-wrapper">
         <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic02} alt="" />
           </span>
         </div>
         <div className="col-6">
@@ -102,7 +106,7 @@ const CaseStudyTwo = () => (
         </div>
         <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic03} alt="" />
           </span>
         </div>
       </div>
@@ -110,12 +114,12 @@ const CaseStudyTwo = () => (
 
     <section id="three_point_five" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-6">
+        <div className="col-12">
           <span className="image fit">
             <img src={pic01} alt="" />
           </span>
         </div>
-        <div className="col-6">
+        <div className="col-12">
           <header className="major">
             <h2>Interactive Demo Series</h2>
           </header>

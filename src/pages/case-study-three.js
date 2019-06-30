@@ -4,7 +4,7 @@ import Contact from '../components/Contact'
 
 import Layout from '../components/layout'
 
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/cmv-full.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
@@ -28,7 +28,11 @@ const CaseStudyThree = () => (
       <div className="grid-wrapper">
         <div className="col-12">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <div class="acuImg">
+              <div class="acu_image_container">
+                <img src={pic01} alt="ConnectMeVoice Hoome Page" />
+              </div>
+            </div>
           </span>
         </div>
         <div className="col-12">
@@ -65,7 +69,7 @@ const CaseStudyThree = () => (
       <div className="grid-wrapper">
         <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic03} />
           </span>
         </div>
         <div className="col-6">
