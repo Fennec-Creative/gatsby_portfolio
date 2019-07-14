@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 import pic01 from '../assets/images/TeamConnect-full.jpg'
 import pic02 from '../assets/images/teamconnect_personas.png'
 import pic03 from '../assets/images/teamconnect_design.png'
-import pic04 from '../assets/images/pic04.jpg'
+import pic04 from '../assets/images/pdv_wireless_gif.gif'
 
 const CaseStudyTwo = () => (
   <Layout>
@@ -114,12 +114,12 @@ const CaseStudyTwo = () => (
 
     <section id="three_point_five" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-12">
+        <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic04} alt="" />
           </span>
         </div>
-        <div className="col-12">
+        <div className="col-6">
           <header className="major">
             <h2>Interactive Demo Series</h2>
           </header>
@@ -175,7 +175,7 @@ const CaseStudyTwo = () => (
 
     <section id="four_point_five" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-6">
+        <div className="col-12">
           <header className="major">
             <h2>Continual Improvement Plan</h2>
           </header>
@@ -185,11 +185,6 @@ const CaseStudyTwo = () => (
             shoreditch snackwave lumbersexual poke lo-fi taxidermy iPhone
             actually everyday carry fingerstache.
           </p>
-        </div>
-        <div className="col-6">
-          <span className="image fit">
-            <img src={pic01} alt="" />
-          </span>
         </div>
       </div>
     </section>

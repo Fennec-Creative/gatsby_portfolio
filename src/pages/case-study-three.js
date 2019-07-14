@@ -5,9 +5,10 @@ import Contact from '../components/Contact'
 import Layout from '../components/layout'
 
 import pic01 from '../assets/images/cmv-full.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic02 from '../assets/images/connectmevoice_personas.png'
+import pic03 from '../assets/images/cmv_landing.png'
+import pic04 from '../assets/images/cmv_phone.jpg'
+import pic05 from '../assets/images/cmv_banners.png'
 
 const CaseStudyThree = () => (
   <Layout>
@@ -69,7 +70,7 @@ const CaseStudyThree = () => (
       <div className="grid-wrapper">
         <div className="col-6">
           <span className="image fit">
-            <img src={pic03} />
+            <img src={pic02} />
           </span>
         </div>
         <div className="col-6">
@@ -106,8 +107,34 @@ const CaseStudyThree = () => (
         </div>
         <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic03} alt="" />
           </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="three-point-five" className="main style1">
+      <div className="grid-wrapper">
+        <div className="col-6">
+          <span className="image fit">
+            <img src={pic05} />
+          </span>
+        </div>
+        <div className="col-6">
+          <header className="major">
+            <h2>Graphic Design and Bran Support</h2>
+          </header>
+          <p>
+            Hammock forage cred fashion axe authentic stumptown ethical vegan
+            banh mi mixtape humblebrag readymade salvia intelligentsia ennui.
+            Keffiyeh gentrify bicycle rights, poutine aesthetic deep v bushwick.
+          </p>
+          <p>
+            Irony lomo raw denim four loko, leggings austin tumeric man braid
+            ethical before they sold out swag. Stumptown XOXO pickled, banjo
+            mustache pork belly vice celiac seitan mumblecore pop-up everyday
+            carry trust fund forage distillery.
+          </p>
         </div>
       </div>
     </section>
@@ -149,12 +176,12 @@ const CaseStudyThree = () => (
 
     <section id="four_point_five" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-6">
+        <div className="col-4">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic04} alt="" />
           </span>
         </div>
-        <div className="col-6">
+        <div className="col-8">
           <header className="major">
             <h2>Continual Improvements Plan</h2>
           </header>

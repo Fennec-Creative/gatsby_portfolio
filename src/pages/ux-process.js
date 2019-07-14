@@ -4,7 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Contact from '../components/Contact'
 
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/discover.png'
+import pic02 from '../assets/images/strategy.png'
+import pic03 from '../assets/images/design.png'
+import pic04 from '../assets/images/develop.png'
+import pic05 from '../assets/images/launch.png'
+import pic06 from '../assets/images/improvements.png'
 
 const UxProcess = () => (
   <Layout>
@@ -24,13 +29,13 @@ const UxProcess = () => (
 
     <section id="one" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-4">
+        <div className="col-5">
           <span className="image fit">
             <img src={pic01} alt="" />
           </span>
         </div>
 
-        <div className="col-8">
+        <div className="col-7">
           <header className="major">
             <h2>Discovery</h2>
           </header>
@@ -41,14 +46,14 @@ const UxProcess = () => (
             project with a clearly defined ending in mind vital to success.
           </p>
           <div className="grid-wrapper">
-            <div className="col-6">
+            <div className="col-4">
               <ul>
                 <li>Determine Scope</li>
                 <li>Define SMART Goals</li>
                 <li>User Personas and Storyboards</li>
               </ul>
             </div>
-            <div className="col-6">
+            <div className="col-3">
               <ul>
                 <li>Use Cases and Flows</li>
                 <li>Data and Asset Collection</li>
@@ -62,7 +67,7 @@ const UxProcess = () => (
 
     <section id="two" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-8">
+        <div className="col-7">
           <header className="major">
             <h2>Strategy</h2>
           </header>
@@ -73,14 +78,14 @@ const UxProcess = () => (
             discern user assumptions.
           </p>
           <div className="grid-wrapper">
-            <div className="col-6">
+            <div className="col-4">
               <ul>
                 <li>User Research</li>
                 <li>Competitor Analysis</li>
                 <li>Website Architecture and Strategy </li>
               </ul>
             </div>
-            <div className="col-6">
+            <div className="col-3">
               <ul>
                 <li>Wireframes &amp; Prototypes</li>
                 <li>Experience Maps</li>
@@ -90,9 +95,9 @@ const UxProcess = () => (
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-5">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic02} alt="" />
           </span>
         </div>
       </div>
@@ -100,13 +105,13 @@ const UxProcess = () => (
 
     <section id="three" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-4">
+        <div className="col-5">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic03} alt="" />
           </span>
         </div>
 
-        <div className="col-8">
+        <div className="col-7">
           <header className="major">
             <h2>Design</h2>
           </header>
@@ -117,14 +122,14 @@ const UxProcess = () => (
             members, the client, as well as other stake holders.
           </p>
           <div className="grid-wrapper">
-            <div className="col-6">
+            <div className="col-4">
               <ul>
                 <li>Style Guides</li>
                 <li>Strategy implementation</li>
                 <li>Team Collaboration</li>
               </ul>
             </div>
-            <div className="col-6">
+            <div className="col-3">
               <ul>
                 <li>High-Fidelity Mockups</li>
                 <li>Interaction Design</li>
@@ -137,7 +142,7 @@ const UxProcess = () => (
 
     <section id="four" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-8">
+        <div className="col-7">
           <header className="major">
             <h2>Production</h2>
           </header>
@@ -149,14 +154,14 @@ const UxProcess = () => (
             time and suite my clients ever-expanding needs.
           </p>
           <div className="grid-wrapper">
-            <div className="col-6">
+            <div className="col-4">
               <ul>
                 <li>Design Finalization</li>
                 <li>Development</li>
                 <li>Speed Tests</li>
               </ul>
             </div>
-            <div className="col-6">
+            <div className="col-3">
               <ul>
                 <li>Quality Assurance</li>
                 <li>Feedback and Updates</li>
@@ -166,9 +171,9 @@ const UxProcess = () => (
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-5">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic04} alt="" />
           </span>
         </div>
       </div>
@@ -176,13 +181,13 @@ const UxProcess = () => (
 
     <section id="five" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-4">
+        <div className="col-5">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic05} alt="" />
           </span>
         </div>
 
-        <div className="col-8">
+        <div className="col-7">
           <header className="major">
             <h2>Launch</h2>
           </header>
@@ -193,13 +198,13 @@ const UxProcess = () => (
             potential issues.
           </p>
           <div className="grid-wrapper">
-            <div className="col-6">
+            <div className="col-4">
               <ul>
                 <li>KPI Testing</li>
                 <li>A/B Testing</li>
               </ul>
             </div>
-            <div className="col-6">
+            <div className="col-3">
               <ul>
                 <li>Evaluation</li>
                 <li>Publication</li>
@@ -212,7 +217,7 @@ const UxProcess = () => (
 
     <section id="six" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-8">
+        <div className="col-7">
           <header className="major">
             <h2>Continual Improvements</h2>
           </header>
@@ -224,14 +229,14 @@ const UxProcess = () => (
             possible.
           </p>
           <div className="grid-wrapper">
-            <div className="col-6">
+            <div className="col-4">
               <ul>
                 <li>ata Collection</li>
                 <li>Analytics and Reporting </li>
                 <li>Identification of Improvements</li>
               </ul>
             </div>
-            <div className="col-6">
+            <div className="col-3">
               <ul>
                 <li>QHypothesis testing</li>
                 <li>Updates and Optimization</li>
@@ -240,9 +245,9 @@ const UxProcess = () => (
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-5">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <img src={pic06} alt="" />
           </span>
         </div>
       </div>
