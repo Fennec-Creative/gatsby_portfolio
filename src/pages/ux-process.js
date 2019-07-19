@@ -27,7 +27,7 @@ const UxProcess = () => (
       </div>
     </section>
 
-    <section id="one" className="main style1">
+    <section id="one" className="main style6">
       <div className="grid-wrapper">
         <div className="col-5">
           <span className="image fit">
@@ -103,7 +103,7 @@ const UxProcess = () => (
       </div>
     </section>
 
-    <section id="three" className="main style1">
+    <section id="three" className="main style4">
       <div className="grid-wrapper">
         <div className="col-5">
           <span className="image fit">
@@ -140,7 +140,7 @@ const UxProcess = () => (
       </div>
     </section>
 
-    <section id="four" className="main style1">
+    <section id="four" className="main style5">
       <div className="grid-wrapper">
         <div className="col-7">
           <header className="major">
@@ -215,7 +215,7 @@ const UxProcess = () => (
       </div>
     </section>
 
-    <section id="six" className="main style1">
+    <section id="six" className="main style4">
       <div className="grid-wrapper">
         <div className="col-7">
           <header className="major">

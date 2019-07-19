@@ -6,34 +6,23 @@ import Contact from '../components/Contact'
 
 const CodeSkills = () => (
   <Layout>
-    <section class="header">
-      <div className="inner">
-        <h1>Code Skills</h1>
-        <p>Subtext goes here</p>
-        <ul className="actions">
-          <li>
-            <a href="#one" className="button scrolly">
-              Discover
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section id="one" className="main style1">
+    <section id="one" className="header">
       <div className="grid-wrapper">
         <div className="col-12">
           <header className="major special">
-            <h2>Technical Knowledge</h2>
+            <h1>Technical Knowledge</h1>
           </header>
         </div>
         <div className="col-3" id="design-box">
-          <h3 class="hdev special">Design</h3>
-          <ul>
-            <li>Sketch</li>
-            <li>Photoshop</li>
-            <li>Illustrator</li>
-            <li>GIMP</li>
-          </ul>
+          <div class="float float_right">
+            <h3 class="hdev special dark_blue">Design</h3>
+            <ul>
+              <li>Sketch</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>GIMP</li>
+            </ul>
+          </div>
         </div>
         <div className="col-6" id="pieChart">
           <svg
@@ -103,36 +92,42 @@ const CodeSkills = () => (
           </svg>
         </div>
         <div className="col-3" id="dev-box">
-          <h3 class="hdev special">Development</h3>
-          <ul>
-            <li>DHTML</li>
-            <li>ReactJS</li>
-            <li>Python</li>
-            <li>GIT</li>
-            <li>AJAX/JSON</li>
-          </ul>
+          <div class="float float_left">
+            <h3 class="hdev special primary_pink">Development</h3>
+            <ul>
+              <li>DHTML</li>
+              <li>ReactJS</li>
+              <li>Python</li>
+              <li>GIT</li>
+              <li>AJAX/JSON</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="two" className="main style3">
+    <section id="two" className="main style4">
       <div className="grid-wrapper">
         <dic className="col-12 special">
           <h2>Working Knowledge</h2>
         </dic>
         <div className="col-6">
-          <ul>
-            <li>React Native</li>
-            <li>Redux</li>
-            <li>AngularJS</li>
-          </ul>
+          <div class="working-list">
+            <ul>
+              <li>React Native</li>
+              <li>Redux</li>
+              <li>AngularJS</li>
+            </ul>
+          </div>
         </div>
         <div className="col-6">
-          <ul>
-            <li>Django</li>
-            <li>MySQL</li>
-            <li>PHP</li>
-          </ul>
+          <div class="working-list">
+            <ul>
+              <li>Django</li>
+              <li>MySQL</li>
+              <li>PHP</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -147,8 +142,8 @@ const CodeSkills = () => (
               id="Layer_1"
               x="0px"
               y="0px"
-              width="967px"
-              height="489px"
+              width="100%"
+              height="27em"
               viewBox="0 0 967 489"
               enable-background="new 0 0 967 579"
               preserveAspectRatio="xMinYMin"
@@ -157,7 +152,7 @@ const CodeSkills = () => (
                 class="bar"
                 id="bar1"
                 x="55"
-                y="9"
+                y="5.45"
                 fill="#FE5F55"
                 width="104"
                 height="480"
@@ -166,7 +161,7 @@ const CodeSkills = () => (
                 class="bar"
                 id="bar2"
                 x="238"
-                y="65"
+                y="60"
                 fill="#7A9E9F"
                 width="104"
                 height="425"
@@ -175,7 +170,7 @@ const CodeSkills = () => (
                 class="bar"
                 id="bar3"
                 x="424"
-                y="80"
+                y="75"
                 fill="#FE5F55"
                 width="102"
                 height="410"
@@ -184,7 +179,7 @@ const CodeSkills = () => (
                 class="bar"
                 id="bar4"
                 x="610"
-                y="39"
+                y="35"
                 fill="#7A9E9F"
                 width="103"
                 height="449"
@@ -196,26 +191,26 @@ const CodeSkills = () => (
                 y="438"
                 fill="#FE5F55"
                 width="102"
-                height="50"
+                height="46"
               />
               <rect id="bar6" y="478" fill="#656565" width="967" height="11" />
             </svg>
-          </div>
-          <div class="skillList">
-            <div class="skillItem">
-              <p>UX Strategy</p>
-            </div>
-            <div class="skillItem">
-              <p>Coding</p>
-            </div>
-            <div class="skillItem">
-              <p>Research</p>
-            </div>
-            <div class="skillItem">
-              <p>Troubleshooting</p>
-            </div>
-            <div class="skillItem">
-              <p>Dancing</p>
+            <div class="skillList">
+              <div class="skillItem">
+                <p>UX Strategy</p>
+              </div>
+              <div class="skillItem">
+                <p>Coding</p>
+              </div>
+              <div class="skillItem">
+                <p>Research</p>
+              </div>
+              <div class="skillItem">
+                <p>Troubleshooting</p>
+              </div>
+              <div class="skillItem">
+                <p>Dancing</p>
+              </div>
             </div>
           </div>
         </div>
