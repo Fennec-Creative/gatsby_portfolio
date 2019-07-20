@@ -1,10 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import Slider from '../components/Slider'
 import Layout from '../components/layout'
 import Contact from '../components/Contact'
 
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/monkey_design_illustration.jpg'
 
 const DesignSkills = () => (
   <Layout>
@@ -36,7 +37,7 @@ const DesignSkills = () => (
         </div>
         <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <Slider />
           </span>
         </div>
       </div>
