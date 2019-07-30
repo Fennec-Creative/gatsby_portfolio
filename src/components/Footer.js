@@ -4,7 +4,7 @@ class Footer extends React.Component {
   render() {
     return (
       <section id="footer" class="footer special">
-        <p>&copy; Chelsea Williams 2019</p>
+        &copy; Chelsea Williams 2019
       </section>
     )
   }

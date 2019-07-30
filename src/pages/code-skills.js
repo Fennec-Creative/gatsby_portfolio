@@ -108,9 +108,9 @@ const CodeSkills = () => (
 
     <section id="two" className="main style4">
       <div className="grid-wrapper">
-        <dic className="col-12 special">
-          <h2>Working Knowledge</h2>
-        </dic>
+        <div className="col-12">
+          <h2 className="align-center">Working Knowledge</h2>
+        </div>
         <div className="col-6">
           <div class="working-list">
             <ul>
@@ -134,8 +134,8 @@ const CodeSkills = () => (
 
     <section id="three" className="main style1">
       <div className="grid-wrapper">
-        <div className="col-12 special">
-          <h2>Skill Mastery</h2>
+        <div className="col-12">
+          <h2 className="align-center">Skill Mastery</h2>
           <div class="barChart">
             <svg
               version="1.1"

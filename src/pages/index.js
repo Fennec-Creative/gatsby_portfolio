@@ -106,7 +106,7 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>What I can Do</h2>
+                <h2 className="align-center">What I can Do</h2>
               </header>
             </div>
             <div className="col-4 thumbUnit">
@@ -146,7 +146,7 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>Case Studies</h2>
+                <h2 ClassName="align-center">Case Studies</h2>
               </header>
             </div>
             <div className="col-4 thumbUnit">

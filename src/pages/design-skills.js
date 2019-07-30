@@ -1,11 +1,14 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Slider from '../components/Slider'
+import IllSlider from '../components/IllSlider'
+import LogoSlider from '../components/LogoSlider'
 import Layout from '../components/layout'
 import Contact from '../components/Contact'
+import WhitePaperSlider from '../components/WhitePaperSlider'
+import EBookSlider from '../components/EBookSlider'
 
-import pic01 from '../assets/images/monkey_design_illustration.jpg'
+import pic01 from '../assets/images/backpack.png'
 
 const DesignSkills = () => (
   <Layout>
@@ -22,7 +25,7 @@ const DesignSkills = () => (
         </ul>
       </div>
     </section>
-    <section id="one" className="main style1">
+    <section id="one" className="main style4">
       <div className="grid-wrapper">
         <div className="col-6">
           <header className="major">
@@ -37,7 +40,7 @@ const DesignSkills = () => (
         </div>
         <div className="col-6">
           <span className="image fit">
-            <Slider />
+            <IllSlider />
           </span>
         </div>
       </div>
@@ -47,7 +50,7 @@ const DesignSkills = () => (
       <div className="grid-wrapper">
         <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <LogoSlider />
           </span>
         </div>
         <div className="col-6">
@@ -69,11 +72,11 @@ const DesignSkills = () => (
       </div>
     </section>
 
-    <section id="three" className="main style1">
+    <section id="three" className="main style3">
       <div className="grid-wrapper">
         <div className="col-6">
           <header className="major">
-            <h2>Graphic Design</h2>
+            <h2>White Paper Design</h2>
           </header>
           <p>
             Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg venmo
@@ -84,22 +87,22 @@ const DesignSkills = () => (
         </div>
         <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <WhitePaperSlider />
           </span>
         </div>
       </div>
     </section>
 
-    <section id="four" className="main style1">
+    <section id="four" className="main style4">
       <div className="grid-wrapper">
         <div className="col-6">
           <span className="image fit">
-            <img src={pic01} alt="" />
+            <EBookSlider />
           </span>
         </div>
         <div className="col-6">
           <header className="major">
-            <h2>Digital Painting and Photomanipulation</h2>
+            <h2>Ebook Design</h2>
           </header>
           <p>
             Hammock forage cred fashion axe authentic stumptown ethical vegan
@@ -112,6 +115,27 @@ const DesignSkills = () => (
             mustache pork belly vice celiac seitan mumblecore pop-up everyday
             carry trust fund forage distillery.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="five" className="main style1">
+      <div className="grid-wrapper">
+        <div className="col-6">
+          <header className="major">
+            <h2>Product Design</h2>
+          </header>
+          <p>
+            Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg venmo
+            everyday carry direct trade authentic. Church-key woke bitters
+            shoreditch snackwave lumbersexual poke lo-fi taxidermy iPhone
+            actually everyday carry fingerstache.
+          </p>
+        </div>
+        <div className="col-6">
+          <span className="image fit">
+            <img src={pic01} alt="" />
+          </span>
         </div>
       </div>
     </section>
