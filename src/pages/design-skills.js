@@ -28,9 +28,7 @@ const DesignSkills = () => (
     <section id="one" className="main style4">
       <div className="grid-wrapper">
         <div className="col-6">
-          <header className="major">
-            <h2>Illustration</h2>
-          </header>
+          <h2>Illustration</h2>
           <p>
             Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg venmo
             everyday carry direct trade authentic. Church-key woke bitters
@@ -54,9 +52,7 @@ const DesignSkills = () => (
           </span>
         </div>
         <div className="col-6">
-          <header className="major">
-            <h2>Logo Design</h2>
-          </header>
+          <h2>Logo Design</h2>
           <p>
             Hammock forage cred fashion axe authentic stumptown ethical vegan
             banh mi mixtape humblebrag readymade salvia intelligentsia ennui.
@@ -75,9 +71,7 @@ const DesignSkills = () => (
     <section id="three" className="main style3">
       <div className="grid-wrapper">
         <div className="col-6">
-          <header className="major">
-            <h2>White Paper Design</h2>
-          </header>
+          <h2>White Paper Design</h2>
           <p>
             Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg venmo
             everyday carry direct trade authentic. Church-key woke bitters
@@ -101,9 +95,7 @@ const DesignSkills = () => (
           </span>
         </div>
         <div className="col-6">
-          <header className="major">
-            <h2>Ebook Design</h2>
-          </header>
+          <h2>Ebook Design</h2>
           <p>
             Hammock forage cred fashion axe authentic stumptown ethical vegan
             banh mi mixtape humblebrag readymade salvia intelligentsia ennui.
@@ -122,9 +114,7 @@ const DesignSkills = () => (
     <section id="five" className="main style1">
       <div className="grid-wrapper">
         <div className="col-6">
-          <header className="major">
-            <h2>Product Design</h2>
-          </header>
+          <h2>Product Design</h2>
           <p>
             Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg venmo
             everyday carry direct trade authentic. Church-key woke bitters

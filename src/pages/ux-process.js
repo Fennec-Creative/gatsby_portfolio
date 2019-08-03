@@ -36,9 +36,7 @@ const UxProcess = () => (
         </div>
 
         <div className="col-7">
-          <header className="major">
-            <h2>Discovery</h2>
-          </header>
+          <h2>Discovery</h2>
           <p>
             I develop a deep understanding of the job to be done while
             establishing project stake holders, scope, user definitions, and
@@ -68,9 +66,7 @@ const UxProcess = () => (
     <section id="two" className="main style1">
       <div className="grid-wrapper">
         <div className="col-7">
-          <header className="major">
-            <h2>Strategy</h2>
-          </header>
+          <h2>Strategy</h2>
           <p>
             I define the end product and experience by researching users and
             competitors, collecting data, and establishing a strategy. During
@@ -112,9 +108,7 @@ const UxProcess = () => (
         </div>
 
         <div className="col-7">
-          <header className="major">
-            <h2>Design</h2>
-          </header>
+          <h2>Design</h2>
           <p>
             I design an interactive user interface that engages users and guides
             them to intuitive conversion points. This is a collaborative and
@@ -143,9 +137,7 @@ const UxProcess = () => (
     <section id="four" className="main style5">
       <div className="grid-wrapper">
         <div className="col-7">
-          <header className="major">
-            <h2>Production</h2>
-          </header>
+          <h2>Production</h2>
           <p>
             I develop a fully-functional website or application and commence an
             in-depth quality control process to rule potential speed and
@@ -188,9 +180,7 @@ const UxProcess = () => (
         </div>
 
         <div className="col-7">
-          <header className="major">
-            <h2>Launch</h2>
-          </header>
+          <h2>Launch</h2>
           <p>
             I finalize my project by putting it through rigorous testing, client
             approval, and team evaluation. Once complete, I oversee the
@@ -218,9 +208,7 @@ const UxProcess = () => (
     <section id="six" className="main style4">
       <div className="grid-wrapper">
         <div className="col-7">
-          <header className="major">
-            <h2>Continual Improvements</h2>
-          </header>
+          <h2>Continual Improvements</h2>
           <p>
             Once my project is live, I establish a continual improvement plan
             using data harvested from live users over time. Once sufficient time

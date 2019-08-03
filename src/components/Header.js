@@ -2,15 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 class Header extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      isDown: false,
-    }
-
-    this.toggleHidden = this.toggleHidden.bind(this)
-  }
-
   //Toggle first dropdown on Mobile
   toggleHidden() {
     document.querySelector('.menu').classList.toggle('showMenu')
@@ -30,7 +21,11 @@ class Header extends React.Component {
     return (
       <section className={this.props.scrolled ? 'nav sticky' : 'nav'} id="nav">
         <nav>
-          <ul className="menu">
+          <ul
+            className={
+              this.props.isLight ? 'menu menu-light' : 'menu menu-dark'
+            }
+          >
             <li>
               <Link to="/#about">About</Link>
             </li>

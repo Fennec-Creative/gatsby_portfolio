@@ -105,8 +105,8 @@ class Homepage extends React.Component {
         <section id="skills" className="main style3 special">
           <div className="grid-wrapper">
             <div className="col-12">
-              <header className="major">
-                <h2 className="align-center">What I can Do</h2>
+              <header className="major align-center">
+                <h2>What I can Do</h2>
               </header>
             </div>
             <div className="col-4 thumbUnit">
@@ -146,7 +146,7 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2 ClassName="align-center">Case Studies</h2>
+                <h2>Case Studies</h2>
               </header>
             </div>
             <div className="col-4 thumbUnit">

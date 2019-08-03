@@ -97,12 +97,14 @@
 		font-size: 3em;
 		line-height: 1.35em;
 		text-align:left;
+		margin-bottom:0.4em;
 	}
 
 	h3 {
 		font-size: 1.5em;
 		line-height: 1.5em;
 		font-weight:_font(weight-bold);
+		margin-bottom: 0.3em;
 	}
 
 	h4 {
@@ -194,6 +196,51 @@
 
 	#header_logo {
 		display:none;
+	}
+
+	.casestudy h1, .casestudy h2 {
+		font-family:"Source Sans Pro", Helvetica, sans-serif;
+	}
+
+	.styleA {
+		background-color:#fff;
+	}
+
+	.styleB {
+		background-color:#f7f7f7;
+	}
+
+	.styleC, .styleC h2 {
+		color:#fff;
+	}
+
+	.privo-blue {
+		background-image:url('../images/privo_background_2.png');
+		
+	}
+
+	.cmv-red-text {
+		color:#d31025;
+	}
+
+	.privo-orange {
+		color:#eb891b;
+	}
+
+	.tc-blue-text {
+		color:#00a5dc;
+	}
+
+	.tc-blue {
+		background-color: #00a5dc;
+	}
+
+	.cmv-red {
+		background-color:#d31025;
+	}
+
+	.cmv-gray {
+		background-color:#565656;
 	}
 
 
@@ -910,7 +957,6 @@
 
 
 			h2, h3, h4, h5, h6 {
-				margin: 0;
 				text-align:center;
 			}
 
@@ -1705,6 +1751,27 @@
 			top: 0;
 			width: 100%;
 		}
+	}
+
+	.header-light-theme, .header-light-theme h1, .header-light-theme .button {
+		color:#fff !important;
+	}
+
+	#privo-head {
+		background-image:url('../images/privo_background.jpg');
+	}
+
+	#team_connect_header {
+		background-image:url('../images/pdv_background_image.jpg');
+	}
+
+	#cmv-header {
+		background-image:url('../images/cmv-background.jpg');
+	}
+
+	.rule-left {
+		border-right:2px solid #f7f7f7;
+		padding-right:3rem;
 	}
 
 	.body.is-loading {
