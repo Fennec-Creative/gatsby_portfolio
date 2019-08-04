@@ -21,11 +21,7 @@ class Header extends React.Component {
     return (
       <section className={this.props.scrolled ? 'nav sticky' : 'nav'} id="nav">
         <nav>
-          <ul
-            className={
-              this.props.isLight ? 'menu menu-light' : 'menu menu-dark'
-            }
-          >
+          <ul className="menu">
             <li>
               <Link to="/#about">About</Link>
             </li>
@@ -46,7 +42,7 @@ class Header extends React.Component {
                   <Link to="./ux-process">UX Process</Link>
                 </li>
                 <li>
-                  <Link to="./design-skills/" class="no-border">
+                  <Link to="./design-skills/" className="no-border">
                     Design Skills
                   </Link>
                 </li>
@@ -76,7 +72,7 @@ class Header extends React.Component {
                   <Link to="./case-study-two/">Case Study 2</Link>
                 </li>
                 <li>
-                  <Link to="./case-study-three/" class="no-border">
+                  <Link to="./case-study-three/" className="no-border">
                     Case Study 3
                   </Link>
                 </li>

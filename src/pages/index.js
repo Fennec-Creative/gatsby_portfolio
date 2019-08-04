@@ -48,7 +48,7 @@ class Homepage extends React.Component {
     return (
       <Layout>
         <Helmet title={siteTitle} />
-        <section class="header" id="main_header">
+        <section className="header style3" id="main_header">
           <div className="inner">
             <div class="foxy" />
             <h1>Fennec Creative</h1>
@@ -56,7 +56,10 @@ class Homepage extends React.Component {
             <ul className="actions">
               <li>
                 <Link to="/#about" className="button scrolly">
-                  Discover
+                  <div class="arrow-down">
+                    <div class="left" />
+                    <div class="right" />
+                  </div>
                 </Link>
               </li>
             </ul>

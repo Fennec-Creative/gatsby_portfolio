@@ -6,7 +6,7 @@ import Contact from '../components/Contact'
 
 const CodeSkills = () => (
   <Layout>
-    <section id="one" className="header">
+    <section id="one" className="header style3">
       <div className="grid-wrapper">
         <div className="col-12">
           <header className="major special">
@@ -14,8 +14,8 @@ const CodeSkills = () => (
           </header>
         </div>
         <div className="col-3" id="design-box">
-          <div class="float float_right">
-            <h3 class="hdev special dark_blue">Design</h3>
+          <div className="float float_right">
+            <h3 className="hdev special dark_blue">Design</h3>
             <ul>
               <li>Sketch</li>
               <li>Photoshop</li>
@@ -92,8 +92,8 @@ const CodeSkills = () => (
           </svg>
         </div>
         <div className="col-3" id="dev-box">
-          <div class="float float_left">
-            <h3 class="hdev special primary_pink">Development</h3>
+          <div className="float float_left">
+            <h3 className="hdev special primary_pink">Development</h3>
             <ul>
               <li>DHTML</li>
               <li>ReactJS</li>
@@ -112,7 +112,7 @@ const CodeSkills = () => (
           <h2 className="align-center">Working Knowledge</h2>
         </div>
         <div className="col-6">
-          <div class="working-list">
+          <div className="working-list">
             <ul>
               <li>React Native</li>
               <li>Redux</li>
@@ -121,7 +121,7 @@ const CodeSkills = () => (
           </div>
         </div>
         <div className="col-6">
-          <div class="working-list">
+          <div className="working-list">
             <ul>
               <li>Django</li>
               <li>MySQL</li>
@@ -136,7 +136,7 @@ const CodeSkills = () => (
       <div className="grid-wrapper">
         <div className="col-12">
           <h2 className="align-center">Skill Mastery</h2>
-          <div class="barChart">
+          <div className="barChart">
             <svg
               version="1.1"
               id="Layer_1"
@@ -195,20 +195,20 @@ const CodeSkills = () => (
               />
               <rect id="bar6" y="478" fill="#656565" width="967" height="11" />
             </svg>
-            <div class="skillList">
-              <div class="skillItem">
+            <div className="skillList">
+              <div className="skillItem">
                 <p>UX Strategy</p>
               </div>
-              <div class="skillItem">
+              <div className="skillItem">
                 <p>Coding</p>
               </div>
-              <div class="skillItem">
+              <div className="skillItem">
                 <p>Research</p>
               </div>
-              <div class="skillItem">
+              <div className="skillItem">
                 <p>Troubleshooting</p>
               </div>
-              <div class="skillItem">
+              <div className="skillItem">
                 <p>Dancing</p>
               </div>
             </div>
