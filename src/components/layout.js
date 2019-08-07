@@ -19,7 +19,13 @@ class Template extends React.Component {
     }, 100)
 
     window.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 400
+      let isTop
+      if (window.innerWidth > 650) {
+        isTop = window.scrollY < 400
+      } else {
+        isTop = false
+      }
+
       if (isTop !== true) {
         this.setState({ scrolled: true })
       } else {
