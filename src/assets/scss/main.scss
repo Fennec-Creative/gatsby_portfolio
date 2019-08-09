@@ -455,7 +455,8 @@
   }
 
   .barChart svg {
-    width: 100%;
+	width: 100%;
+	height:99%;
   }
 
 	.bar{
@@ -511,17 +512,19 @@
 	
 		.skillList {
 			text-align: center;
-			width:100%;
+			width:95%;
+			margin: 0 auto;
 		}
 	
 		.skillItem{
 			position: relative;
 			display: inline-block;
-			width: 19%;
+			width: 20%;
 		}
 	
 		.skillItem p {
 			text-align:center;
+			font-weight:600;
 		}
 	
 		#designBox ul, #devBox ul{
@@ -539,6 +542,10 @@
 		}
 	
 	
+	.small_screens_only{
+		display:none;
+	}
+
 	.animation-target {
 		-webkit-animation: animation 5000ms linear both;
 		-moz-animation: animation 5000ms linear both;
@@ -714,7 +721,7 @@
 		  background-size:contain;
 	  }
 	  
-	  .thumbUnit:hover img {
+	  .thumbUnit:hover img, .thumbUnit:active img {
 		opacity:1;
 	  }
 	
@@ -811,6 +818,7 @@ nav ul {
 }
 
 @media (min-width:650px) {
+	
 	nav {
 	  min-height: 40px;
 	  border-radius: 4px;
@@ -897,7 +905,22 @@ nav ul {
 	  transform: translateY(0px);
 	}
   }
-  
+
+  @media (max-width:1020px) {
+	  .float_right, .float_left {
+		  float:none !important;
+		  margin: 0px auto !important;
+	  }
+
+	  .float {
+		  max-width:500px !important;
+	  }
+
+	  .float h3, .float ul li, .small_screens_only h3, .small_screens_only ul li {
+		  text-align:center !important;
+	  }
+  }
+
   @media (max-width:650px) {
 	.foxy {
 		width: 315px !important;
@@ -1972,19 +1995,19 @@ nav ul {
 	max-width:2em;
 }
 
-.float h3 {
+.float h3, .small_screens_only h3 {
 	font-size:1.9em;
 	margin: 2em 0 0.3em 0;
 	text-align:left;
 }
 
-.float ul, .working-list ul{
+.float ul, .working-list ul, .small_screens_only ul{
 	padding-left:0px;
 }
 
 
 
-.float ul li, .working-list ul li {
+.float ul li, .working-list ul li, .small_screens_only ul li {
 	font-weight:bold;
 	list-style:none;
 	font-size:1.2em;
@@ -2038,6 +2061,11 @@ nav ul {
 				@include padding(5em, 3em);
 			}
 
+	.working-list ul {
+		margin-bottom:0;
+	}
+
+
 	.slide-left {
 		top:24em;
 		height: 27em;
@@ -2064,6 +2092,14 @@ nav ul {
 		width:33%;
 		display:inline-block;
 	}
+
+
+
+	ul {
+		margin: 0px;
+	}
+
+	
 
 
 		/* Header */
@@ -2124,6 +2160,10 @@ nav ul {
 					display:block;
 				}
 
+			p {
+				margin: 0 0 1em 0;
+			}
+
 		/* List */
 
 			ul {
@@ -2143,6 +2183,8 @@ nav ul {
 					}
 				}
 			}
+
+			
 
 		/* Icon */
 
@@ -2166,7 +2208,41 @@ nav ul {
 		/* Main */
 
 			.main {
-				@include padding(3em, 1.5em);
+				padding:3em 1.5em;
+			}
+
+			.slide-left{
+				top: 26em;
+				height: 18.8em;
+				width: 13.5em;
+			}
+
+			.black.slide-up {
+				top: 33.3em;
+			}
+
+			.image_container_1 {
+				height:44.7em;
+			}
+
+			.skillItem {
+				transform: rotate(90deg);
+				margin-top: 35px;
+			}
+
+			.skillItem p {
+				text-align:left;
+			}
+
+			#bar-graph{min-height:650px;}
+
+			.float_right, .float_left {
+				display:none;
+			}
+
+			.small_screens_only {
+				display:block;
+				margin-top:-80px;
 			}
 
 		/* Header */
@@ -2191,12 +2267,22 @@ nav ul {
 				display:block !important;
 			}
 
+			.right, .left {
+				height:3px;
+				width:25px;
+			}
+
+			.button .scrolly {
+				height:1px;
+			}
+
 		/* Footer */
 
 			.in-touch {
 				@include padding(3em, 1.5em, (0,0,_size(element-margin),0));
 			}
 
+			
 	}
 
 /* XSmall */
@@ -2204,6 +2290,14 @@ nav ul {
 	@include breakpoint(xsmall) {
 
 		/* List */
+
+		p {
+			font-size:12pt;
+		}
+
+		.sub-header {
+			font-size:1em;
+		}
 
 			ul {
 				&.actions {
@@ -2255,8 +2349,49 @@ nav ul {
 		/* Main */
 
 			.main {
-				@include padding(2em, 1.5em);
+				padding: 3em 1.5em;
 			}
+
+			.slide-left{
+				top: 29em;
+				height: 18.8em;
+				width: 13.5em;
+			}
+
+			.black.slide-up {
+				top: 36.3em;
+			}
+
+			.image_container_1 {
+				height:47.7em;
+			}
+
+			h1 {
+				font-size: 2.22em;
+			}
+
+			h2 {
+				font-size:1.8em;
+			}
+
+			h3 {
+				font-size:1.3em;
+			}
+
+			#bar-graph {
+				min-height:460px;
+			}
+
+			#pieChart {
+				width:280px;
+			}
+
+			#pieChart svg {
+				background-size: 160px;
+			}
+
+			
+
 
 		/* Header */
 
@@ -2267,6 +2402,40 @@ nav ul {
 					display: none;
 				}
 			}
+
+			.foxy {
+				width:258px !important;
+				height:180px !important;
+				background-size:1806px 180px !important;
+				margin-bottom:30px;
+			}
+
+			@-webkit-keyframes ears {
+				from {
+				  background-position: 0px; }
+				to {
+				  background-position: -1806px; } }
+			  @-moz-keyframes ears {
+				from {
+				  background-position: 0px; }
+				to {
+				  background-position: -1806px; } }
+			  @-ms-keyframes ears {
+				from {
+				  background-position: 0px; }
+				to {
+				  background-position: -1806px; } }
+			  @-o-keyframes ears {
+				from {
+				  background-position: 0px; }
+				to {
+				  background-position: -1806px; } }
+			  @keyframes ears {
+				from {
+				  background-position: 0px; }
+				to {
+				  background-position: -1806px; } }
+
 
 		/* Footer */
 
@@ -2304,7 +2473,7 @@ nav ul {
 		/* Main */
 
 			.main {
-				@include padding(2em, 1em);
+				padding: 2em 1em;
 			}
 
 		/* Header */
@@ -2318,5 +2487,7 @@ nav ul {
 			.in-touch {
 				@include padding(2em, 1em, (0,0,_size(element-margin),0));
 			}
+
+			.skillItem {margin-top:0px;}
 
 	}

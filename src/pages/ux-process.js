@@ -28,7 +28,7 @@ class UxProcess extends React.Component {
           </div>
         </section>
 
-        <section id="one" className="main style6">
+        <section id="ux_header" className="main style6">
           <div className="grid-wrapper">
             <div className="col-5">
               <span className="image fit">
@@ -46,14 +46,14 @@ class UxProcess extends React.Component {
                 success.
               </p>
               <div className="grid-wrapper">
-                <div className="col-4">
+                <div className="col-6">
                   <ul>
                     <li>Determine Scope</li>
                     <li>Define SMART Goals</li>
                     <li>User Personas and Storyboards</li>
                   </ul>
                 </div>
-                <div className="col-3">
+                <div className="col-6">
                   <ul>
                     <li>Use Cases and Flows</li>
                     <li>Data and Asset Collection</li>
@@ -65,7 +65,7 @@ class UxProcess extends React.Component {
           </div>
         </section>
 
-        <section id="two" className="main style1">
+        <section id="discovery" className="main style1">
           <div className="grid-wrapper">
             <div className="col-7">
               <h2>Strategy</h2>
@@ -76,14 +76,14 @@ class UxProcess extends React.Component {
                 insights to discern user assumptions.
               </p>
               <div className="grid-wrapper">
-                <div className="col-4">
+                <div className="col-6">
                   <ul>
                     <li>User Research</li>
                     <li>Competitor Analysis</li>
                     <li>Website Architecture and Strategy </li>
                   </ul>
                 </div>
-                <div className="col-3">
+                <div className="col-6">
                   <ul>
                     <li>Wireframes &amp; Prototypes</li>
                     <li>Experience Maps</li>
@@ -101,7 +101,7 @@ class UxProcess extends React.Component {
           </div>
         </section>
 
-        <section id="three" className="main style4">
+        <section id="design" className="main style4">
           <div className="grid-wrapper">
             <div className="col-5">
               <span className="image fit">
@@ -119,14 +119,14 @@ class UxProcess extends React.Component {
                 stake holders.
               </p>
               <div className="grid-wrapper">
-                <div className="col-4">
+                <div className="col-6">
                   <ul>
                     <li>Style Guides</li>
                     <li>Strategy implementation</li>
                     <li>Team Collaboration</li>
                   </ul>
                 </div>
-                <div className="col-3">
+                <div className="col-6">
                   <ul>
                     <li>High-Fidelity Mockups</li>
                     <li>Interaction Design</li>
@@ -137,7 +137,7 @@ class UxProcess extends React.Component {
           </div>
         </section>
 
-        <section id="four" className="main style5">
+        <section id="production" className="main style5">
           <div className="grid-wrapper">
             <div className="col-7">
               <h2>Production</h2>
@@ -149,14 +149,14 @@ class UxProcess extends React.Component {
                 test of time and suite my clients ever-expanding needs.
               </p>
               <div className="grid-wrapper">
-                <div className="col-4">
+                <div className="col-6">
                   <ul>
                     <li>Design Finalization</li>
                     <li>Development</li>
                     <li>Speed Tests</li>
                   </ul>
                 </div>
-                <div className="col-3">
+                <div className="col-6">
                   <ul>
                     <li>Quality Assurance</li>
                     <li>Feedback and Updates</li>
@@ -174,7 +174,7 @@ class UxProcess extends React.Component {
           </div>
         </section>
 
-        <section id="five" className="main style1">
+        <section id="launch" className="main style1">
           <div className="grid-wrapper">
             <div className="col-5">
               <span className="image fit">
@@ -191,13 +191,13 @@ class UxProcess extends React.Component {
                 potential issues.
               </p>
               <div className="grid-wrapper">
-                <div className="col-4">
+                <div className="col-6">
                   <ul>
                     <li>KPI Testing</li>
                     <li>A/B Testing</li>
                   </ul>
                 </div>
-                <div className="col-3">
+                <div className="col-6">
                   <ul>
                     <li>Evaluation</li>
                     <li>Publication</li>
@@ -208,7 +208,7 @@ class UxProcess extends React.Component {
           </div>
         </section>
 
-        <section id="six" className="main style4">
+        <section id="improvements" className="main style4">
           <div className="grid-wrapper">
             <div className="col-7">
               <h2>Continual Improvements</h2>
@@ -220,14 +220,14 @@ class UxProcess extends React.Component {
                 and effective as possible.
               </p>
               <div className="grid-wrapper">
-                <div className="col-4">
+                <div className="col-6">
                   <ul>
                     <li>ata Collection</li>
                     <li>Analytics and Reporting </li>
                     <li>Identification of Improvements</li>
                   </ul>
                 </div>
-                <div className="col-3">
+                <div className="col-6">
                   <ul>
                     <li>QHypothesis testing</li>
                     <li>Updates and Optimization</li>

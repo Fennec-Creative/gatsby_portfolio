@@ -7,7 +7,7 @@ import Contact from '../components/Contact'
 const CodeSkills = () => (
   <Layout>
     <section id="one" className="header style3">
-      <div className="grid-wrapper">
+      <div className="grid-wrapper padding-extra">
         <div className="col-12">
           <header className="major special">
             <h1>Technical Knowledge</h1>
@@ -17,10 +17,11 @@ const CodeSkills = () => (
           <div className="float float_right">
             <h3 className="hdev special dark_blue">Design</h3>
             <ul>
+              <li>Adobe Suite</li>
               <li>Sketch</li>
-              <li>Photoshop</li>
-              <li>Illustrator</li>
+              <li>Invision</li>
               <li>GIMP</li>
+              <li />
             </ul>
           </div>
         </div>
@@ -103,10 +104,27 @@ const CodeSkills = () => (
             </ul>
           </div>
         </div>
+        <div className="col-12 small_screens_only">
+          <h3>
+            <span className="dark_blue">Design</span> &amp;{' '}
+            <span className="primary_pink">Code </span>
+          </h3>
+          <ul>
+            <li>Adobe Suite</li>
+            <li>Sketch</li>
+            <li>Invision</li>
+            <li>GIMP</li>
+            <li>DHTML</li>
+            <li>ReactJS</li>
+            <li>Python</li>
+            <li>GIT</li>
+            <li>AJAX/JSON</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section id="two" className="main style4">
+    <section id="working-knowledge" className="main style4">
       <div className="grid-wrapper">
         <div className="col-12">
           <h2 className="align-center">Working Knowledge</h2>
@@ -132,7 +150,7 @@ const CodeSkills = () => (
       </div>
     </section>
 
-    <section id="three" className="main style1">
+    <section id="bar-graph" className="main style1">
       <div className="grid-wrapper">
         <div className="col-12">
           <h2 className="align-center">Skill Mastery</h2>
