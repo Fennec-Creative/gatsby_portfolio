@@ -29,14 +29,14 @@ class UxProcess extends React.Component {
         </section>
 
         <section id="ux_header" className="main style6">
-          <div className="grid-wrapper">
-            <div className="col-5">
+          <div className="grid-wrapper flex">
+            <div className="col-5 flex-one">
               <span className="image fit">
                 <img src={pic01} alt="" />
               </span>
             </div>
 
-            <div className="col-7">
+            <div className="col-7 flex-two">
               <h2>Discovery</h2>
               <p>
                 I develop a deep understanding of the job to be done while
@@ -66,8 +66,8 @@ class UxProcess extends React.Component {
         </section>
 
         <section id="discovery" className="main style1">
-          <div className="grid-wrapper">
-            <div className="col-7">
+          <div className="grid-wrapper flex">
+            <div className="col-7 flex-two">
               <h2>Strategy</h2>
               <p>
                 I define the end product and experience by researching users and
@@ -93,7 +93,7 @@ class UxProcess extends React.Component {
               </div>
             </div>
 
-            <div className="col-5">
+            <div className="col-5 flex-one">
               <span className="image fit">
                 <img src={pic02} alt="" />
               </span>
@@ -102,14 +102,14 @@ class UxProcess extends React.Component {
         </section>
 
         <section id="design" className="main style4">
-          <div className="grid-wrapper">
-            <div className="col-5">
+          <div className="grid-wrapper flex">
+            <div className="col-5 flex-one">
               <span className="image fit">
                 <img src={pic03} alt="" />
               </span>
             </div>
 
-            <div className="col-7">
+            <div className="col-7 flex-two">
               <h2>Design</h2>
               <p>
                 I design an interactive user interface that engages users and
@@ -138,8 +138,8 @@ class UxProcess extends React.Component {
         </section>
 
         <section id="production" className="main style5">
-          <div className="grid-wrapper">
-            <div className="col-7">
+          <div className="grid-wrapper flex">
+            <div className="col-7 flex-two">
               <h2>Production</h2>
               <p>
                 I develop a fully-functional website or application and commence
@@ -166,7 +166,7 @@ class UxProcess extends React.Component {
               </div>
             </div>
 
-            <div className="col-5">
+            <div className="col-5 flex-one">
               <span className="image fit">
                 <img src={pic04} alt="" />
               </span>
@@ -175,14 +175,14 @@ class UxProcess extends React.Component {
         </section>
 
         <section id="launch" className="main style1">
-          <div className="grid-wrapper">
-            <div className="col-5">
+          <div className="grid-wrapper flex">
+            <div className="col-5 flex-one">
               <span className="image fit">
                 <img src={pic05} alt="" />
               </span>
             </div>
 
-            <div className="col-7">
+            <div className="col-7 flex-two">
               <h2>Launch</h2>
               <p>
                 I finalize my project by putting it through rigorous testing,
@@ -209,8 +209,8 @@ class UxProcess extends React.Component {
         </section>
 
         <section id="improvements" className="main style4">
-          <div className="grid-wrapper">
-            <div className="col-7">
+          <div className="grid-wrapper flex">
+            <div className="col-7 flex-two">
               <h2>Continual Improvements</h2>
               <p>
                 Once my project is live, I establish a continual improvement
@@ -236,7 +236,7 @@ class UxProcess extends React.Component {
               </div>
             </div>
 
-            <div className="col-5">
+            <div className="col-5 flex-one">
               <span className="image fit">
                 <img src={pic06} alt="" />
               </span>

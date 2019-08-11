@@ -13,7 +13,6 @@ class CaseStudyOne extends React.Component {
   componentDidMount() {
     let header = document.querySelector('.menu')
     header.classList.add('menu-dark')
-    console.log(header)
   }
 
   render() {
@@ -28,7 +27,7 @@ class CaseStudyOne extends React.Component {
             <p>UI/UX Design / Development / Managment</p>
           </div>
         </section>
-        <section id="one" className="main casestudy styleA">
+        <section id="privo_problem" className="main casestudy styleA">
           <div className="grid-wrapper">
             <div className="col-12">
               <span className="image fit">
@@ -67,7 +66,10 @@ class CaseStudyOne extends React.Component {
           </div>
         </section>
 
-        <section id="two" className="main casestudy styleB privo-blue">
+        <section
+          id="privo_strategy"
+          className="main casestudy styleB privo-blue"
+        >
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
@@ -92,7 +94,7 @@ class CaseStudyOne extends React.Component {
           </div>
         </section>
 
-        <section id="Two_point_five" className="main casestudy styleA">
+        <section id="privo_brand" className="main casestudy styleA">
           <div className="grid-wrapper">
             <div className="col-6">
               <h2>Brand Refresh</h2>
@@ -111,7 +113,7 @@ class CaseStudyOne extends React.Component {
           </div>
         </section>
 
-        <section id="three" className="main casestudy styleB">
+        <section id="privo_production" className="main casestudy styleB">
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
@@ -130,10 +132,7 @@ class CaseStudyOne extends React.Component {
           </div>
         </section>
 
-        <section
-          id="Two_point_five"
-          className="main casestudy styleA privo-blue"
-        >
+        <section id="privo_gdd" className="main casestudy styleA privo-blue">
           <div className="grid-wrapper">
             <div className="col-6">
               <h2>GDD Analysis and Continual Improvements</h2>
@@ -152,7 +151,7 @@ class CaseStudyOne extends React.Component {
           </div>
         </section>
 
-        <section id="five" className="main casestudy styleB">
+        <section id="privo_key" className="main casestudy styleB">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">

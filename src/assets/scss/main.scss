@@ -250,37 +250,37 @@
 .arrow-down{
 	width:60px;
 	margin:0 0 0 -15px;
-	position:absolute;
-	left:50%;
-	bottom:20px;
+	position:static;
+	margin: 0 auto;
+	padding:22px;
 	
   }
 
-  
-  .left{
-	position:absolute;
-	height:4px;
-	width:34px;
-	background-color:_palette(fg); 
-	-webkit-transform:rotate(225deg);
-	top:10px;
-	left:7px;
-	-webkit-border-radius:4px;
+  .right, .left {
+	  position:relative;
+	  height:4px;
+	  width:34px;
+	  background-color:_palette(fg); 
+	  -webkit-border-radius:4px;
 	-webkit-transform-origin:5px 50%;
+  }
+  .left{
+	-webkit-transform:rotate(225deg);
+}
+
+.left.animated {
 	-webkit-animation: leftArrow 0.5s 1s  infinite ease-out alternate;
 	-webkit-animation-delay: 2s;
 }
   
   .right{
-	position:absolute;
-	height:4px;
-	width:34px;
-	background-color:_palette(fg);
 	-webkit-transform:rotate(-45deg);
-	top:10px;
-	left:12px;
-	-webkit-border-radius:4px;
-	-webkit-transform-origin:5px 50%;
+	margin-top:-3.5px;
+	margin-left:4.5px;
+
+}
+
+.right.animated {
 	-webkit-animation: rightArrow 0.5s 1s infinite ease-out alternate;
 	-webkit-animation-delay: 2s;
 }
@@ -861,13 +861,21 @@ nav ul {
 	color:#f7f7f7 !important;
 }
 
+.sticky .menu-dark a {
+	color: _palette(fg) !important;
+}
+
+.sticky .menu-dark a:hover {
+	color:#343434 !important;
+}
+
 .menu .dropdown a:hover {
 	color:#343434 !important;
 }
 
 	.dropdown {
 	  position: absolute;
-	  background:rgba(255, 255, 255, 0.5);
+	  background:rgba(255, 255, 255, 0.7);
 	  transition: all 0.2s linear;
 	  visibility: hidden;
 	  opacity: 0;
@@ -888,13 +896,13 @@ nav ul {
 	}
 
 	.dropdown li a:hover {
-		background: rgba(255, 255, 255, 0.377);
+		background: rgba(255, 255, 255, 0.577);
 		border-radius:5px;
 	}
 
 
 	
-	.dropdown:before { content: ''; width: 0; height: 0; display: inline-block; border-right: 10px solid transparent; border-left: 10px solid transparent; border-bottom: 8px solid rgba(255, 255, 255, 0.25);; border-top: none; position: absolute; bottom: 100%; left:20px; right: 0; }
+	.dropdown:before { content: ''; width: 0; height: 0; display: inline-block; border-right: 10px solid transparent; border-left: 10px solid transparent; border-bottom: 8px solid rgba(255, 255, 255, 0.4);; border-top: none; position: absolute; bottom: 100%; left:20px; right: 0; }
 
 	.arrow {
 	  font-size: 9px;
@@ -919,6 +927,13 @@ nav ul {
 	  .float h3, .float ul li, .small_screens_only h3, .small_screens_only ul li {
 		  text-align:center !important;
 	  }
+  }
+
+  @media (max-width:1050px) {
+	.acu_image_container {
+		width:74.6%;
+		left:12.9%;
+	}
   }
 
   @media (max-width:650px) {
@@ -1453,6 +1468,7 @@ nav ul {
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			text-align:center;
 
 			li {
 				display: inline-block;
@@ -1787,6 +1803,7 @@ nav ul {
 		.actions {
 			margin: (_size(element-margin) * 1.25) 0 0 0;
 			position: relative;
+			text-align:center;
 
 		}
 
@@ -2084,13 +2101,26 @@ nav ul {
 	}
 
 	.image.fit {
-		max-width:400px;
+		max-width:600px;
 		margin: 0 auto !important;
+	}
+
+	.thumbUnit .image.fit {
+		max-width:400px !important;
 	}
 
 	.col-4 {
 		width:33%;
 		display:inline-block;
+	}
+
+	.acu_image_container {
+		height:16.2em;
+		top:3.5%
+	}
+
+	.acuImg {
+		height:23em;
 	}
 
 
@@ -2125,6 +2155,27 @@ nav ul {
 			#two {
 				text-align: center;
 			}
+
+		/*Flex*/
+		.flex {
+			display:flex; 
+			flex-flow:column;
+		}
+		.flex-one {
+			order: 1;
+			margin-bottom:20px;
+		}
+		.flex-two {
+			order: 2;
+		}
+
+		.aws-sld, .aws-sld__wrapper {
+			margin-bottom:30px;
+		}
+
+		.aws-sld__bullets {
+			background-color:transparent; 
+		}
 
 	}
 
@@ -2162,6 +2213,19 @@ nav ul {
 
 			p {
 				margin: 0 0 1em 0;
+			}
+
+			.casestudy .image.fit {
+				max-width:400px !important;
+			}
+
+			.acu_image_container {
+				height:10em;
+				top:0.7em;
+			}
+
+			.acuImg {
+				height:13em;
 			}
 
 		/* List */
@@ -2285,6 +2349,7 @@ nav ul {
 			
 	}
 
+
 /* XSmall */
 
 	@include breakpoint(xsmall) {
@@ -2392,6 +2457,8 @@ nav ul {
 
 			
 
+			
+
 
 		/* Header */
 
@@ -2458,6 +2525,12 @@ nav ul {
 				}
 			}
 
+			.acu_image_container {
+				height:8.5em;
+				top: 0.5em;
+			}
+
+
 	}
 
 /* XXSmall */
@@ -2489,5 +2562,15 @@ nav ul {
 			}
 
 			.skillItem {margin-top:0px;}
+
+			.acu_image_container {
+				height:7.1em;
+				top: 0.5em;
+			}
+
+			.acuImg {
+				height:10em;
+			}
+
 
 	}

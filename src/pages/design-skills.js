@@ -26,9 +26,9 @@ class DesignSkills extends React.Component {
             <p>Subtext goes here</p>
           </div>
         </section>
-        <section id="one" className="main style4">
-          <div className="grid-wrapper">
-            <div className="col-6">
+        <section id="illustration" className="main style4">
+          <div className="grid-wrapper flex">
+            <div className="col-6 flex-one">
               <h2>Illustration</h2>
               <p>
                 Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
@@ -37,7 +37,7 @@ class DesignSkills extends React.Component {
                 iPhone actually everyday carry fingerstache.
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-6 flex-two">
               <span className="image fit">
                 <IllSlider />
               </span>
@@ -45,14 +45,14 @@ class DesignSkills extends React.Component {
           </div>
         </section>
 
-        <section id="two" className="main style1">
-          <div className="grid-wrapper">
-            <div className="col-6">
+        <section id="logo_design" className="main style1">
+          <div className="grid-wrapper flex">
+            <div className="col-6 flex-two">
               <span className="image fit">
                 <LogoSlider />
               </span>
             </div>
-            <div className="col-6">
+            <div className="col-6 flex-one">
               <h2>Logo Design</h2>
               <p>
                 Hammock forage cred fashion axe authentic stumptown ethical
@@ -70,9 +70,9 @@ class DesignSkills extends React.Component {
           </div>
         </section>
 
-        <section id="three" className="main style3">
-          <div className="grid-wrapper">
-            <div className="col-6">
+        <section id="white_paper_design" className="main style3">
+          <div className="grid-wrapper flex">
+            <div className="col-6 flex-one">
               <h2>White Paper Design</h2>
               <p>
                 Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
@@ -81,7 +81,7 @@ class DesignSkills extends React.Component {
                 iPhone actually everyday carry fingerstache.
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-6 flex-two">
               <span className="image fit">
                 <WhitePaperSlider />
               </span>
@@ -89,14 +89,14 @@ class DesignSkills extends React.Component {
           </div>
         </section>
 
-        <section id="four" className="main style4">
-          <div className="grid-wrapper">
-            <div className="col-6">
+        <section id="ebook_design" className="main style4">
+          <div className="grid-wrapper flex">
+            <div className="col-6 flex-two">
               <span className="image fit">
                 <EBookSlider />
               </span>
             </div>
-            <div className="col-6">
+            <div className="col-6 flex-one">
               <h2>Ebook Design</h2>
               <p>
                 Hammock forage cred fashion axe authentic stumptown ethical
@@ -114,9 +114,9 @@ class DesignSkills extends React.Component {
           </div>
         </section>
 
-        <section id="five" className="main style1">
-          <div className="grid-wrapper">
-            <div className="col-6">
+        <section id="product_design" className="main style1">
+          <div className="grid-wrapper flex">
+            <div className="col-6 flex-one">
               <h2>Product Design</h2>
               <p>
                 Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
@@ -125,7 +125,7 @@ class DesignSkills extends React.Component {
                 iPhone actually everyday carry fingerstache.
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-6 flex-two">
               <span className="image fit">
                 <img src={pic01} alt="" />
               </span>

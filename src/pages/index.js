@@ -57,8 +57,8 @@ class Homepage extends React.Component {
               <li>
                 <Link to="/#about" className="button scrolly">
                   <div class="arrow-down">
-                    <div class="left" />
-                    <div class="right" />
+                    <div class="left animated" />
+                    <div class="right animated" />
                   </div>
                 </Link>
               </li>

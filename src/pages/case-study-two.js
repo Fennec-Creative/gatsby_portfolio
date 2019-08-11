@@ -26,7 +26,7 @@ class CaseStudyTwo extends React.Component {
             <p>UI/UX Design / Development / Animation</p>
           </div>
         </section>
-        <section id="one" className="main casestudy styleA">
+        <section id="tc_problem" className="main casestudy styleA">
           <div className="grid-wrapper">
             <div className="col-12">
               <span className="image fit">
@@ -65,7 +65,7 @@ class CaseStudyTwo extends React.Component {
           </div>
         </section>
 
-        <section id="two" className="main casestudy cmv-gray styleC">
+        <section id="tc_strategy" className="main casestudy cmv-gray styleC">
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
@@ -90,7 +90,7 @@ class CaseStudyTwo extends React.Component {
           </div>
         </section>
 
-        <section id="three" className="main casestudy styleB">
+        <section id="tc_design" className="main casestudy styleB">
           <div className="grid-wrapper">
             <div className="col-6">
               <h2>Design and Production </h2>
@@ -109,7 +109,7 @@ class CaseStudyTwo extends React.Component {
           </div>
         </section>
 
-        <section id="three_point_five" className="main casestudy styleA">
+        <section id="tc_demo" className="main casestudy styleA">
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
@@ -134,7 +134,7 @@ class CaseStudyTwo extends React.Component {
           </div>
         </section>
 
-        <section id="four_point_five" className="main casestudy styleC tc-blue">
+        <section id="tc_improvement" className="main casestudy styleC tc-blue">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
@@ -150,7 +150,7 @@ class CaseStudyTwo extends React.Component {
           </div>
         </section>
 
-        <section id="five" className="main casestudy styleA">
+        <section id="tc_key" className="main casestudy styleA">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">

@@ -28,7 +28,7 @@ class CaseStudyThree extends React.Component {
             <p>UI/UX Design / Development / Visual Design</p>
           </div>
         </section>
-        <section id="one" className="main casestudy styleA">
+        <section id="cmv_problem" className="main casestudy styleA">
           <div className="grid-wrapper">
             <div className="col-12">
               <span className="image fit">
@@ -67,7 +67,7 @@ class CaseStudyThree extends React.Component {
           </div>
         </section>
 
-        <section id="two" className="main casestudy styleB">
+        <section id="cmv_strategy" className="main casestudy styleB">
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
@@ -92,7 +92,7 @@ class CaseStudyThree extends React.Component {
           </div>
         </section>
 
-        <section id="three" className="main casestudy styleC cmv-gray">
+        <section id="cmv_design" className="main casestudy styleC cmv-gray">
           <div className="grid-wrapper">
             <div className="col-6">
               <h2>Design and Production</h2>
@@ -111,7 +111,7 @@ class CaseStudyThree extends React.Component {
           </div>
         </section>
 
-        <section id="three-point-five" className="main casestudy styleB">
+        <section id="cmv_graphic" className="main casestudy styleB">
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
@@ -136,7 +136,7 @@ class CaseStudyThree extends React.Component {
           </div>
         </section>
 
-        <section id="four_point_five" className="main casestudy styleA">
+        <section id="cmv_improvements" className="main casestudy styleA">
           <div className="grid-wrapper">
             <div className="col-4">
               <span className="image fit">
@@ -161,7 +161,7 @@ class CaseStudyThree extends React.Component {
           </div>
         </section>
 
-        <section id="five" className="main casestudy styleC cmv-red">
+        <section id="cmv_key" className="main casestudy styleC cmv-red">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
