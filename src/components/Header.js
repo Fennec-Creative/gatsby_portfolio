@@ -87,14 +87,14 @@ class Header extends React.Component {
               </div>
               <ul className="dropdown" id="dropdown_2">
                 <li>
-                  <Link to="./case-study-one/">Case Study 1</Link>
+                  <Link to="./case-study-one/">Privo IT</Link>
                 </li>
                 <li>
-                  <Link to="./case-study-two/">Case Study 2</Link>
+                  <Link to="./case-study-two/">TeamConnect</Link>
                 </li>
                 <li>
                   <Link to="./case-study-three/" className="no-border">
-                    Case Study 3
+                    ConnectMeVoice
                   </Link>
                 </li>
               </ul>
@@ -110,14 +110,14 @@ class Header extends React.Component {
               </Link>
               <ul className="dropdown" id="dropdown_2">
                 <li>
-                  <Link to="./case-study-one/">Case Study 1</Link>
+                  <Link to="./case-study-one/">Privo IT</Link>
                 </li>
                 <li>
-                  <Link to="./case-study-two/">Case Study 2</Link>
+                  <Link to="./case-study-two/">TeamConnect</Link>
                 </li>
                 <li>
                   <Link to="./case-study-three/" className="no-border">
-                    Case Study 3
+                    ConnectMeVoice
                   </Link>
                 </li>
               </ul>

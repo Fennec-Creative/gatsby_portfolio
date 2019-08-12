@@ -41,24 +41,25 @@ class CaseStudyOne extends React.Component {
             <div className="col-8 rule-left">
               <h2>The Problem</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                Privo IT is an Amazon Web Services (AWS) consulting firm that
+                designs and manages AWS environments. Despite a stellar
+                reputation and growing awareness within the field, Privo's
+                website was underperforming and struggling to bring in qualified
+                leads. Their goals were to improve brand awareness and
+                reputation, increase qualified leads, and establish themselves
+                as leading professionals in their field.
               </p>
               <h2>The Solution</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                A clean modern website that encapsulates Privo's personable and
+                high-energy brand identity while strategically guiding visitors
+                along the buyers journey to conversion points.
               </p>
             </div>
             <div className="col-4">
-              <h3 className="privo-orange">My Role</h3>
+              <h3 className="privo-orange">My Roles</h3>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic.
+                UI/UX Design / Brand Design / Project Management / Dev Support
               </p>
               <h3 className="privo-orange">Employer</h3>
               <p>Revenue River</p>
@@ -79,16 +80,18 @@ class CaseStudyOne extends React.Component {
             <div className="col-6">
               <h2>Strategy</h2>
               <p>
-                Hammock forage cred fashion axe authentic stumptown ethical
-                vegan banh mi mixtape humblebrag readymade salvia intelligentsia
-                ennui. Keffiyeh gentrify bicycle rights, poutine aesthetic deep
-                v bushwick.
+                All stakeholders were initially interviewed, and we added Google
+                Analytics and Lucky Orange tracking so that I could research how
+                users were using the current site. Data collected was used to
+                build out buyer personas and Buyer's Journey storyboards.
               </p>
               <p>
-                Irony lomo raw denim four loko, leggings austin tumeric man
-                braid ethical before they sold out swag. Stumptown XOXO pickled,
-                banjo mustache pork belly vice celiac seitan mumblecore pop-up
-                everyday carry trust fund forage distillery.
+                As part of a team of designers, marketers, and developers, I
+                helped build out a comprehensive strategy that focused on
+                enticing visitors, and leading them through easily-consumable
+                content to an eventual conversion decision. This was a full team
+                effort that included feedback from marketing, SEO, and sales
+                specialists.
               </p>
             </div>
           </div>
@@ -99,10 +102,10 @@ class CaseStudyOne extends React.Component {
             <div className="col-6">
               <h2>Brand Refresh</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                One of Privo's pain points was their brand failed to encapsulate
+                their professional, friendly, and high-energy culture. To solve
+                this, I focused on a clean modern layout with splashes of
+                bright, energetic colors and a fresh custom icon set.
               </p>
             </div>
             <div className="col-6">
@@ -123,10 +126,20 @@ class CaseStudyOne extends React.Component {
             <div className="col-6">
               <h2>Design and Production</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                After presenting our strategy with wireframes and visual
+                references, I built out a series of high-fidelity mockups on
+                Adobe XD. Upon client approval, I managed an overseas
+                development team through the construction of the new website,
+                which was built in Hubspot. I was responsible for ensuring
+                timelines were met, walking the site through several iterations,
+                initial design and development QA, and updating / editing code
+                as needed.
+              </p>
+              <p>
+                After the initial site was complete and had gone through several
+                phases of internal review and QA from the entire team, I
+                presented the project to the client. After two rounds of client
+                revisions, I oversaw the launch of the site.
               </p>
             </div>
           </div>
@@ -137,10 +150,19 @@ class CaseStudyOne extends React.Component {
             <div className="col-6">
               <h2>GDD Analysis and Continual Improvements</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                After the launch of the new Privo website, I spent a month
+                gathering data to analyze the site's initial performance and
+                rule out any potential for performance issues. I created a
+                30-Day Post-Launch doc to detail my initial findings along with
+                recommendations for areas that we could improve upon.
+              </p>
+              <p>
+                3 months after launch, I created a Growth Driven Design
+                Analysis, which took a in-depth look at site performance, viewer
+                demographics, top-performing pages, traffic, and conversion
+                point usage. This set the groundwork for continual improvements
+                for the website while documenting measurable metrics for me and
+                my team to expand on.
               </p>
             </div>
             <div className="col-6">
@@ -158,10 +180,12 @@ class CaseStudyOne extends React.Component {
                 <h2>Key Takeaways</h2>
               </header>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                I was proud of the end-result of this project, and enjoyed the
+                opportunity to work with a team of highly effective individuals.
+                According to my analysis, the new Privo website improved bounce
+                rates of key pages from 72.74% to 53.7% and increased qualified
+                lead conversions by 20%. The Privo team was thrilled, and I was
+                able to secure a 5-star review for my company.
               </p>
             </div>
           </div>

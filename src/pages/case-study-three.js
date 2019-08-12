@@ -42,25 +42,21 @@ class CaseStudyThree extends React.Component {
             <div className="col-8 rule-left">
               <h2>The Problem</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                ConnectMeVoice is a Virtual Phone Service company that focuses
+                on intra-office communication. Their website had previously been
+                built out by an independent CRM company. The site was struggling
+                to convert leads and suffered from various bugs and security
+                issues.
               </p>
               <h2>The Solution</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                A new, refreshed website built with WordPress and managed by a
+                highly specialized development and marketing team.
               </p>
             </div>
             <div className="col-4">
-              <h3 className="cmv-red-text">My Role</h3>
-              <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic.
-              </p>
+              <h3 className="cmv-red-text">My Roles</h3>
+              <p>UI/UX Design / Development / Visual Design</p>
               <h3 className="cmv-red-text">Contractor</h3>
               <p>EmoryDay</p>
             </div>
@@ -77,16 +73,11 @@ class CaseStudyThree extends React.Component {
             <div className="col-6">
               <h2>Strategy</h2>
               <p>
-                Hammock forage cred fashion axe authentic stumptown ethical
-                vegan banh mi mixtape humblebrag readymade salvia intelligentsia
-                ennui. Keffiyeh gentrify bicycle rights, poutine aesthetic deep
-                v bushwick.
-              </p>
-              <p>
-                Irony lomo raw denim four loko, leggings austin tumeric man
-                braid ethical before they sold out swag. Stumptown XOXO pickled,
-                banjo mustache pork belly vice celiac seitan mumblecore pop-up
-                everyday carry trust fund forage distillery.
+                My first task was to make a detailed report showing where the
+                current site was going wrong using analytical data, viewer
+                tracking, and performance testing. I then used this data to
+                formulate a strategy to rebuild the site, refresh the company's
+                appearance, and optimize the design for better conversions.
               </p>
             </div>
           </div>
@@ -97,10 +88,21 @@ class CaseStudyThree extends React.Component {
             <div className="col-6">
               <h2>Design and Production</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                I created a series of wireframes depicting the new site
+                structure. I was mindful of the client's limited budget, and
+                focused on re-using elements from the original site when
+                possible. I created high-fidelity mockups for focus pages like
+                the home page and about page and presented them to the client.
+                After going through initial revisions and internal review, I
+                moved to development.
+              </p>
+              <p>
+                I developed the website in WordPress while taking extra care to
+                make sure the company's current SEO structure remained intact.
+                Upon completion, I went through two rounds of internal QA and
+                testing with my team before presenting the final site to the
+                client. After two rounds of revisions, I went through a final
+                round of QA, then took the site live.{' '}
               </p>
             </div>
             <div className="col-6">
@@ -119,18 +121,13 @@ class CaseStudyThree extends React.Component {
               </span>
             </div>
             <div className="col-6">
-              <h2>Graphic Design and Bran Support</h2>
+              <h2>Graphic Design and Brand Support</h2>
               <p>
-                Hammock forage cred fashion axe authentic stumptown ethical
-                vegan banh mi mixtape humblebrag readymade salvia intelligentsia
-                ennui. Keffiyeh gentrify bicycle rights, poutine aesthetic deep
-                v bushwick.
-              </p>
-              <p>
-                Irony lomo raw denim four loko, leggings austin tumeric man
-                braid ethical before they sold out swag. Stumptown XOXO pickled,
-                banjo mustache pork belly vice celiac seitan mumblecore pop-up
-                everyday carry trust fund forage distillery.
+                One of the client's pain points was their inability to connect
+                with people at promotional events and stand out from
+                competition. To help solve this, I designed new promotional
+                materials such as business cards, brochures, and a series of 3
+                33" x 88" trade show banners.
               </p>
             </div>
           </div>
@@ -146,16 +143,9 @@ class CaseStudyThree extends React.Component {
             <div className="col-8">
               <h2>Continual Improvements Plan</h2>
               <p>
-                Hammock forage cred fashion axe authentic stumptown ethical
-                vegan banh mi mixtape humblebrag readymade salvia intelligentsia
-                ennui. Keffiyeh gentrify bicycle rights, poutine aesthetic deep
-                v bushwick.
-              </p>
-              <p>
-                Irony lomo raw denim four loko, leggings austin tumeric man
-                braid ethical before they sold out swag. Stumptown XOXO pickled,
-                banjo mustache pork belly vice celiac seitan mumblecore pop-up
-                everyday carry trust fund forage distillery.
+                After the successful launch of CMV's new site, I was responsible
+                for continual maintenance, analysis, and strategic improvements
+                for 3 months.
               </p>
             </div>
           </div>
@@ -168,10 +158,10 @@ class CaseStudyThree extends React.Component {
                 <h2>Key Takeaways</h2>
               </header>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                This was a statisfying project because I was starting with a
+                clear goal in mind, and it yielded positive results. According
+                to our 3-month analysis, CMV saw a 25% increase in conversions,
+                a 30% reduction in bounce rates, and a more confident client.
               </p>
             </div>
           </div>

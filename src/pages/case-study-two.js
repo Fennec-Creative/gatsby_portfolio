@@ -40,25 +40,21 @@ class CaseStudyTwo extends React.Component {
             <div className="col-8 rule-left">
               <h2>The Problem</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                PDV Wireless is a wireless communications provider that
+                specializes in workforce management solutions. After growing
+                from a small company to a national supplier, PDV Wireless needed
+                to establish themselves as the authority in their field, and
+                distinguish themselves from competitors.
               </p>
               <h2>The Solution</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                A modern, professional site that strategically guides viewers to
+                promotional materials and conversion points.
               </p>
             </div>
             <div className="col-4">
-              <h3 className="tc-blue-text">My Role</h3>
-              <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic.
-              </p>
+              <h3 className="tc-blue-text">My Roles</h3>
+              <p>UI/UX Design / Web Development / Animation</p>
               <h3 className="tc-blue-text">Contractor</h3>
               <p>EmoryDay</p>
             </div>
@@ -74,18 +70,13 @@ class CaseStudyTwo extends React.Component {
             </div>
             <div className="col-6">
               <h2>Strategy</h2>
-              <p>
-                Hammock forage cred fashion axe authentic stumptown ethical
-                vegan banh mi mixtape humblebrag readymade salvia intelligentsia
-                ennui. Keffiyeh gentrify bicycle rights, poutine aesthetic deep
-                v bushwick.
-              </p>
-              <p>
-                Irony lomo raw denim four loko, leggings austin tumeric man
-                braid ethical before they sold out swag. Stumptown XOXO pickled,
-                banjo mustache pork belly vice celiac seitan mumblecore pop-up
-                everyday carry trust fund forage distillery.
-              </p>
+              Working closely with the PDVWireless team, I helped with user
+              research, current site analysis, and site strategy. The
+              TeamConnect site was developed as part of a rebranding effort to
+              separate PDV products from their corporate site, and as a
+              launchpad for future marketing efforts. Using data collected from
+              Google Analytics and Lucky Orange, I helped develop a
+              cost-effective redesign strategy.
             </div>
           </div>
         </section>
@@ -95,10 +86,12 @@ class CaseStudyTwo extends React.Component {
             <div className="col-6">
               <h2>Design and Production </h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                I worked with the PDVWireless design team to create mockups and
+                a working prototype. I was solely responsible for the complete
+                development, QA, and final launch of the website. I built the
+                website using WordPress and was also in charge of updating and
+                maintaining the client's Corporate site as part of the rebrand
+                process.
               </p>
             </div>
             <div className="col-6">
@@ -119,16 +112,18 @@ class CaseStudyTwo extends React.Component {
             <div className="col-6">
               <h2>Interactive Demo Series</h2>
               <p>
-                Hammock forage cred fashion axe authentic stumptown ethical
-                vegan banh mi mixtape humblebrag readymade salvia intelligentsia
-                ennui. Keffiyeh gentrify bicycle rights, poutine aesthetic deep
-                v bushwick.
+                One of PDV's goals was to showcase their workforce management
+                software on the TeamConnect home page in a way that was visual,
+                intuitive, and easy to consume. To achieve this goal, I created
+                a series of 6 interactive demos, each one focusing on a specific
+                software solution.
               </p>
               <p>
-                Irony lomo raw denim four loko, leggings austin tumeric man
-                braid ethical before they sold out swag. Stumptown XOXO pickled,
-                banjo mustache pork belly vice celiac seitan mumblecore pop-up
-                everyday carry trust fund forage distillery.
+                I built the demos as animated gifs using Adobe Animate, then
+                designed and developed an interactive web application that
+                allowed visitors to toggle between the animated gifs. The PDV
+                team was especially happy with this product, and it was used in
+                various campaigns the following year.
               </p>
             </div>
           </div>
@@ -141,10 +136,12 @@ class CaseStudyTwo extends React.Component {
                 <h2>Continual Improvement Plan</h2>
               </header>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                After the successful launch of TeamConnect, I was responsible
+                for maintaining, analyzing, and updating both the TeamConnect
+                site and the PDVWireless corporate site. During this time I
+                regularly monitored the site's performance, checked for
+                potential issues, and offered recommendations for continual
+                improvements.
               </p>
             </div>
           </div>
@@ -157,10 +154,11 @@ class CaseStudyTwo extends React.Component {
                 <h2>Key Takeaways</h2>
               </header>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                This was a uniquely challenging project for me, as I had the
+                opportunity to wear many hats and learn several new skills.
+                Ultimately, I created an end product I was very proud of. PDV
+                was thrilled with their new site, and reported an overall
+                increase in conversions and sales.
               </p>
             </div>
           </div>

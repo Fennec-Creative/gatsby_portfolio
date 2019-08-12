@@ -159,7 +159,7 @@ class Homepage extends React.Component {
                 </Link>
               </div>
               <Link to="./case-study-one">
-                <h3>Case Study 1</h3>
+                <h3>Privo IT</h3>
               </Link>
             </div>
             <div className="col-4 thumbUnit">
