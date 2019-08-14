@@ -26,7 +26,7 @@ class DesignSkills extends React.Component {
             content="Chelsea Williams is a UI/UX Designer and Developer based in Denver Colorado. Her skillset includes graphic design, logo design, and custom illustration"
           />
         </Helmet>
-        <section class="header header-light-theme style6">
+        <section className="header header-light-theme style6">
           <div className="inner padding-extra">
             <h1>Design Skills</h1>
             <p>Graphic Design | Logo Design | Illustration</p>

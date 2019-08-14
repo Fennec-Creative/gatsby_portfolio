@@ -26,6 +26,7 @@ class Contact extends React.Component {
                 href="https://www.linkedin.com/in/fenneccreative/"
                 className="icon alt fa-linkedin"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">LinkedIn</span>
               </a>
@@ -35,6 +36,7 @@ class Contact extends React.Component {
                 href="https://www.facebook.com/chelsea.williams.92560"
                 className="icon alt fa-facebook"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">Facebook</span>
               </a>
@@ -44,6 +46,7 @@ class Contact extends React.Component {
                 href="https://github.com/Fennec-Creative"
                 className="icon alt fa-github"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">GitHub</span>
               </a>

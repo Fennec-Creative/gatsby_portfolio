@@ -45,7 +45,7 @@ const TechSkills = () => (
             enable-background="new 0 0 396.504 396.896"
           >
             <path
-              class="blue"
+              className="blue"
               fill="#B8D8D8"
               stroke="#467089"
               stroke-width="2"
@@ -73,7 +73,7 @@ const TechSkills = () => (
             </path>
 
             <path
-              class="pink"
+              className="pink"
               fill="#B8D8D8"
               stroke="#FE5F55"
               stroke-width="2"
@@ -176,7 +176,7 @@ const TechSkills = () => (
               preserveAspectRatio="xMinYMin"
             >
               <rect
-                class="bar"
+                className="bar"
                 id="bar1"
                 x="55"
                 y="5.45"
@@ -185,7 +185,7 @@ const TechSkills = () => (
                 height="480"
               />
               <rect
-                class="bar"
+                className="bar"
                 id="bar2"
                 x="238"
                 y="60"
@@ -194,7 +194,7 @@ const TechSkills = () => (
                 height="425"
               />
               <rect
-                class="bar"
+                className="bar"
                 id="bar3"
                 x="424"
                 y="75"
@@ -203,7 +203,7 @@ const TechSkills = () => (
                 height="410"
               />
               <rect
-                class="bar"
+                className="bar"
                 id="bar4"
                 x="610"
                 y="35"
@@ -212,7 +212,7 @@ const TechSkills = () => (
                 height="449"
               />
               <rect
-                class="bar pop"
+                className="bar pop"
                 id="bar5"
                 x="795"
                 y="438"

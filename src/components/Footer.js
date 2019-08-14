@@ -3,7 +3,7 @@ import React from 'react'
 class Footer extends React.Component {
   render() {
     return (
-      <section id="footer" class="footer special">
+      <section id="footer" className="footer special">
         &copy; Chelsea Williams 2019
       </section>
     )

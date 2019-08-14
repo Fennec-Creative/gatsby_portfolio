@@ -28,7 +28,7 @@ class UxProcess extends React.Component {
             content="Chelsea Williams is a UI/UX Designer and Developer based in Denver Colorado. Over the years she has developed a versatile skill set with competency in both applied design and coding."
           />
         </Helmet>
-        <section class="header header-light-theme style4">
+        <section className="header header-light-theme style4">
           <div className="inner padding-extra">
             <h1>UX Process</h1>
             <p>How I develop websites and applications</p>

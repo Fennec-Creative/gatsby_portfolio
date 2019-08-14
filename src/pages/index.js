@@ -56,15 +56,15 @@ class Homepage extends React.Component {
         </Helmet>
         <section className="header style3" id="main_header">
           <div className="inner">
-            <div class="foxy" />
+            <div className="foxy" />
             <h1>Fennec Creative</h1>
-            <p class="sub-header">UX Design / Development</p>
+            <p className="sub-header">UX Design / Development</p>
             <ul className="actions">
               <li>
                 <Link to="/#about" className="button scrolly">
-                  <div class="arrow-down">
-                    <div class="left animated" />
-                    <div class="right animated" />
+                  <div className="arrow-down">
+                    <div className="left animated" />
+                    <div className="right animated" />
                   </div>
                 </Link>
               </li>
@@ -76,14 +76,14 @@ class Homepage extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <div
-                class={
+                className={
                   this.state.selfAnimate ? 'slide-left show' : 'slide-left'
                 }
                 title="Cartoon Character of Chelsea"
               />
               <div
                 id="to-top"
-                class={
+                className={
                   this.state.selfAnimate
                     ? 'black slide-up show-black'
                     : 'black slide-up'
@@ -119,7 +119,7 @@ class Homepage extends React.Component {
               </header>
             </div>
             <div className="col-4 thumbUnit">
-              <div class="thumb-unit image fit" id="smallCircle2">
+              <div className="thumb-unit image fit" id="smallCircle2">
                 <Link to="./tech-skills">
                   <img src={pic03} alt="Briefcase of technical skills" />
                 </Link>
@@ -130,7 +130,7 @@ class Homepage extends React.Component {
             </div>
 
             <div className="col-4 thumbUnit">
-              <div class="thumb-unit image fit" id="largeCircle">
+              <div className="thumb-unit image fit" id="largeCircle">
                 <Link to="./ux-process">
                   <img
                     src={pic02}
@@ -143,7 +143,7 @@ class Homepage extends React.Component {
               </Link>
             </div>
             <div className="col-4 thumbUnit">
-              <div class="thumb-unit image fit" id="smallCircle">
+              <div className="thumb-unit image fit" id="smallCircle">
                 <Link to="./design-skills">
                   <img src={pic01} alt="Scrapbook of designs" />
                 </Link>
@@ -162,9 +162,9 @@ class Homepage extends React.Component {
               </header>
             </div>
             <div className="col-4 thumbUnit">
-              <div class="thumb-unit image fit" id="privo">
+              <div className="thumb-unit image fit" id="privo">
                 <Link to="./privo">
-                  <img src={pic05} alt="Privo preview image" />
+                  <img src={pic05} alt="Privo preview" />
                 </Link>
               </div>
               <Link to="./privo">
@@ -172,7 +172,7 @@ class Homepage extends React.Component {
               </Link>
             </div>
             <div className="col-4 thumbUnit">
-              <div class="thumb-unit image fit" id="team-connect">
+              <div className="thumb-unit image fit" id="team-connect">
                 <Link to="./teamconnect">
                   <img src={pic04} alt="TeamConnect preview" />
                 </Link>
@@ -182,7 +182,7 @@ class Homepage extends React.Component {
               </Link>
             </div>
             <div className="col-4 thumbUnit">
-              <div class="thumb-unit image fit" id="connectmevoice">
+              <div className="thumb-unit image fit" id="connectmevoice">
                 <Link to="./connectmevoice">
                   <img src={pic06} alt="ConnectMeVoice preview" />
                 </Link>
