@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Photon',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Starter based on Photon by HTML5 UP',
+    title: 'Fennec Creative',
+    author: 'Chelsea Williams',
+    description: 'UI/UX Designer and Developer based in Denver, CO',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
