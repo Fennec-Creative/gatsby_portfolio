@@ -849,6 +849,14 @@ nav ul {
 	  color: #343434;
 	}
 
+.inline_link {
+	color:_palette(accent5);
+}
+
+.inline_link:hover {
+	color:_palette(accent4);
+}
+
 .menu-dark a{
 	color:#fff !important;
 }
@@ -1923,6 +1931,10 @@ nav ul {
 		}
 	}
 
+	.in-touch a:hover{ 
+		color:_palette(accent5) !important;
+	} 
+
 /* XLarge */
 
 	@include breakpoint(xlarge) {
@@ -2008,8 +2020,6 @@ nav ul {
 
 .float{
 	display:block;
-	width: 100%;
-	max-width:2em;
 }
 
 .float h3, .small_screens_only h3 {
@@ -2045,7 +2055,6 @@ nav ul {
 
 .float_left{
 	float:left;
-	margin-left: -3.2em;
 }
 
 .float_right{

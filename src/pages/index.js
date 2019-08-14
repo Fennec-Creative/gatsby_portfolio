@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import Layout from '../components/layout'
+import Contact from '../components/Contact'
 
 import pic01 from '../assets/images/design-open.jpg'
 import pic02 from '../assets/images/featured-open.jpg'
@@ -43,11 +44,16 @@ class Homepage extends React.Component {
   }
 
   render() {
-    const siteTitle = 'Gatsby Starter - Photon'
+    const siteTitle = 'Fennec Creative - UI/UX Design and Development'
 
     return (
       <Layout>
-        <Helmet title={siteTitle} />
+        <Helmet title={siteTitle}>
+          <meta
+            name="description"
+            content="Personal website of Chelsea Williams, a UI/UX Designer and Developer based in Denver, CO."
+          />
+        </Helmet>
         <section className="header style3" id="main_header">
           <div className="inner">
             <div class="foxy" />
@@ -114,11 +120,11 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4 thumbUnit">
               <div class="thumb-unit image fit" id="smallCircle2">
-                <Link to="./code-skills">
-                  <img src={pic03} alt="" />
+                <Link to="./tech-skills">
+                  <img src={pic03} alt="Briefcase of technical skills" />
                 </Link>
               </div>
-              <Link to="./code-skills">
+              <Link to="./tech-skills">
                 <h3>Technical Skills</h3>
               </Link>
             </div>
@@ -126,7 +132,10 @@ class Homepage extends React.Component {
             <div className="col-4 thumbUnit">
               <div class="thumb-unit image fit" id="largeCircle">
                 <Link to="./ux-process">
-                  <img src={pic02} alt="" />
+                  <img
+                    src={pic02}
+                    alt="Computer with design comp featured on it"
+                  />
                 </Link>
               </div>
               <Link to="./ux-process">
@@ -136,7 +145,7 @@ class Homepage extends React.Component {
             <div className="col-4 thumbUnit">
               <div class="thumb-unit image fit" id="smallCircle">
                 <Link to="./design-skills">
-                  <img src={pic01} alt="" />
+                  <img src={pic01} alt="Scrapbook of designs" />
                 </Link>
               </div>
               <Link to="./design-skills">
@@ -154,72 +163,38 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4 thumbUnit">
               <div class="thumb-unit image fit" id="privo">
-                <Link to="./case-study-one">
-                  <img src={pic05} alt="" />
+                <Link to="./privo">
+                  <img src={pic05} alt="Privo preview image" />
                 </Link>
               </div>
-              <Link to="./case-study-one">
+              <Link to="./privo">
                 <h3>Privo IT</h3>
               </Link>
             </div>
             <div className="col-4 thumbUnit">
               <div class="thumb-unit image fit" id="team-connect">
-                <Link to="./case-study-two">
-                  <img src={pic04} alt="" />
+                <Link to="./teamconnect">
+                  <img src={pic04} alt="TeamConnect preview" />
                 </Link>
               </div>
-              <Link to="./case-study-two">
+              <Link to="./teamconnect">
                 <h3>TeamConnect</h3>
               </Link>
             </div>
             <div className="col-4 thumbUnit">
               <div class="thumb-unit image fit" id="connectmevoice">
-                <Link to="./case-study-three">
-                  <img src={pic06} alt="" />
+                <Link to="./connectmevoice">
+                  <img src={pic06} alt="ConnectMeVoice preview" />
                 </Link>
               </div>
-              <Link to="./case-study-three">
+              <Link to="./connectmevoice">
                 <h3>ConnectMeVoice</h3>
               </Link>
             </div>
           </div>
         </section>
 
-        <section id="contact" className="main in-touch">
-          <div className="container">
-            <header className="major">
-              <h2>Let's Get in Touch</h2>
-            </header>
-            <p>Sed lacus nascetur ac ante amet sapien.</p>
-            <ul className="icons">
-              <li>
-                <a href="#" className="icon alt fa-twitter">
-                  <span className="label">Twitter</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon alt fa-facebook">
-                  <span className="label">Facebook</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon alt fa-instagram">
-                  <span className="label">Instagram</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon alt fa-github">
-                  <span className="label">GitHub</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="icon alt fa-envelope">
-                  <span className="label">Email</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
+        <Contact />
       </Layout>
     )
   }

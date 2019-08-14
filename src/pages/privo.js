@@ -9,7 +9,7 @@ import pic03 from '../assets/images/privo_style_guide.png'
 import pic04 from '../assets/images/privo_design.png'
 import pic05 from '../assets/images/privo_lucky_orange.png'
 
-class CaseStudyOne extends React.Component {
+class Privo extends React.Component {
   componentDidMount() {
     let header = document.querySelector('.menu')
     header.classList.add('menu-dark')
@@ -18,6 +18,13 @@ class CaseStudyOne extends React.Component {
   render() {
     return (
       <Layout>
+        <Helmet>
+          <title>Privo: A Case Study</title>
+          <meta
+            name="description"
+            content="As part of a team, I did a complete redesign of the Privo website as a way to improve conversions and build brand-awareness. "
+          />
+        </Helmet>
         <section
           className="header casestudy header-light-theme"
           id="privo-head"
@@ -33,7 +40,7 @@ class CaseStudyOne extends React.Component {
               <span className="image fit">
                 <div className="acuImg">
                   <div className="acu_image_container">
-                    <img src={pic01} alt="Privo Hoome Page" />
+                    <img src={pic01} alt="Privo Home Page" />
                   </div>
                 </div>
               </span>
@@ -74,7 +81,7 @@ class CaseStudyOne extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
-                <img src={pic02} />
+                <img src={pic02} alt="Project personas" />
               </span>
             </div>
             <div className="col-6">
@@ -110,7 +117,7 @@ class CaseStudyOne extends React.Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={pic03} alt="Project brand sample" />
               </span>
             </div>
           </div>
@@ -120,7 +127,7 @@ class CaseStudyOne extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Project snapshots on multiple devices" />
               </span>
             </div>
             <div className="col-6">
@@ -167,7 +174,7 @@ class CaseStudyOne extends React.Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic05} alt="" />
+                <img src={pic05} alt="Snapshots from Lucky Orange" />
               </span>
             </div>
           </div>
@@ -194,4 +201,4 @@ class CaseStudyOne extends React.Component {
     )
   }
 }
-export default CaseStudyOne
+export default Privo

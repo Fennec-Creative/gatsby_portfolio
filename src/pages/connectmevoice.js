@@ -9,7 +9,7 @@ import pic03 from '../assets/images/cmv_landing.png'
 import pic04 from '../assets/images/cmv_phone.jpg'
 import pic05 from '../assets/images/cmv_banners.png'
 
-class CaseStudyThree extends React.Component {
+class ConnectMeVoice extends React.Component {
   componentDidMount() {
     let header = document.querySelector('.menu')
     header.classList.add('menu-dark')
@@ -19,6 +19,13 @@ class CaseStudyThree extends React.Component {
   render() {
     return (
       <Layout>
+        <Helmet>
+          <title>ConnectMeVoice A Case Study</title>
+          <meta
+            name="description"
+            content="I helped solve a growing company's conversion issues by rebuilding their website and supporting their brand."
+          />
+        </Helmet>
         <section
           className="header casestudy header-light-theme"
           id="cmv-header"
@@ -34,7 +41,7 @@ class CaseStudyThree extends React.Component {
               <span className="image fit">
                 <div className="acuImg">
                   <div className="acu_image_container">
-                    <img src={pic01} alt="ConnectMeVoice Hoome Page" />
+                    <img src={pic01} alt="ConnectMeVoice Home Page" />
                   </div>
                 </div>
               </span>
@@ -67,7 +74,7 @@ class CaseStudyThree extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
-                <img src={pic02} />
+                <img src={pic02} alt="Project Personas" />
               </span>
             </div>
             <div className="col-6">
@@ -107,7 +114,7 @@ class CaseStudyThree extends React.Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={pic03} alt="Snapshots of landing pages" />
               </span>
             </div>
           </div>
@@ -117,7 +124,7 @@ class CaseStudyThree extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
-                <img src={pic05} />
+                <img src={pic05} alt="Trade show banners " />
               </span>
             </div>
             <div className="col-6">
@@ -137,7 +144,7 @@ class CaseStudyThree extends React.Component {
           <div className="grid-wrapper">
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Project snapshot on mobile" />
               </span>
             </div>
             <div className="col-8">
@@ -171,4 +178,4 @@ class CaseStudyThree extends React.Component {
   }
 }
 
-export default CaseStudyThree
+export default ConnectMeVoice

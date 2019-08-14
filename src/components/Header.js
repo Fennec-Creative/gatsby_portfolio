@@ -42,7 +42,7 @@ class Header extends React.Component {
               </div>
               <ul className="dropdown" id="dropdown_1">
                 <li>
-                  <Link to="./code-skills">Code Skills</Link>
+                  <Link to="./tech-skills">Code Skills</Link>
                 </li>
                 <li>
                   <Link to="./ux-process">UX Process</Link>
@@ -65,10 +65,10 @@ class Header extends React.Component {
               </Link>
               <ul className="dropdown" id="dropdown_1">
                 <li>
-                  <Link to="./code-skills">Code Skills</Link>
+                  <Link to="./ux-process">UX Process</Link>
                 </li>
                 <li>
-                  <Link to="./ux-process">UX Process</Link>
+                  <Link to="./tech-skills">Tech Skills</Link>
                 </li>
                 <li>
                   <Link to="./design-skills/" className="no-border">
@@ -87,13 +87,13 @@ class Header extends React.Component {
               </div>
               <ul className="dropdown" id="dropdown_2">
                 <li>
-                  <Link to="./case-study-one/">Privo IT</Link>
+                  <Link to="./privo/">Privo IT</Link>
                 </li>
                 <li>
-                  <Link to="./case-study-two/">TeamConnect</Link>
+                  <Link to="./teamconnect/">TeamConnect</Link>
                 </li>
                 <li>
-                  <Link to="./case-study-three/" className="no-border">
+                  <Link to="./connectmevoice" className="no-border">
                     ConnectMeVoice
                   </Link>
                 </li>
@@ -110,13 +110,13 @@ class Header extends React.Component {
               </Link>
               <ul className="dropdown" id="dropdown_2">
                 <li>
-                  <Link to="./case-study-one/">Privo IT</Link>
+                  <Link to="./privo/">Privo IT</Link>
                 </li>
                 <li>
-                  <Link to="./case-study-two/">TeamConnect</Link>
+                  <Link to="./teamconnect/">TeamConnect</Link>
                 </li>
                 <li>
-                  <Link to="./case-study-three/" className="no-border">
+                  <Link to="./connectmevoice/" className="no-border">
                     ConnectMeVoice
                   </Link>
                 </li>

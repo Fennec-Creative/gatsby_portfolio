@@ -1,13 +1,14 @@
 import React from 'react'
 
 import Layout from '../components/layout'
+import Helmet from 'react-helmet'
 
 import pic01 from '../assets/images/TeamConnect-full.jpg'
 import pic02 from '../assets/images/teamconnect_personas.png'
 import pic03 from '../assets/images/teamconnect_design.png'
 import pic04 from '../assets/images/pdv_wireless_gif.gif'
 
-class CaseStudyTwo extends React.Component {
+class TeamConnect extends React.Component {
   componentDidMount() {
     let header = document.querySelector('.menu')
     header.classList.add('menu-dark')
@@ -17,6 +18,13 @@ class CaseStudyTwo extends React.Component {
   render() {
     return (
       <Layout>
+        <Helmet>
+          <title>TeamConnect: A Case Study</title>
+          <meta
+            name="description"
+            content="As a part of a team, I helped build a new site for a growing company and developed an interactive demo series."
+          />
+        </Helmet>
         <section
           className="header casestudy header-light-theme"
           id="team_connect_header"
@@ -65,7 +73,7 @@ class CaseStudyTwo extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <img src={pic02} alt="Project Personas" />
               </span>
             </div>
             <div className="col-6">
@@ -96,7 +104,7 @@ class CaseStudyTwo extends React.Component {
             </div>
             <div className="col-6">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={pic03} alt="project desktop snapshot" />
               </span>
             </div>
           </div>
@@ -106,7 +114,7 @@ class CaseStudyTwo extends React.Component {
           <div className="grid-wrapper">
             <div className="col-6">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Interactive Demo gif" />
               </span>
             </div>
             <div className="col-6">
@@ -168,4 +176,4 @@ class CaseStudyTwo extends React.Component {
   }
 }
 
-export default CaseStudyTwo
+export default TeamConnect

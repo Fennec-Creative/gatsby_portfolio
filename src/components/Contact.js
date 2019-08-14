@@ -8,31 +8,44 @@ class Contact extends React.Component {
           <header className="major">
             <h2>Let's Get in Touch</h2>
           </header>
-          <p>Sed lacus nascetur ac ante amet sapien.</p>
+          <p>
+            I am always interested in hearing about new projects and
+            opportunities!
+          </p>
           <ul className="icons">
             <li>
-              <a href="#" className="icon alt fa-twitter">
-                <span className="label">Twitter</span>
+              <a
+                href="mailto:cwilliamsdigital@gmail.com"
+                className="icon alt fa-envelope"
+              >
+                <span className="label">Email</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon alt fa-facebook">
+              <a
+                href="https://www.linkedin.com/in/fenneccreative/"
+                className="icon alt fa-linkedin"
+                target="_blank"
+              >
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/chelsea.williams.92560"
+                className="icon alt fa-facebook"
+                target="_blank"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon alt fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon alt fa-github">
+              <a
+                href="https://github.com/Fennec-Creative"
+                className="icon alt fa-github"
+                target="_blank"
+              >
                 <span className="label">GitHub</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon alt fa-envelope">
-                <span className="label">Email</span>
               </a>
             </li>
           </ul>

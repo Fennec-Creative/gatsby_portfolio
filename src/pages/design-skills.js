@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Link from 'gatsby-link'
 
 import IllSlider from '../components/IllSlider'
 import LogoSlider from '../components/LogoSlider'
@@ -7,8 +8,6 @@ import Layout from '../components/layout'
 import Contact from '../components/Contact'
 import WhitePaperSlider from '../components/WhitePaperSlider'
 import EBookSlider from '../components/EBookSlider'
-
-import pic01 from '../assets/images/backpack.png'
 
 class DesignSkills extends React.Component {
   componentDidMount() {
@@ -20,10 +19,17 @@ class DesignSkills extends React.Component {
   render() {
     return (
       <Layout>
+        <Helmet>
+          <title>Design Skills</title>
+          <meta
+            name="description"
+            content="Chelsea Williams is a UI/UX Designer and Developer based in Denver Colorado. Her skillset includes graphic design, logo design, and custom illustration"
+          />
+        </Helmet>
         <section class="header header-light-theme style6">
           <div className="inner padding-extra">
             <h1>Design Skills</h1>
-            <p>Subtext goes here</p>
+            <p>Graphic Design | Logo Design | Illustration</p>
           </div>
         </section>
         <section id="illustration" className="main style4">
@@ -31,10 +37,12 @@ class DesignSkills extends React.Component {
             <div className="col-6 flex-one">
               <h2>Illustration</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                I create custom illustrations as needed for my various UX/UI
+                projects. I can emulate a wide variety of illustration styles,
+                however my personal style is a fusion of modern vector graphics
+                and traditional character illustration. I enjoy creating
+                graphics that are personable and light-hearted in nature with
+                professional undertones.
               </p>
             </div>
             <div className="col-6 flex-two">
@@ -55,16 +63,16 @@ class DesignSkills extends React.Component {
             <div className="col-6 flex-one">
               <h2>Logo Design</h2>
               <p>
-                Hammock forage cred fashion axe authentic stumptown ethical
-                vegan banh mi mixtape humblebrag readymade salvia intelligentsia
-                ennui. Keffiyeh gentrify bicycle rights, poutine aesthetic deep
-                v bushwick.
-              </p>
-              <p>
-                Irony lomo raw denim four loko, leggings austin tumeric man
-                braid ethical before they sold out swag. Stumptown XOXO pickled,
-                banjo mustache pork belly vice celiac seitan mumblecore pop-up
-                everyday carry trust fund forage distillery.
+                Strong branding starts with an effective logo. I have a specific
+                logo design process that I typically apply during the{' '}
+                <Link to="/ux-process/#discovery" className="inline_link">
+                  strategy phase
+                </Link>{' '}
+                of my projects. I'll start by giving the client a detailed
+                intake list followed-up by an interview. Using the information
+                gathered, I'll create a series of simple vector layouts and go
+                through several iterations of feedback with the client where I
+                gradually work down to a single design and build upon it.
               </p>
             </div>
           </div>
@@ -75,10 +83,19 @@ class DesignSkills extends React.Component {
             <div className="col-6 flex-one">
               <h2>White Paper Design</h2>
               <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
+                Building a company's online presence does not stop at their
+                website. For authoritative articles such as white papers, that
+                is especially true. I typically design white papers during the{' '}
+                <Link to="/ux-process/#improvements" className="inline_link">
+                  continual improvements
+                </Link>{' '}
+                stage of my UX process as a way to help build on branding and
+                authority.
+              </p>
+              <p>
+                I'll start by designing a template in InDesign that can be
+                easily updated and altered, then I will either re-create
+                existing white papers, or use my templates for new content.
               </p>
             </div>
             <div className="col-6 flex-two">
@@ -99,36 +116,13 @@ class DesignSkills extends React.Component {
             <div className="col-6 flex-one">
               <h2>Ebook Design</h2>
               <p>
-                Hammock forage cred fashion axe authentic stumptown ethical
-                vegan banh mi mixtape humblebrag readymade salvia intelligentsia
-                ennui. Keffiyeh gentrify bicycle rights, poutine aesthetic deep
-                v bushwick.
+                In the Winter of 2018 I developed a 22-page eBook for the
+                company Anexinet. After an extensive interview with Anexinet's
+                design team, I mapped out the content for this ebook using
+                sketches first, then wireframes. Finally, I crated a custom
+                template in InDesign, and built each page out using custom
+                iconography and illustrations as needed.
               </p>
-              <p>
-                Irony lomo raw denim four loko, leggings austin tumeric man
-                braid ethical before they sold out swag. Stumptown XOXO pickled,
-                banjo mustache pork belly vice celiac seitan mumblecore pop-up
-                everyday carry trust fund forage distillery.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section id="product_design" className="main style1">
-          <div className="grid-wrapper flex">
-            <div className="col-6 flex-one">
-              <h2>Product Design</h2>
-              <p>
-                Kogi truffaut pop-up chartreuse neutra keffiyeh, williamsburg
-                venmo everyday carry direct trade authentic. Church-key woke
-                bitters shoreditch snackwave lumbersexual poke lo-fi taxidermy
-                iPhone actually everyday carry fingerstache.
-              </p>
-            </div>
-            <div className="col-6 flex-two">
-              <span className="image fit">
-                <img src={pic01} alt="" />
-              </span>
             </div>
           </div>
         </section>

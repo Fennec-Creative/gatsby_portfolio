@@ -4,8 +4,15 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Contact from '../components/Contact'
 
-const CodeSkills = () => (
+const TechSkills = () => (
   <Layout>
+    <Helmet>
+      <title>Technical Skills</title>
+      <meta
+        name="description"
+        content="Chelsea Williams is a UI/UX Designer and Developer based in Denver Colorado. Over the years she has developed a versatile skill set with competency in both applied design and coding."
+      />
+    </Helmet>
     <section id="one" className="header style3">
       <div className="grid-wrapper padding-extra">
         <div className="col-12">
@@ -20,7 +27,8 @@ const CodeSkills = () => (
               <li>Adobe Suite</li>
               <li>Sketch</li>
               <li>Invision</li>
-              <li>GIMP</li>
+              <li>Google Analytics</li>
+              <li>Lucky Orange</li>
               <li />
             </ul>
           </div>
@@ -113,7 +121,8 @@ const CodeSkills = () => (
             <li>Adobe Suite</li>
             <li>Sketch</li>
             <li>Invision</li>
-            <li>GIMP</li>
+            <li>Google Analytics</li>
+            <li>Lucky Orange</li>
             <li>DHTML</li>
             <li>ReactJS</li>
             <li>Python</li>
@@ -239,4 +248,4 @@ const CodeSkills = () => (
   </Layout>
 )
 
-export default CodeSkills
+export default TechSkills

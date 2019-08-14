@@ -21,10 +21,17 @@ class UxProcess extends React.Component {
   render() {
     return (
       <Layout>
+        <Helmet>
+          <title>UX Process</title>
+          <meta
+            name="description"
+            content="Chelsea Williams is a UI/UX Designer and Developer based in Denver Colorado. Over the years she has developed a versatile skill set with competency in both applied design and coding."
+          />
+        </Helmet>
         <section class="header header-light-theme style4">
           <div className="inner padding-extra">
             <h1>UX Process</h1>
-            <p>Subtext goes here</p>
+            <p>How I develop websites and applications</p>
           </div>
         </section>
 
@@ -32,7 +39,7 @@ class UxProcess extends React.Component {
           <div className="grid-wrapper flex">
             <div className="col-5 flex-one">
               <span className="image fit">
-                <img src={pic01} alt="" />
+                <img src={pic01} alt="Brainstorming and research graphic" />
               </span>
             </div>
 
@@ -95,7 +102,7 @@ class UxProcess extends React.Component {
 
             <div className="col-5 flex-one">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <img src={pic02} alt="Wireframes and Strategy" />
               </span>
             </div>
           </div>
@@ -105,7 +112,7 @@ class UxProcess extends React.Component {
           <div className="grid-wrapper flex">
             <div className="col-5 flex-one">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={pic03} alt="Design on Multiple Devices" />
               </span>
             </div>
 
@@ -168,7 +175,7 @@ class UxProcess extends React.Component {
 
             <div className="col-5 flex-one">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={pic04} alt="Code on a laptop" />
               </span>
             </div>
           </div>
@@ -178,7 +185,7 @@ class UxProcess extends React.Component {
           <div className="grid-wrapper flex">
             <div className="col-5 flex-one">
               <span className="image fit">
-                <img src={pic05} alt="" />
+                <img src={pic05} alt="Website launch" />
               </span>
             </div>
 
@@ -238,7 +245,7 @@ class UxProcess extends React.Component {
 
             <div className="col-5 flex-one">
               <span className="image fit">
-                <img src={pic06} alt="" />
+                <img src={pic06} alt="Statastics and research" />
               </span>
             </div>
           </div>
