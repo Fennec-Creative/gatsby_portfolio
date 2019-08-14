@@ -2,12 +2,24 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
-import IllSlider from '../components/IllSlider'
-import LogoSlider from '../components/LogoSlider'
 import Layout from '../components/layout'
 import Contact from '../components/Contact'
-import WhitePaperSlider from '../components/WhitePaperSlider'
-import EBookSlider from '../components/EBookSlider'
+import Carousel from 'nuka-carousel'
+
+import ill01 from '../assets/images/cthulu_illustration.png'
+import ill03 from '../assets/images/lil_death_illustration.png'
+
+import logo01 from '../assets/images/porter_construction_logo.png'
+import logo02 from '../assets/images/housed_working_healthy_logo.png'
+import logo03 from '../assets/images/radio_logo.png'
+import logo04 from '../assets/images/acusites_logo.png'
+
+import wp01 from '../assets/images/ECS_white_paper.png'
+import wp02 from '../assets/images/Inteq_white_paper.png'
+
+import ebook01 from '../assets/images/anexinet_ebook_1.png'
+import ebook02 from '../assets/images/anexinet_ebook_2.png'
+import ebook03 from '../assets/images/anexinet_ebook_3.png'
 
 class DesignSkills extends React.Component {
   componentDidMount() {
@@ -47,7 +59,15 @@ class DesignSkills extends React.Component {
             </div>
             <div className="col-6 flex-two">
               <span className="image fit">
-                <IllSlider />
+                <Carousel
+                  autoplay="true"
+                  pauseOnHover="true"
+                  wrapAround="true"
+                  withoutControls="true"
+                >
+                  <img src={ill01} alt="cute Cthulhu" />
+                  <img src={ill03} alt="little Death" />
+                </Carousel>
               </span>
             </div>
           </div>
@@ -57,7 +77,17 @@ class DesignSkills extends React.Component {
           <div className="grid-wrapper flex">
             <div className="col-6 flex-two">
               <span className="image fit">
-                <LogoSlider />
+                <Carousel
+                  autoplay="true"
+                  pauseOnHover="true"
+                  wrapAround="true"
+                  withoutControls="true"
+                >
+                  <img src={logo01} alt="Porter Construction logo" />
+                  <img src={logo02} alt="Housed Working and Healthy logo" />
+                  <img src={logo03} alt="MK Radio Logo" />
+                  <img src={logo04} alt="AcuSites logo" />
+                </Carousel>
               </span>
             </div>
             <div className="col-6 flex-one">
@@ -100,7 +130,15 @@ class DesignSkills extends React.Component {
             </div>
             <div className="col-6 flex-two">
               <span className="image fit">
-                <WhitePaperSlider />
+                <Carousel
+                  autoplay="true"
+                  pauseOnHover="true"
+                  wrapAround="true"
+                  withoutControls="true"
+                >
+                  <img src={wp01} alt="ECS White Paper design" />
+                  <img src={wp02} alt="Inteqgroup White Paper Design" />
+                </Carousel>
               </span>
             </div>
           </div>
@@ -110,7 +148,22 @@ class DesignSkills extends React.Component {
           <div className="grid-wrapper flex">
             <div className="col-6 flex-two">
               <span className="image fit">
-                <EBookSlider />
+                <Carousel
+                  autoplay="true"
+                  pauseOnHover="true"
+                  wrapAround="true"
+                  withoutControls="true"
+                >
+                  <img
+                    src={ebook01}
+                    alt="Anexinet ebook snapshots first pages"
+                  />
+                  <img src={ebook02} alt="Anexinet ebook snapshots mid pages" />
+                  <img
+                    src={ebook03}
+                    alt="Anexinet ebook snapshots last pages"
+                  />
+                </Carousel>
               </span>
             </div>
             <div className="col-6 flex-one">
