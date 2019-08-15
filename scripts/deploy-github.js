@@ -4,8 +4,9 @@ const ghpages = require('gh-pages')
 ghpages.publish(
   'public',
   {
-    branch: 'master',
-    repo: 'https://github.com/Fennec-Creative/portfolio_website.git',
+    branch: 'develop',
+    repo: 'https://github.com/Fennec-Creative/gatsby_portfolio.git',
+    message: 'THIS DID A THING',
   },
   () => {
     console.log('Deploy Complete!')

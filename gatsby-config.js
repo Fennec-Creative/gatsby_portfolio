@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/portfolio_website',
+  pathPrefix: '/',
   siteMetadata: {
     title: 'Fennec Creative',
     author: 'Chelsea Williams',
