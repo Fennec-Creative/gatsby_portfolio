@@ -31,7 +31,7 @@ class Privo extends React.Component {
         >
           <div className="inner padding-extra">
             <h1>Privo</h1>
-            <p>UI/UX Design / Development / Managment</p>
+            <p>UI/UX Design | Development | Managment</p>
           </div>
         </section>
         <section id="privo_problem" className="main casestudy styleA">
@@ -66,7 +66,7 @@ class Privo extends React.Component {
             <div className="col-4">
               <h3 className="privo-orange">My Roles</h3>
               <p>
-                UI/UX Design / Brand Design / Project Management / Dev Support
+                UI/UX Design | Brand Design | Project Management | Dev Support
               </p>
               <h3 className="privo-orange">Employer</h3>
               <p>Revenue River</p>
@@ -165,11 +165,11 @@ class Privo extends React.Component {
               </p>
               <p>
                 3 months after launch, I created a Growth Driven Design
-                Analysis, which took a in-depth look at site performance, viewer
-                demographics, top-performing pages, traffic, and conversion
-                point usage. This set the groundwork for continual improvements
-                for the website while documenting measurable metrics for me and
-                my team to expand on.
+                Analysis, which took an in-depth look at site performance,
+                viewer demographics, top-performing pages, traffic, and
+                conversion point usage. This set the groundwork for continual
+                improvements for the website while documenting measurable
+                metrics for me and my team to expand on.
               </p>
             </div>
             <div className="col-6">

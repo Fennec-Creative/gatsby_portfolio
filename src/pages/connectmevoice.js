@@ -32,7 +32,7 @@ class ConnectMeVoice extends React.Component {
         >
           <div className="inner padding-extra">
             <h1>ConnectMeVoice</h1>
-            <p>UI/UX Design / Development / Visual Design</p>
+            <p>UI/UX Design | Development | Visual Design</p>
           </div>
         </section>
         <section id="cmv_problem" className="main casestudy styleA">
@@ -63,7 +63,7 @@ class ConnectMeVoice extends React.Component {
             </div>
             <div className="col-4">
               <h3 className="cmv-red-text">My Roles</h3>
-              <p>UI/UX Design / Development / Visual Design</p>
+              <p>UI/UX Design | Development | Visual Design</p>
               <h3 className="cmv-red-text">Contractor</h3>
               <p>EmoryDay</p>
             </div>
@@ -168,7 +168,8 @@ class ConnectMeVoice extends React.Component {
                 This was a statisfying project because I was starting with a
                 clear goal in mind, and it yielded positive results. According
                 to our 3-month analysis, CMV saw a 25% increase in conversions,
-                a 30% reduction in bounce rates, and a more confident client.
+                a 30% reduction in bounce rates, and overall felt more confident
+                in their website.
               </p>
             </div>
           </div>

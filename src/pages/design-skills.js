@@ -172,7 +172,7 @@ class DesignSkills extends React.Component {
                 In the Winter of 2018 I developed a 22-page eBook for the
                 company Anexinet. After an extensive interview with Anexinet's
                 design team, I mapped out the content for this ebook using
-                sketches first, then wireframes. Finally, I crated a custom
+                sketches first, then wireframes. Finally, I created a custom
                 template in InDesign, and built each page out using custom
                 iconography and illustrations as needed.
               </p>

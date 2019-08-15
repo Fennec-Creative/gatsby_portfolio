@@ -153,7 +153,7 @@ class UxProcess extends React.Component {
                 an in-depth quality control process to rule potential speed and
                 performance issues. I make an effort to continually research
                 best practices and technologies so that my work will stand the
-                test of time and suite my clients ever-expanding needs.
+                test of time and suit my clients ever-expanding needs.
               </p>
               <div className="grid-wrapper">
                 <div className="col-6">
@@ -229,14 +229,14 @@ class UxProcess extends React.Component {
               <div className="grid-wrapper">
                 <div className="col-6">
                   <ul>
-                    <li>ata Collection</li>
+                    <li>Data Collection</li>
                     <li>Analytics and Reporting </li>
                     <li>Identification of Improvements</li>
                   </ul>
                 </div>
                 <div className="col-6">
                   <ul>
-                    <li>QHypothesis testing</li>
+                    <li>Hypothesis testing</li>
                     <li>Updates and Optimization</li>
                   </ul>
                 </div>

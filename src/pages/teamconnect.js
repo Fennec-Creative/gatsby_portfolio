@@ -31,7 +31,7 @@ class TeamConnect extends React.Component {
         >
           <div className="inner padding-extra">
             <h1>TeamConnect</h1>
-            <p>UI/UX Design / Development / Animation</p>
+            <p>UI/UX Design | Development | Animation</p>
           </div>
         </section>
         <section id="tc_problem" className="main casestudy styleA">
@@ -62,7 +62,7 @@ class TeamConnect extends React.Component {
             </div>
             <div className="col-4">
               <h3 className="tc-blue-text">My Roles</h3>
-              <p>UI/UX Design / Web Development / Animation</p>
+              <p>UI/UX Design | Web Development | Animation</p>
               <h3 className="tc-blue-text">Contractor</h3>
               <p>EmoryDay</p>
             </div>
@@ -123,8 +123,8 @@ class TeamConnect extends React.Component {
                 One of PDV's goals was to showcase their workforce management
                 software on the TeamConnect home page in a way that was visual,
                 intuitive, and easy to consume. To achieve this goal, I created
-                a series of 6 interactive demos, each one focusing on a specific
-                software solution.
+                a series of six interactive demos, each one focusing on a
+                specific software solution.
               </p>
               <p>
                 I built the demos as animated gifs using Adobe Animate, then
