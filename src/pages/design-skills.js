@@ -124,8 +124,8 @@ class DesignSkills extends React.Component {
               </p>
               <p>
                 I'll start by designing a template in InDesign that can be
-                easily updated and altered, then I will either re-create
-                existing white papers, or use my templates for new content.
+                easily updated and altered, then I will either use my template
+                to re-create existing whitepapers, or apply it to new content.
               </p>
             </div>
             <div className="col-6 flex-two">

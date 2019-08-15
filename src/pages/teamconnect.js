@@ -121,7 +121,7 @@ class TeamConnect extends React.Component {
               <h2>Interactive Demo Series</h2>
               <p>
                 One of PDV's goals was to showcase their workforce management
-                software on the TeamConnect home page in a way that was visual,
+                software on the TeamConnect homepage in a way that was visual,
                 intuitive, and easy to consume. To achieve this goal, I created
                 a series of six interactive demos, each one focusing on a
                 specific software solution.

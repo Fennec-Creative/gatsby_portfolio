@@ -60,7 +60,7 @@ class Privo extends React.Component {
               <p>
                 A clean modern website that encapsulates Privo's personable and
                 high-energy brand identity while strategically guiding visitors
-                along the buyers journey to conversion points.
+                along the buyer's journey to conversion points.
               </p>
             </div>
             <div className="col-4">
@@ -164,7 +164,7 @@ class Privo extends React.Component {
                 recommendations for areas that we could improve upon.
               </p>
               <p>
-                3 months after launch, I created a Growth Driven Design
+                Three months after launch, I created a Growth Driven Design
                 Analysis, which took an in-depth look at site performance,
                 viewer demographics, top-performing pages, traffic, and
                 conversion point usage. This set the groundwork for continual
@@ -187,7 +187,7 @@ class Privo extends React.Component {
                 <h2>Key Takeaways</h2>
               </header>
               <p>
-                I was proud of the end-result of this project, and enjoyed the
+                I was proud of the end result of this project, and enjoyed the
                 opportunity to work with a team of highly effective individuals.
                 According to my analysis, the new Privo website improved bounce
                 rates of key pages from 72.74% to 53.7% and increased qualified

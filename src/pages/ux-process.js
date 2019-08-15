@@ -47,10 +47,9 @@ class UxProcess extends React.Component {
               <h2>Discovery</h2>
               <p>
                 I develop a deep understanding of the job to be done while
-                establishing project stake holders, scope, user definitions, and
+                establishing project scope, stakeholders, user definitions, and
                 ultimately the end goals to be accomplished. I consider starting
-                a project with a clearly defined ending in mind vital to
-                success.
+                a project with a clearly defined goal in mind vital to success.
               </p>
               <div className="grid-wrapper">
                 <div className="col-6">
@@ -122,14 +121,14 @@ class UxProcess extends React.Component {
                 I design an interactive user interface that engages users and
                 guides them to intuitive conversion points. This is a
                 collaborative and iterative process, and relies on active
-                involvement with team members, the client, as well as other
-                stake holders.
+                involvement with team members and client as well as other
+                stakeholders.
               </p>
               <div className="grid-wrapper">
                 <div className="col-6">
                   <ul>
                     <li>Style Guides</li>
-                    <li>Strategy implementation</li>
+                    <li>Strategy Implementation</li>
                     <li>Team Collaboration</li>
                   </ul>
                 </div>
@@ -221,10 +220,10 @@ class UxProcess extends React.Component {
               <h2>Continual Improvements</h2>
               <p>
                 Once my project is live, I establish a continual improvement
-                plan using data harvested from live users over time. Once
-                sufficient time has passed, I analyze the collected data to draw
-                conclusions and optimize the project so that it is as polished
-                and effective as possible.
+                plan using data harvested from live users over time. Once a
+                predetermined amount of time has passed, I analyze the collected
+                data to draw conclusions and optimize the project so that it is
+                as polished and effective as possible.
               </p>
               <div className="grid-wrapper">
                 <div className="col-6">
@@ -236,7 +235,7 @@ class UxProcess extends React.Component {
                 </div>
                 <div className="col-6">
                   <ul>
-                    <li>Hypothesis testing</li>
+                    <li>Hypothesis Testing</li>
                     <li>Updates and Optimization</li>
                   </ul>
                 </div>

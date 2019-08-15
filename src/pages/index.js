@@ -112,7 +112,7 @@ class Homepage extends React.Component {
               </p>
               <p>
                 When I'm not hammering code or illustrating graphics I can be
-                found slapping my bass and roaming the mountains of Colorado.
+                found slapping my bass or roaming the mountains of Colorado.
               </p>
             </div>
           </div>

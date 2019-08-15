@@ -84,7 +84,8 @@ class ConnectMeVoice extends React.Component {
                 current site was going wrong using analytical data, viewer
                 tracking, and performance testing. I then used this data to
                 formulate a strategy to rebuild the site, refresh the company's
-                appearance, and optimize the design for better conversions.
+                online appearance, and optimize the design for better
+                conversions.
               </p>
             </div>
           </div>
@@ -133,8 +134,8 @@ class ConnectMeVoice extends React.Component {
                 One of the client's pain points was their inability to connect
                 with people at promotional events and stand out from
                 competition. To help solve this, I designed new promotional
-                materials such as business cards, brochures, and a series of 3
-                33" x 88" trade show banners.
+                materials such as business cards, brochures, and a series of
+                three 33" x 88" trade show banners.
               </p>
             </div>
           </div>
@@ -152,7 +153,7 @@ class ConnectMeVoice extends React.Component {
               <p>
                 After the successful launch of CMV's new site, I was responsible
                 for continual maintenance, analysis, and strategic improvements
-                for 3 months.
+                for three months.
               </p>
             </div>
           </div>
