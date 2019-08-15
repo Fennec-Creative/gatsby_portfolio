@@ -53,6 +53,12 @@ class Homepage extends React.Component {
             name="description"
             content="Personal website of Chelsea Williams, a UI/UX Designer and Developer based in Denver, CO."
           />
+          <meta
+            rel="publisher"
+            href="https://plus.google.com/u/0/+FennecCreative/"
+          ></meta>
+          <link rel="image_src" href="../assets/images/source_image.jpg" />
+          <link rel="shortcut icon" href="../assets/images/favicon.png" />
         </Helmet>
         <section className="header style3" id="main_header">
           <div className="inner">
