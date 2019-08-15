@@ -150,8 +150,8 @@ class UxProcess extends React.Component {
               <h2>Production</h2>
               <p>
                 I develop a fully-functional website or application and commence
-                an in-depth quality control process to rule potential speed and
-                performance issues. I make an effort to continually research
+                an in-depth quality control process to rule out potential speed
+                and performance issues. I make an effort to continually research
                 best practices and technologies so that my work will stand the
                 test of time and suit my clients ever-expanding needs.
               </p>
