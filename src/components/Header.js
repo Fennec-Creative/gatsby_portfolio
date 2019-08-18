@@ -65,10 +65,10 @@ class Header extends React.Component {
               </Link>
               <ul className="dropdown" id="dropdown_1">
                 <li>
-                  <Link to="./ux-process">UX Process</Link>
+                  <Link to="./tech-skills">Tech Skills</Link>
                 </li>
                 <li>
-                  <Link to="./tech-skills">Tech Skills</Link>
+                  <Link to="./ux-process">UX Process</Link>
                 </li>
                 <li>
                   <Link to="./design-skills/" className="no-border">
