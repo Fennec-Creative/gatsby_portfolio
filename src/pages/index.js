@@ -64,7 +64,7 @@ class Homepage extends React.Component {
           <div className="inner">
             <div className="foxy" />
             <h1>Fennec Creative</h1>
-            <p className="sub-header">UX Design / Development</p>
+            <p className="sub-header">UI/UX Design &amp; Development</p>
             <ul className="actions">
               <li>
                 <Link to="/#about" className="button scrolly">
@@ -145,7 +145,7 @@ class Homepage extends React.Component {
                 </Link>
               </div>
               <Link to="./ux-process">
-                <h3>Ux Process</h3>
+                <h3>UX Process</h3>
               </Link>
             </div>
             <div className="col-4 thumbUnit">
