@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "/img/ux-design-icon.svg",
+        "title": "UX Design",
+        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-phone",
+        "title": "UI Design",
+        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-display1",
+        "title": "Front-End Development",
+        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-diskette",
+        "title": "Design Leadership",
+        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+    }
+]

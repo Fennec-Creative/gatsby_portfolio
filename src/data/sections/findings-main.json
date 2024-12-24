@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "icon": "pe-7s-paint-bucket",
+        "title": "Low Use",
+        "content": "Users typically used the app once or twice, then never again."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-phone",
+        "title": "Poor User Experience",
+        "content": "Application was not optimized for mobile devices and did not follow best practices. "
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-display1",
+        "title": "Poor Accessibility",
+        "content": "Application was not WCAG 2.0 compliant and lacked key usability features. "
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-diskette",
+        "title": "Negative Feedback",
+        "content": "App score was low, and negative feedback centered on login and billing experience. "
+    },
+    {
+        "id": 5,
+        "icon": "pe-7s-diskette",
+        "title": "Behind Competition",
+        "content": "Application was far behind our competitors in providing our users value with our application."
+    },
+    {
+        "id": 6,
+        "icon": "pe-7s-diskette",
+        "title": "Difficult to Navigate",
+        "content": "Users were getting lost in the app when looking for key features. "
+    },
+    {
+        "id": 7,
+        "icon": "pe-7s-diskette",
+        "title": "Patterns Among Competition",
+        "content": "Competitors have been solving similar problems and share common design patterns."
+    },
+    {
+        "id": 8,
+        "icon": "pe-7s-diskette",
+        "title": "Homeowners Want More",
+        "content": "Education, curiosity, and enjoyment were key motivators for homeowners engaging in similar apps to ours."
+    }
+]

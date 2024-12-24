@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "image1": "/img/01.jpg",
+  "image2": "/img/02.jpg",
+  "exp": {
+    "nmb": 10,
+    "name": "Years Of Experience"
+  },
+  "title": { "first": "Recent Experience", "second": " " },
+  "content": {
+    "first": "I’ve been involved in the product design at all levels and have had the privilege of taking projects from concept to completion.  (working)",
+    "second": "In my most recent experience, I led a small design team for a full redesign of EverBright’s Homeowner Portal mobile and web applications. "
+  },
+  "smallTitle": "About Us"
+}
