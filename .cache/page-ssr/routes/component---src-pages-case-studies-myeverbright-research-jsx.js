@@ -2067,7 +2067,7 @@ const CardSortResearch = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-card-sort-study.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-medium"
   })))));
 };
@@ -2117,7 +2117,7 @@ const CompetitiveResearch = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-competitive analysis.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-large"
   })))));
 };
@@ -2160,7 +2160,7 @@ const ContextInquiresResearch = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-contextual-inquires.png",
-    alt: "image"
+    alt: " "
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContextInquiresResearch);
@@ -2227,7 +2227,7 @@ const DesignTrendsResearch = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-design-trends.png",
-    alt: "image"
+    alt: " "
   }))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DesignTrendsResearch);
@@ -2267,11 +2267,11 @@ const HeaderResearch = () => {
     className: "fc-image-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/subpage-phone-graphic.png",
-    alt: "image",
+    alt: " ",
     className: "main-head"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/subpage-header-overlay.png",
-    alt: "image",
+    alt: " ",
     className: "main-para"
   })))));
 };
@@ -2321,7 +2321,7 @@ const HeatmapResearch = () => {
     className: "col-lg-7 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-heatmap-analysis.png",
-    alt: "image",
+    alt: " ",
     className: "fc-image-container"
   })))));
 };
@@ -2371,7 +2371,7 @@ const HeuristicsResearch = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-heuristics-evaluation.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-large"
   })))));
 };
@@ -2528,7 +2528,7 @@ const HeatmapResearch = () => {
     className: "col-lg-6 valign"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-next-steps.png",
-    alt: "image"
+    alt: " "
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeatmapResearch);
@@ -2630,7 +2630,8 @@ const SolutionResearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-competitive-analysis.svg"
+    src: "/img/case-studies/research-competitive-analysis.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Competitive Analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "In-depth analysis of 9 competitors & 47 features"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2642,7 +2643,8 @@ const SolutionResearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-heuristics-evaluation.svg"
+    src: "/img/case-studies/research-heuristics-evaluation.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Heuristics Evaluation"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Analysis of existing usability & accessibility issues"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2654,7 +2656,8 @@ const SolutionResearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-heatmap-analysis.svg"
+    src: "/img/case-studies/research-heatmap-analysis.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Heatmap Analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Analysis of in-app user behavior & key interaction points"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2666,7 +2669,8 @@ const SolutionResearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-card-sort-study.svg"
+    src: "/img/case-studies/research-card-sort-study.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Card Sort Study"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Information Architecture study with internal users"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2678,7 +2682,8 @@ const SolutionResearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-design-trends-study.svg"
+    src: "/img/case-studies/research-design-trends-study.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "UX Trends Study"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Sustainable design trends discovery & analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2690,7 +2695,8 @@ const SolutionResearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-contextual-inquires.svg"
+    src: "/img/case-studies/research-contextual-inquires.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Contextual Inquires"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Series of 6 interviews & analysis of themes"))))));
@@ -2856,7 +2862,7 @@ const NavbarArch = ({
   }, "A Better Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "dropdown-item",
     href: `/case-studies/quest-for-a-clean-house`
-  }, "Chore Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cleaning Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "nav-link",

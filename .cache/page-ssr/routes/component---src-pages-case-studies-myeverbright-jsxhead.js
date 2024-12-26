@@ -2061,7 +2061,7 @@ const Feature1Main = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "img-width-medium margin-more-b",
     src: "/img/case-studies/main-creating-a-visual-language.png",
-    alt: "image"
+    alt: "Concept illustration showcasing color, elevation, and style"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2073,37 +2073,43 @@ const Feature1Main = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-inclusive-accessibility-first-design.svg"
+    src: "/img/case-studies/main-inclusive-accessibility-first-design.svg",
+    alt: " "
   })), "Inclusive and accessibility-first design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-action-oriented-color.svg"
+    src: "/img/case-studies/main-action-oriented-color.svg",
+    alt: " "
   })), "Action-oriented color use"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-elecation-depth-leveraged.svg"
+    src: "/img/case-studies/main-elecation-depth-leveraged.svg",
+    alt: " "
   })), "Elevation and depth leveraged as hierarchical queues"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-light-dark-modes.svg"
+    src: "/img/case-studies/main-light-dark-modes.svg",
+    alt: " "
   })), "Light & dark modes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-optimized-text-readability.svg"
+    src: "/img/case-studies/main-optimized-text-readability.svg",
+    alt: " "
   })), "Optimized text for readability"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-minimalist-interface-focal-points.svg"
+    src: "/img/case-studies/main-minimalist-interface-focal-points.svg",
+    alt: " "
   })), "Minimalist interface with clear focal points"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "center-small"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -2195,7 +2201,8 @@ const Feature3Main = () => {
     className: "col-lg-5 offset-lg-1 valign"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "img-width-medium mb-60",
-    src: "/img/case-studies/fc-animated-gif.gif"
+    src: "/img/case-studies/fc-animated-gif.gif",
+    alt: "isometric house with solar panel, battery, and power pole. Animated arrows depict poer flow"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-5 offset-rg-1 mb-40"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2213,7 +2220,7 @@ const Feature3Main = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "img-width-large margin-more-b",
     src: "/img/case-studies/main-real-time-power-flow.png",
-    alt: "image"
+    alt: "Two snapshots of home screen shwoing animated graphic and buttons to pay bill and view contracts"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-5 offset-rg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2225,19 +2232,22 @@ const Feature3Main = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-real-time-data-that.svg"
+    src: "/img/case-studies/main-real-time-data-that.svg",
+    alt: " "
   })), "Real-time power flow at a glance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-inclusive-accessibility-first-design.svg"
+    src: "/img/case-studies/main-inclusive-accessibility-first-design.svg",
+    alt: " "
   })), "Accessibility-focused controls"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-custom-animations.svg"
+    src: "/img/case-studies/main-custom-animations.svg",
+    alt: " "
   })), "Custom animations for every possible scenario"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "center-small"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -2289,7 +2299,7 @@ const Feature4Main = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "img-width-large margin-more-b",
     src: "/img/case-studies/main-data-monitoring-charts-1.png",
-    alt: "image"
+    alt: "two snapshots showcasing energy consumed by house as a line chart and bar chart"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-5 offset-rg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2313,7 +2323,7 @@ const Feature4Main = () => {
     className: "row mt-60"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/main-data-monitoring-charts-2.png",
-    alt: "image"
+    alt: "four datasets representing solar, battery, grid, and home consumption"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Feature4Main);
@@ -2353,11 +2363,11 @@ const HeaderMain = () => {
     className: "fc-image-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/phone-graphic-200.png",
-    alt: "image",
+    alt: " ",
     className: "main-head"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/main-header-overlay.png",
-    alt: "image",
+    alt: " ",
     className: "main-para"
   })))));
 };
@@ -2483,7 +2493,7 @@ const ProblemMain = () => {
     className: "col-lg-5 offset-lg-1 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/main-the-problem.png",
-    alt: "image",
+    alt: "snapshots of original app. Accessibility is poor and little content is shown above the fold",
     className: "img-width-medium"
   })))));
 };
@@ -2533,7 +2543,8 @@ const Services8 = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-competitive-analysis.svg"
+    src: "/img/case-studies/main-competitive-analysis.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Competitive Analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "In-depth analysis of 9 competitors & 47 features"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2547,7 +2558,8 @@ const Services8 = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-heuristics-evaluation.svg"
+    src: "/img/case-studies/main-heuristics-evaluation.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Heuristics Evaluation"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Analysis of existing usability & accessibility issues"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2561,7 +2573,8 @@ const Services8 = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-heatmap-analysis.svg"
+    src: "/img/case-studies/main-heatmap-analysis.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Heatmap Analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Analysis of in-app user behavior & key interaction points"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2575,7 +2588,8 @@ const Services8 = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-card-sort-study.svg"
+    src: "/img/case-studies/main-card-sort-study.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Card Sort Study"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Information Architecture study with internal users"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2589,7 +2603,8 @@ const Services8 = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-design-trends-study.svg"
+    src: "/img/case-studies/main-design-trends-study.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "UX Trends Study"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Sustainable design trends discovery & analysis"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2603,7 +2618,8 @@ const Services8 = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-contextual-inquires.svg"
+    src: "/img/case-studies/main-contextual-inquires.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Contextual Inquires"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Series of 6 interviews & analysis of themes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2805,7 +2821,7 @@ const RoleMain = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/main-my-role.png",
-    alt: "image"
+    alt: "product definition, research, analysis, planning and prioritization, design, testing, and handoff"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RoleMain);
@@ -2839,7 +2855,7 @@ const StrategyMain = () => {
     className: "text-center mb-60"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/main-strategy.png",
-    alt: "image",
+    alt: "Three simple wireframes depicting key features",
     className: "img-width-large"
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row justify-content-center"
@@ -2856,21 +2872,25 @@ const StrategyMain = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-information-architecture-restructure.svg"
+    src: "/img/case-studies/main-information-architecture-restructure.svg",
+    alt: " "
   })), "Information Architecture"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-new-feature-planning.svg"
+    src: "/img/case-studies/main-new-feature-planning.svg",
+    alt: " "
   })), "New Feature Planning")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-4 offset-rg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-sketches-wireframes.svg"
+    src: "/img/case-studies/main-sketches-wireframes.svg",
+    alt: " "
   })), "Sketches & Wireframes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "fc-bullet-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/main-stakeholder-review-updates.svg"
+    src: "/img/case-studies/main-stakeholder-review-updates.svg",
+    alt: " "
   })), "Stakeholder Review & Updates")))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (StrategyMain);
@@ -2988,7 +3008,7 @@ const NavbarArch = ({
   }, "A Better Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "dropdown-item",
     href: `/case-studies/quest-for-a-clean-house`
-  }, "Chore Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cleaning Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "nav-link",

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Vie',
-    description: 'Vie - Multi-Purpose React.js Gatsby Template',
-    author: 'ThemesCamp'
+    title: 'Fennec Creative',
+    description: 'Personal site of Chelsea Williams, Lead Product Designer',
+    author: 'Chelsea Williams'
   },
   plugins: [
     'gatsby-plugin-resolve-src',

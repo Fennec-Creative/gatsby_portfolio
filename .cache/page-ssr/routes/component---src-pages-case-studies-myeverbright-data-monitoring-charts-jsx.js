@@ -2060,7 +2060,7 @@ const DocumentationHandoffData = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-documentation-handoff.png",
-    alt: "image"
+    alt: "detailed hand-off showing exact specifications for touch behaviors and chart specifications"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DocumentationHandoffData);
@@ -2102,7 +2102,7 @@ const FinalIterationData = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-final-iteration.png",
-    alt: "image",
+    alt: "four snapshots of system data feature, each snapshot showcasing a different set of data",
     className: "img-width-large"
   })))));
 };
@@ -2143,11 +2143,11 @@ const HeaderData = () => {
     className: "fc-image-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/subpage-phone-graphic.png",
-    alt: "image",
+    alt: " ",
     className: "main-head"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/subpage-header-overlay.png",
-    alt: "image",
+    alt: " ",
     className: "main-para"
   })))));
 };
@@ -2192,7 +2192,7 @@ const InitialIterationData = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-initial-iterations.png",
-    alt: "image"
+    alt: "three snapshots of early design concepts"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (InitialIterationData);
@@ -2234,7 +2234,7 @@ const InitialSketchesData = () => {
     className: "col-lg-10 col-md-10 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-initial-sketches.png",
-    alt: "image"
+    alt: "simplistic pencil sketches of features and layouts"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (InitialSketchesData);
@@ -2319,7 +2319,7 @@ const KeyFeaturesData = () => {
     className: "col-lg-5 offset-rg-1 center-small"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-clear-easy.png",
-    alt: "image",
+    alt: "two snapshots showcasing clean user interface with simplified data charts that are easy to understand",
     className: "img-width-medium"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2335,7 +2335,7 @@ const KeyFeaturesData = () => {
     className: "col-lg-5 offset-rg-1 center-small"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-multiple-routes.png",
-    alt: "image",
+    alt: "A user can choose custom dates and tap on graph to get exact data points",
     className: "img-width-medium"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2351,7 +2351,7 @@ const KeyFeaturesData = () => {
     className: "col-lg-5 offset-rg-1 center-small"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-native-optimization.png",
-    alt: "image",
+    alt: "two snapshots of the same design. One uses a native ios date selector and the other android\r ",
     className: "img-width-medium"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row"
@@ -2369,7 +2369,7 @@ const KeyFeaturesData = () => {
     className: "col-lg-5 offset-rg-1 center-small"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-coloration-continuity.png",
-    alt: "image",
+    alt: "snapshots of how datasets appear with various color deficiencies",
     className: "img-width-large"
   })))));
 };
@@ -2417,7 +2417,7 @@ const NextStepsData = () => {
     className: "col-lg-6 valign"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-next-steps.png",
-    alt: "image"
+    alt: " "
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NextStepsData);
@@ -2459,7 +2459,7 @@ const ProblemData = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-problem.png",
-    alt: "image",
+    alt: "chart showing user engagement dropping quickly within first two weeks",
     className: "img-width-large"
   })))));
 };
@@ -2505,7 +2505,8 @@ const ResearchData = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-competitive-analysis.svg"
+    src: "/img/case-studies/research-competitive-analysis.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Competitive Analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "In-depth analysis of 9 competitors & 47 features"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2517,7 +2518,8 @@ const ResearchData = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-heuristics-evaluation.svg"
+    src: "/img/case-studies/research-heuristics-evaluation.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Heatmap Analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Analysis of in-app user behavior & key interaction points"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2529,7 +2531,8 @@ const ResearchData = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-contextual-inquires.svg"
+    src: "/img/case-studies/research-contextual-inquires.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Contextual Inquires"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Series of 6 interviews & analysis of themes")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2580,7 +2583,7 @@ const RoleData = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-my-role.png",
-    alt: "image"
+    alt: "Planning, UX strategy, design, testing, documentation, and handoff"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RoleData);
@@ -2622,7 +2625,7 @@ const UsabilityTestingData = () => {
     className: "col-lg-12 col-md-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/data-usability-testing.png",
-    alt: "image"
+    alt: "snapshots of three iterations, each showing a different way to explore the same dataset"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UsabilityTestingData);
@@ -2786,7 +2789,7 @@ const NavbarArch = ({
   }, "A Better Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "dropdown-item",
     href: `/case-studies/quest-for-a-clean-house`
-  }, "Chore Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cleaning Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "nav-link",

@@ -2054,7 +2054,7 @@ const AllCombinationsPower = () => {
     className: "col-lg-12"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-all-possible-combinations.png",
-    alt: "image"
+    alt: "three examples of powerflow graphic showcasing different solar system states"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AllCombinationsPower);
@@ -2098,7 +2098,7 @@ const DocumentationHandoffPower = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-documentation-handoff.png",
-    alt: "image",
+    alt: "Detailed decelopment document breaking down formula for output algorythm",
     className: "img-width-large"
   })))));
 };
@@ -2140,7 +2140,7 @@ const EarlyIterationsPower = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-early-iterations.png",
     alt: "image",
-    className: "fc-image-container"
+    className: " "
   }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (EarlyIterationsPower);
@@ -2182,7 +2182,7 @@ const FinalGraphicPower = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-final-graphic-direction.png",
-    alt: "image",
+    alt: "isometric graphic of house with solarpanels, inverter, battery, and grid",
     className: "img-width-large"
   })))));
 };
@@ -2223,7 +2223,7 @@ const FinalIterationPower = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-final-iteration.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-medium"
   })))));
 };
@@ -2266,7 +2266,7 @@ const GraphicDesignPower = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-finding-graphic-direction.png",
-    alt: "image"
+    alt: "four examples of house graphic in different illustrative styles"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GraphicDesignPower);
@@ -2306,11 +2306,11 @@ const HeaderPower = () => {
     className: "fc-image-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/subpage-phone-graphic.png",
-    alt: "image",
+    alt: " ",
     className: "main-head"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/subpage-header-overlay.png",
-    alt: "image",
+    alt: " ",
     className: "main-para"
   })))));
 };
@@ -2355,7 +2355,7 @@ const InitialIterationPower = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-initial-iterations.png",
-    alt: "image",
+    alt: "clean layouts with very simple graphics",
     className: "img-width-large"
   })))));
 };
@@ -2398,7 +2398,7 @@ const InitialSketchesPower = () => {
     className: "col-lg-10 col-md-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-initial-sketches-wireframes.png",
-    alt: "image"
+    alt: "rough pencil sketch of app layout and diagrams"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (InitialSketchesPower);
@@ -2474,33 +2474,33 @@ const KeyFeaturesPower = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-4 offset-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: "mb-20 text-center"
+    className: "mb-20"
   }, "Animated Real-Time Data Flow"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, "I optimized this feature as much as possible to ensure most users could understand their system state within 5 seconds.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-4 offset-rg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-animated-real-time-data-flow.png",
-    alt: "image"
+    alt: "Graphic is simple and uses color and contrast to highlight important information"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-4 offset-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: "mb-20 text-center margin-more-t"
+    className: "mb-20  margin-more-t"
   }, "Custom Animations "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, "I created custom animations to match each possible use case and wrote thorough documentation on how to build them.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-custom-animations.png",
-    alt: "image"
+    alt: "snapshot of dev documentation showing exact specifications for animation elements"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-4 offset-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: "mb-20 text-center margin-more-t"
+    className: "mb-20 margin-more-t"
   }, "Multiple Ways of Comprehension "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, "To make sure I was building a feature for all users, I created a dynamic written summary below the animated feature."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
@@ -2509,13 +2509,13 @@ const KeyFeaturesPower = () => {
     className: "col-lg-4 offset-rg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-multiple-ways-comprehension.png",
-    alt: "image"
+    alt: "User has a summary explaining what system is doing and can tap for more in-depth explanations"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-4 offset-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: "mb-20 text-center margin-more-t"
+    className: "mb-20 margin-more-t"
   }, "Accessibility Focused"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mb-20"
   }, "I created an oversized text guideline to make sure this feature was both readable and usable with larger fonts."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
@@ -2524,7 +2524,7 @@ const KeyFeaturesPower = () => {
     className: "col-lg-4 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-accessibility-focused.png",
-    alt: "image",
+    alt: "Home screen with font enlarged to 200%",
     className: "img-width-small"
   })))));
 };
@@ -2572,7 +2572,7 @@ const NextStepsLanguage = () => {
     className: "col-lg-6 valign"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-next-steps.png",
-    alt: "image"
+    alt: " "
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NextStepsLanguage);
@@ -2614,7 +2614,7 @@ const ProblemPower = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-problem.png",
-    alt: "image",
+    alt: "line chart showing steep decline in user engagement after two weeks",
     className: "img-width-large"
   })))));
 };
@@ -2660,7 +2660,8 @@ const ResearchPower = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-competitive-analysis.svg"
+    src: "/img/case-studies/research-competitive-analysis.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Competitive Analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "In-depth analysis of 9 competitors & 47 features"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2672,7 +2673,8 @@ const ResearchPower = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-heuristics-evaluation.svg"
+    src: "/img/case-studies/research-heuristics-evaluation.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Heatmap Analysis"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Analysis of in-app user behavior & key interaction points"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2684,7 +2686,8 @@ const ResearchPower = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/research-card-sort-study.svg"
+    src: "/img/case-studies/research-card-sort-study.svg",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Contextual Inquires"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Series of 6 interviews & analysis of themes")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2735,7 +2738,7 @@ const RolePower = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/power-role.png",
-    alt: "image"
+    alt: "Planning, UX Strategy, design, animation, testing, documentation, and handoff"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RolePower);
@@ -2948,7 +2951,7 @@ const NavbarArch = ({
   }, "A Better Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "dropdown-item",
     href: `/case-studies/quest-for-a-clean-house`
-  }, "Chore Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cleaning Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "nav-link",

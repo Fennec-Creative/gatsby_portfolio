@@ -1045,15 +1045,15 @@ react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
   key: "keywords",
   name: "keywords",
-  content: "React Gatsby Template Vie Multi-Purpose themeforest"
+  content: "Product Designer UX UI Lead Fennec Creative Chelsea Williams"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
   key: "description",
   name: "description",
-  content: "Vie - Onepage Multi-Purpose React Gatsby Template"
+  content: "Fennec Creative - Personal Website of Chelsea Williams"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
   key: "author",
   name: "author",
-  content: "ThemesCamp"
+  content: "Chelsea Williams"
 }),
 /*#__PURE__*/
 // Google Fonts

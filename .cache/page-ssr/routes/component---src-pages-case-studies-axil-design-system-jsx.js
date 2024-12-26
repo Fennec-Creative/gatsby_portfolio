@@ -2056,7 +2056,7 @@ const ConclusionAxil = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-conclusion.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-large"
   })))));
 };
@@ -2102,7 +2102,8 @@ const DesignPrinciplesAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/axil-hicks-law.png"
+    src: "/img/case-studies/axil-hicks-law.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
@@ -2118,7 +2119,8 @@ const DesignPrinciplesAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/axil-teslers-law.png"
+    src: "/img/case-studies/axil-teslers-law.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
@@ -2134,7 +2136,8 @@ const DesignPrinciplesAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/axil-postels-law.png"
+    src: "/img/case-studies/axil-postels-law.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
@@ -2187,7 +2190,8 @@ const ExperienceAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/axil-world-wide-technology.png"
+    src: "/img/case-studies/axil-world-wide-technology.png",
+    alt: "World Wide Technology Logo"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2201,7 +2205,8 @@ const ExperienceAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/axil-mayo-clinic.png"
+    src: "/img/case-studies/axil-mayo-clinic.png",
+    alt: "Mayo Clinic logo"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2209,7 +2214,8 @@ const ExperienceAxil = () => {
   }, "Mayo Clinic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "fc-block-icon-p"
   }, "Design System team instructional support & mentorship"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "col-lg-4 col-md-6 text-center"
+    className: "col-lg-4 col-md-6 text-center",
+    alt: "EverBright logo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mb-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2269,7 +2275,7 @@ const FeatureBreakdownAxil = () => {
     className: "col-lg-4 offset-rg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-foundations.png",
-    alt: "image"
+    alt: "View of typography, spacing, and elevation"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2285,7 +2291,7 @@ const FeatureBreakdownAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-optimized-components.png",
     alt: "image",
-    className: "img-width-medium"
+    className: "Full-width button and icon-only button share the same component"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2300,7 +2306,7 @@ const FeatureBreakdownAxil = () => {
     className: "col-lg-4 offset-rg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-future-proofing.png",
-    alt: "image"
+    alt: "design system colors and states"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2315,7 +2321,7 @@ const FeatureBreakdownAxil = () => {
     className: "col-lg-4 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-wireframe-mode.png",
-    alt: "image",
+    alt: "wireframe mode example",
     className: "img-width-small"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2331,7 +2337,7 @@ const FeatureBreakdownAxil = () => {
     className: "col-lg-4 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-naming-conventions.png",
-    alt: "image",
+    alt: "order of operations is category, component, type, variant, than state",
     className: "img-width-small"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2347,7 +2353,7 @@ const FeatureBreakdownAxil = () => {
     className: "col-lg-4 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-accessibility-section.png",
-    alt: "image",
+    alt: "Example of accessibility indicators",
     className: "img-width-medium"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2363,7 +2369,7 @@ const FeatureBreakdownAxil = () => {
     className: "col-lg-4 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-basic-documentation.png",
-    alt: "image",
+    alt: "Getting started documentation for new users",
     className: "img-width-medium"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2379,7 +2385,7 @@ const FeatureBreakdownAxil = () => {
     className: "col-lg-4 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-token-system.png",
-    alt: "image",
+    alt: "Example of token system organized by value, core, alias, then component",
     className: "img-width-small"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row"
@@ -2393,7 +2399,7 @@ const FeatureBreakdownAxil = () => {
     className: "col-lg-4 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-feedback.png",
-    alt: "image",
+    alt: "Example of feedback form",
     className: "img-width-small"
   })))));
 };
@@ -2436,7 +2442,7 @@ const HeaderAxil = () => {
     className: "sub-para-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-header-image.png",
-    alt: "image",
+    alt: " ",
     className: "sub-para mt-10"
   })))));
 };
@@ -2516,7 +2522,7 @@ const IntroducingAxil = () => {
     className: "col-lg-5 offset-rg-1 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-introducing-axil.png",
-    alt: "image",
+    alt: "Axil logo",
     className: "img-width-small"
   })))));
 };
@@ -2666,7 +2672,8 @@ const ProblemAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/axil-poor-adoption.png"
+    src: "/img/case-studies/axil-poor-adoption.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2682,7 +2689,8 @@ const ProblemAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/axil-endless-design-debt.png"
+    src: "/img/case-studies/axil-endless-design-debt.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2698,7 +2706,8 @@ const ProblemAxil = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/axil-developer-hesitancy.png"
+    src: "/img/case-studies/axil-developer-hesitancy.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2758,7 +2767,7 @@ const ResearchAxil = () => {
     className: "col-lg-4 offset-rg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-internal-data.png",
-    alt: "image"
+    alt: " "
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2783,7 +2792,7 @@ const ResearchAxil = () => {
     className: "col-lg-4 offset-rg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-learning-best.png",
-    alt: "image"
+    alt: " "
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2798,7 +2807,7 @@ const ResearchAxil = () => {
     className: "col-lg-4 offset-rg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-accessibility.png",
-    alt: "image"
+    alt: " "
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ResearchAxil);
@@ -2830,7 +2839,7 @@ const WhoBuiltAxil = () => {
     className: "col-lg-6 valign text-center margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/axil-who-built-for.png",
-    alt: "image"
+    alt: "two user personas showcasing a front-end developer and ux designer"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3002,7 +3011,7 @@ const NavbarArch = ({
   }, "A Better Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "dropdown-item",
     href: `/case-studies/quest-for-a-clean-house`
-  }, "Chore Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cleaning Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "nav-link",

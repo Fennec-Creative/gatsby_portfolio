@@ -2093,7 +2093,7 @@ const FinalDesign = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-final-design.png",
-    alt: "image"
+    alt: "colorful game board with playing pieces and cards featuring chore lists"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FinalDesign);
@@ -2127,11 +2127,11 @@ const HeaderQuest = () => {
     className: "sec-head text-center mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", {
     className: "mb-20"
-  }, "Case Study - 2020"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Quest for a Clean House")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Case Study - 2020"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Cleaning Quest")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row justify-content-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-header.png",
-    alt: "image"
+    alt: " "
   }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeaderQuest);
@@ -2171,7 +2171,7 @@ const InitialSketches = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-initial-sketches.png",
-    alt: "image"
+    alt: "simple sketches of cards, board, and chore logic"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (InitialSketches);
@@ -2265,7 +2265,7 @@ const KeyFeatures = ({
     className: "col-lg-4 offset-rg-1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-curated-to-bring-joy.png",
-    alt: "image",
+    alt: "custom illustration of a wizard",
     className: "img-width-medium"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2281,7 +2281,7 @@ const KeyFeatures = ({
     className: "col-lg-5 offset-rg-1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-points-for-success.png",
-    alt: "image",
+    alt: "Chore list showing daily, weekly, and monthly chores",
     className: "img-width-medium"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2297,7 +2297,7 @@ const KeyFeatures = ({
     className: "col-lg-5 offset-rg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-shared-accountability.png",
-    alt: "image"
+    alt: "four cards, each showcasing a boss with a number of assigned experience points"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2310,7 +2310,7 @@ const KeyFeatures = ({
     className: "col-lg-4 offset-rg-1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-reward-for-victory.png",
-    alt: "image",
+    alt: "victory badge",
     className: "img-width-medium"
   })))));
 };
@@ -2356,7 +2356,8 @@ const KeyUxPrinciples = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/quest-goal-gradient.png"
+    src: "/img/case-studies/quest-goal-gradient.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2372,7 +2373,8 @@ const KeyUxPrinciples = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/quest-teslers.png"
+    src: "/img/case-studies/quest-teslers.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2388,7 +2390,8 @@ const KeyUxPrinciples = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/quest-postal.png"
+    src: "/img/case-studies/quest-postal.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2406,7 +2409,8 @@ const KeyUxPrinciples = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/quest-postal.png"
+    src: "/img/case-studies/quest-postal.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2422,7 +2426,8 @@ const KeyUxPrinciples = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/quest-cognitive.png"
+    src: "/img/case-studies/quest-cognitive.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2438,7 +2443,8 @@ const KeyUxPrinciples = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/quest-peak-end-rule.png"
+    src: "/img/case-studies/quest-peak-end-rule.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2490,7 +2496,7 @@ const MeetTheUsers = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-users.png",
-    alt: "image"
+    alt: "Two user personas, one for myself and one for my husband, Andrew"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MeetTheUsers);
@@ -2532,7 +2538,7 @@ const OctalysisQuest = () => {
     className: "col-lg-10 col-md-10 mt-30 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-octalysis-framework.png",
-    alt: "image",
+    alt: "octalysis framework template customized to fit my project",
     className: "fc-image-container"
   })))));
 };
@@ -2575,7 +2581,7 @@ const ProblemQuest = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-problem.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-medium"
   })))));
 };
@@ -2616,7 +2622,7 @@ const ProtoJourney = () => {
     className: "col-lg-7 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-proto.png",
-    alt: "image"
+    alt: "section from custom proto-journey document"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProtoJourney);
@@ -2778,7 +2784,7 @@ const UserTesting = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-user-testing.png",
-    alt: "image",
+    alt: "wireframe images taped to our refridgerator",
     className: "img-width-large"
   })))));
 };
@@ -2819,7 +2825,7 @@ const WireframesQuest = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/quest-wireframes.png",
-    alt: "image"
+    alt: "hi-fidelity wireframes showcasing key game features"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (WireframesQuest);
@@ -2983,7 +2989,7 @@ const NavbarArch = ({
   }, "A Better Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "dropdown-item",
     href: `/case-studies/quest-for-a-clean-house`
-  }, "Chore Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cleaning Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "nav-link",

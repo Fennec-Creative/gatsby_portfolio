@@ -2102,7 +2102,7 @@ const AnalysisSearch = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-analysis.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-large"
   })))));
 };
@@ -2143,7 +2143,7 @@ const ConclusionSearch = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-conclusion.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-medium"
   })))));
 };
@@ -2189,7 +2189,8 @@ const DesignPrinciplesSearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/search-hicks.png"
+    src: "/img/case-studies/search-hicks.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2205,7 +2206,8 @@ const DesignPrinciplesSearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/search-teslers.png"
+    src: "/img/case-studies/search-teslers.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2221,7 +2223,8 @@ const DesignPrinciplesSearch = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "fc-block-icon mb-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/img/case-studies/search-jakobs.png"
+    src: "/img/case-studies/search-jakobs.png",
+    alt: " "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-tit"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
@@ -2271,7 +2274,7 @@ const FinalDesignSearch = () => {
     className: "col-lg-10 col-md-10 mt-30 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-final-design.png",
-    alt: "image",
+    alt: "Home screen showing four destinct search fields: name, location, and insurance provider. ",
     className: "img-width-medium"
   })))));
 };
@@ -2316,7 +2319,7 @@ const FinalDetailsSearch = () => {
     className: "col-lg-4 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-auto-fill.png",
-    alt: "image",
+    alt: "autofill works for letters in key terms and zip codes",
     className: "img-width-large"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-100"
@@ -2330,7 +2333,7 @@ const FinalDetailsSearch = () => {
     className: "col-lg-3 offset-rg-2 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-eliminating-ambiguity.png",
-    alt: "image",
+    alt: "three separate fields for doctor name or specialty, location, and insurance provider",
     className: "img-width-small"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row"
@@ -2344,7 +2347,7 @@ const FinalDetailsSearch = () => {
     className: "col-lg-4 offset-rg-2 "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-intentional-constraints.png",
-    alt: "image"
+    alt: " "
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FinalDetailsSearch);
@@ -2384,7 +2387,7 @@ const FinalFlowSearch = () => {
     className: "col-lg-10 col-md-10 mt-30 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-final-flow.png",
-    alt: "image"
+    alt: "From the home screen, user fills in name of provider, address, and insurance. Final results shows all relevent providers"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FinalFlowSearch);
@@ -2424,7 +2427,7 @@ const HeaderSearch = () => {
     className: "fc-image-container search-colors"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-hero.png",
-    alt: "image",
+    alt: " ",
     className: "fc-axil-container"
   })))));
 };
@@ -2463,7 +2466,7 @@ const InitialSketchesSearch = () => {
     className: "col-lg-10 col-md-10 mt-30 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-initial-sketches.png",
-    alt: "image",
+    alt: "simple pencil sketches of interface",
     className: "search-wireframes"
   })))));
 };
@@ -2720,7 +2723,7 @@ const ProblemSearch = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-problem.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-medium"
   })))));
 };
@@ -2792,7 +2795,7 @@ const ResultsSearch = () => {
     className: "col-lg-5 offset-rg-1 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-results.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-small"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80 justify-content-center"
@@ -2800,7 +2803,7 @@ const ResultsSearch = () => {
     className: "col-lg-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-result-1.png",
-    alt: "image"
+    alt: " "
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80 justify-content-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2811,7 +2814,7 @@ const ResultsSearch = () => {
     className: "col-lg-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-result2.png",
-    alt: "image"
+    alt: " "
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row justify-content-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2861,7 +2864,7 @@ const UserzoomSearch = () => {
     className: "col-lg-3 offset-rg-2 text-center margin-more-t"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-userzoom.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-small"
   })))));
 };
@@ -2902,7 +2905,7 @@ const WireframesSearch = () => {
     className: "col-lg-10 col-md-10 mt-30 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/search-wireframes.png",
-    alt: "image",
+    alt: "high-fi wireframes depecting feature flow",
     className: "fc-image-container"
   })))));
 };
@@ -3021,7 +3024,7 @@ const NavbarArch = ({
   }, "A Better Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "dropdown-item",
     href: `/case-studies/quest-for-a-clean-house`
-  }, "Chore Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cleaning Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "nav-link",

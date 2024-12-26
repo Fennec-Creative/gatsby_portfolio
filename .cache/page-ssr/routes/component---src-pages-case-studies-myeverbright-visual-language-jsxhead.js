@@ -2083,7 +2083,7 @@ const DesignTrendsResearch = () => {
     className: "col-lg-10 col-md-10 mt-30"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/research-design-trends.png",
-    alt: "image"
+    alt: " "
   }))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DesignTrendsResearch);
@@ -2123,7 +2123,7 @@ const EarlyIterationsLanguage = () => {
     className: "row justify-content-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-early-iterations.png",
-    alt: "image"
+    alt: "four iterations of design, each more polished"
   }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (EarlyIterationsLanguage);
@@ -2175,7 +2175,7 @@ const FinalDirectionLanguage = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-final-direction.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-large"
   })))));
 };
@@ -2269,11 +2269,11 @@ const HeaderLanguage = () => {
     className: "fc-image-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/subpage-phone-graphic.png",
-    alt: "image",
+    alt: " ",
     className: "main-head"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/subpage-header-overlay.png",
-    alt: "image",
+    alt: " ",
     className: "main-para"
   })))));
 };
@@ -2316,7 +2316,7 @@ const IdeationWorkshopLanguage = () => {
     className: "col-lg-12"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-ideation-workshop.png",
-    alt: "image"
+    alt: " "
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IdeationWorkshopLanguage);
@@ -2413,7 +2413,7 @@ const KeyFeaturesLanguage = () => {
     className: "col-lg-3 offset-rg-2 text-center margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-accessibility-first-design.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-small"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80"
@@ -2437,7 +2437,7 @@ const KeyFeaturesLanguage = () => {
     className: "col-lg-3 offset-rg-2 text-center margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-minimalism.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-small"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80"
@@ -2451,7 +2451,7 @@ const KeyFeaturesLanguage = () => {
     className: "col-lg-4 offset-rg-2 mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-action-oriented.png",
-    alt: "image"
+    alt: " "
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2464,7 +2464,7 @@ const KeyFeaturesLanguage = () => {
     className: "col-lg-7 offset-lg-2 mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-elevation-depth.png",
-    alt: "image"
+    alt: "levels are sunken, flat, low, mid, high, and highest"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-80"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -2485,7 +2485,7 @@ const KeyFeaturesLanguage = () => {
     className: "col-lg-3 offset-rg-2 text-center margin-more-b"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-light-dark.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-small"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row mb-40"
@@ -2499,7 +2499,7 @@ const KeyFeaturesLanguage = () => {
     className: "col-lg-7 offset-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-text-optimization.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-large"
   })))));
 };
@@ -2545,7 +2545,7 @@ const NextStepsLanguage = () => {
     className: "col-lg-5 valign"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-next-steps.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-medium"
   })))));
 };
@@ -2600,7 +2600,7 @@ const ProcessOverviewLanguage = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-process-overview.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-medium"
   })))));
 };
@@ -2653,7 +2653,7 @@ const ProductDefinitionLanguage = () => {
     className: "col-lg-6 valign text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-product-definition.png",
-    alt: "image",
+    alt: " ",
     className: "img-width-large"
   })))));
 };
@@ -2700,7 +2700,7 @@ const WireframesExplorationLanguage = () => {
     className: "col-lg-10 col-md-10 mt-30 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/case-studies/language-wireframes-exploration.png",
-    alt: "image",
+    alt: "low-fi wireframes showing key app features",
     className: "img-width-large"
   })))));
 };
@@ -2865,7 +2865,7 @@ const NavbarArch = ({
   }, "A Better Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "dropdown-item",
     href: `/case-studies/quest-for-a-clean-house`
-  }, "Chore Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cleaning Quest"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "nav-link",
