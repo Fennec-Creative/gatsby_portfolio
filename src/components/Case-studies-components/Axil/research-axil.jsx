@@ -26,7 +26,7 @@ const ResearchAxil = () => {
               </div>
             </div>
             <div className="col-lg-4 offset-rg-2">
-              <img src="/img/case-studies/axil-internal-data.png" alt="image" />
+              <img src="/img/case-studies/axil-internal-data.png" alt=" " />
             </div>
           </div>
 
@@ -49,7 +49,7 @@ const ResearchAxil = () => {
               </div>
             </div>
             <div className="col-lg-4 offset-rg-2">
-              <img src="/img/case-studies/axil-learning-best.png" alt="image" />
+              <img src="/img/case-studies/axil-learning-best.png" alt=" " />
             </div>
           </div>
 
@@ -64,7 +64,7 @@ const ResearchAxil = () => {
               </p>
             </div>
             <div className="col-lg-4 offset-rg-2">
-              <img src="/img/case-studies/axil-accessibility.png" alt="image" />
+              <img src="/img/case-studies/axil-accessibility.png" alt=" " />
             </div>
           </div>
 

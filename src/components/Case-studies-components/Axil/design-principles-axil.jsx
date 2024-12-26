@@ -18,7 +18,7 @@ const DesignPrinciplesAxil = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-hicks-law.png" />
+                  <img src="/img/case-studies/axil-hicks-law.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h4 className="mb-10">Hick’s Law</h4>
@@ -33,7 +33,7 @@ const DesignPrinciplesAxil = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-teslers-law.png" />
+                  <img src="/img/case-studies/axil-teslers-law.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h4 className="mb-10">Tesler’s Law</h4>
@@ -48,7 +48,7 @@ const DesignPrinciplesAxil = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-postels-law.png" />
+                  <img src="/img/case-studies/axil-postels-law.png" alt=" "/>
                 </div>
                 <div className="text-tit">
                   <h4 className="mb-10">Postel’s Law</h4>

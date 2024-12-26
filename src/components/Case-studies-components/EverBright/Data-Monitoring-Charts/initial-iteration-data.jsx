@@ -18,7 +18,7 @@ const InitialIterationData = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/data-initial-iterations.png" alt="image"/>
+              <img src="/img/case-studies/data-initial-iterations.png" alt="three snapshots of early design concepts"/>
             </div>
           </div>
         </div>

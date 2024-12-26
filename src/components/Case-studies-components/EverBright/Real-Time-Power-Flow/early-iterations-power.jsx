@@ -16,7 +16,7 @@ const EarlyIterationsPower = () => {
         </div>
       </div>
       <div className="row justify-content-center">
-          <img src="/img/case-studies/power-early-iterations.png" alt="image" className="fc-image-container" />
+          <img src="/img/case-studies/power-early-iterations.png" alt="image" className=" " />
         </div>
     </div>
   </section>

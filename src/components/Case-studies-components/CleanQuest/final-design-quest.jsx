@@ -17,7 +17,7 @@ const FinalDesign = () => {
           </div>
           <div className="row justify-content-center mb-30">
             <div className="col-lg-10 col-md-10 mt-30">
-              <img src="/img/case-studies/quest-final-design.png" alt="image" />
+              <img src="/img/case-studies/quest-final-design.png" alt="colorful game board with playing pieces and cards featuring chore lists" />
             </div>
           </div>
         </div>

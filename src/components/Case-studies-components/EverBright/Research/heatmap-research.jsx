@@ -23,7 +23,7 @@ const HeatmapResearch = () => {
               </div>
             </div>
             <div className="col-lg-7 valign text-center">
-              <img src="/img/case-studies/research-heatmap-analysis.png" alt="image" className="fc-image-container"/>
+              <img src="/img/case-studies/research-heatmap-analysis.png" alt=" " className="fc-image-container"/>
             </div>
           </div>
         </div>

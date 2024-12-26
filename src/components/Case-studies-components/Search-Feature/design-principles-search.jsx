@@ -18,7 +18,7 @@ const DesignPrinciplesSearch = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/search-hicks.png" />
+                  <img src="/img/case-studies/search-hicks.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Hick’s Law</h5>
@@ -33,7 +33,7 @@ const DesignPrinciplesSearch = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/search-teslers.png" />
+                  <img src="/img/case-studies/search-teslers.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Tesler’s Law</h5>
@@ -48,7 +48,7 @@ const DesignPrinciplesSearch = () => {
             <div className="mb-60">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/search-jakobs.png" />
+                  <img src="/img/case-studies/search-jakobs.png" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5 className="mb-10">Jakob's Law</h5>

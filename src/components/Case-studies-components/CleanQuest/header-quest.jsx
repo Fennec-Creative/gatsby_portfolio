@@ -10,12 +10,12 @@ const HeaderQuest = () => {
             <h6 className="mb-20">
               Case Study - 2020
             </h6>
-            <h1>Quest for a Clean House</h1>
+            <h1>Cleaning Quest</h1>
           </div>
         </div>
       </div>
       <div className="row justify-content-center">
-            <img src="/img/case-studies/quest-header.png" alt="image" />
+            <img src="/img/case-studies/quest-header.png" alt=" " />
       </div>
     </div>
   </header>

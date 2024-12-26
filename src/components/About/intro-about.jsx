@@ -7,7 +7,7 @@ const IntroAbout = () => {
         <div className="row">
           <div className="col-lg-6 text-center">
           <div className="img img-width-medium ">
-              <img src="/img/fc-avatar.svg" />
+              <img src="/img/fc-avatar.svg" alt=" "/>
             </div>
           </div>
 

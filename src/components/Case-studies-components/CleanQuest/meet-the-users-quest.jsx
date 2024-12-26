@@ -17,7 +17,7 @@ const MeetTheUsers = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30">
-              <img src="/img/case-studies/quest-users.png" alt="image" />
+              <img src="/img/case-studies/quest-users.png" alt="Two user personas, one for myself and one for my husband, Andrew" />
             </div>
           </div>
         </div>

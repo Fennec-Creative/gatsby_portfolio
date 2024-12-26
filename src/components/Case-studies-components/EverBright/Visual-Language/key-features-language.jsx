@@ -34,7 +34,7 @@ const KeyFeaturesLanguage = () => {
               </div>
             </div>
             <div className="col-lg-3 offset-rg-2 text-center margin-more-b">
-              <img src="/img/case-studies/language-accessibility-first-design.png" alt="image" className="img-width-small" />
+              <img src="/img/case-studies/language-accessibility-first-design.png" alt=" " className="img-width-small" />
             </div>
           </div>
 
@@ -56,7 +56,7 @@ const KeyFeaturesLanguage = () => {
               </div>
             </div>
             <div className="col-lg-3 offset-rg-2 text-center margin-more-b">
-              <img src="/img/case-studies/language-minimalism.png" alt="image" className="img-width-small" />
+              <img src="/img/case-studies/language-minimalism.png" alt=" " className="img-width-small" />
             </div>
           </div>
 
@@ -68,7 +68,7 @@ const KeyFeaturesLanguage = () => {
               </p>
             </div>
             <div className="col-lg-4 offset-rg-2 mb-80">
-              <img src="/img/case-studies/language-action-oriented.png" alt="image" />
+              <img src="/img/case-studies/language-action-oriented.png" alt=" " />
             </div>
           </div>
 
@@ -80,7 +80,7 @@ const KeyFeaturesLanguage = () => {
               </p>
             </div>
             <div className="col-lg-7 offset-lg-2 mb-80">
-              <img src="/img/case-studies/language-elevation-depth.png" alt="image" />
+              <img src="/img/case-studies/language-elevation-depth.png" alt="levels are sunken, flat, low, mid, high, and highest" />
             </div>
           </div>
 
@@ -99,7 +99,7 @@ const KeyFeaturesLanguage = () => {
               </div>
             </div>
             <div className="col-lg-3 offset-rg-2 text-center margin-more-b">
-              <img src="/img/case-studies/language-light-dark.png" alt="image" className="img-width-small"/>
+              <img src="/img/case-studies/language-light-dark.png" alt=" " className="img-width-small"/>
             </div>
           </div>
 
@@ -111,7 +111,7 @@ const KeyFeaturesLanguage = () => {
               </p>
             </div>
             <div className="col-lg-7 offset-lg-2">
-              <img src="/img/case-studies/language-text-optimization.png" alt="image" className="img-width-large" />
+              <img src="/img/case-studies/language-text-optimization.png" alt=" " className="img-width-large" />
             </div>
           </div>
 

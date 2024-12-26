@@ -24,7 +24,7 @@ const ExperienceAxil = () => {
             <div >
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-world-wide-technology.png" />
+                  <img src="/img/case-studies/axil-world-wide-technology.png" alt="World Wide Technology Logo" />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">World Wide Technology</h5>
@@ -39,7 +39,7 @@ const ExperienceAxil = () => {
             <div>
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-mayo-clinic.png" />
+                  <img src="/img/case-studies/axil-mayo-clinic.png" alt="Mayo Clinic logo"/>
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Mayo Clinic</h5>
@@ -50,7 +50,7 @@ const ExperienceAxil = () => {
               </div>
             </div>
             </div>
-            <div className="col-lg-4 col-md-6 text-center">
+            <div className="col-lg-4 col-md-6 text-center" alt="EverBright logo">
             <div>
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >

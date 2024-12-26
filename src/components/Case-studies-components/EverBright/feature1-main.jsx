@@ -15,7 +15,7 @@ const Feature1Main = () => {
         </div>
           <div className="row">
           <div className="col-lg-5 offset-lg-1 valign">
-            <img className="img-width-medium margin-more-b" src="/img/case-studies/main-creating-a-visual-language.png" alt="image" />
+            <img className="img-width-medium margin-more-b" src="/img/case-studies/main-creating-a-visual-language.png" alt="Concept illustration showcasing color, elevation, and style" />
             </div>
             <div className="col-lg-6">
               <div className="mb-20">
@@ -24,37 +24,37 @@ const Feature1Main = () => {
                 </h3>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-inclusive-accessibility-first-design.svg" />
+                    <img src="/img/case-studies/main-inclusive-accessibility-first-design.svg" alt=" " />
                   </span>
                 Inclusive and accessibility-first design
                 </p>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-action-oriented-color.svg" />
+                    <img src="/img/case-studies/main-action-oriented-color.svg" alt=" " />
                   </span>
                 Action-oriented color use 
                 </p>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-elecation-depth-leveraged.svg" />
+                    <img src="/img/case-studies/main-elecation-depth-leveraged.svg" alt=" " />
                   </span>
                 Elevation and depth leveraged as hierarchical queues
                 </p>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-light-dark-modes.svg" />
+                    <img src="/img/case-studies/main-light-dark-modes.svg" alt=" " />
                   </span>
                 Light & dark modes
                 </p>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-optimized-text-readability.svg" />
+                    <img src="/img/case-studies/main-optimized-text-readability.svg" alt=" " />
                   </span>
                 Optimized text for readability 
                 </p>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-minimalist-interface-focal-points.svg" />
+                    <img src="/img/case-studies/main-minimalist-interface-focal-points.svg" alt=" " />
                   </span>
                 Minimalist interface with clear focal points 
                 </p>

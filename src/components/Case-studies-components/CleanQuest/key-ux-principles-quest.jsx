@@ -18,7 +18,7 @@ const KeyUxPrinciples = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/quest-goal-gradient.png" />
+                  <img src="/img/case-studies/quest-goal-gradient.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Goal-Gradient Effect</h5>
@@ -33,7 +33,7 @@ const KeyUxPrinciples = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/quest-teslers.png" />
+                  <img src="/img/case-studies/quest-teslers.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Tesler’s Law</h5>
@@ -48,7 +48,7 @@ const KeyUxPrinciples = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/quest-postal.png" />
+                  <img src="/img/case-studies/quest-postal.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Postel’s Law</h5>
@@ -67,7 +67,7 @@ const KeyUxPrinciples = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/quest-postal.png" />
+                  <img src="/img/case-studies/quest-postal.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Flow</h5>
@@ -82,7 +82,7 @@ const KeyUxPrinciples = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/quest-cognitive.png" />
+                  <img src="/img/case-studies/quest-cognitive.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Cognitive Load</h5>
@@ -97,7 +97,7 @@ const KeyUxPrinciples = () => {
             <div className="mb-60">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/quest-peak-end-rule.png" />
+                  <img src="/img/case-studies/quest-peak-end-rule.png" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5 className="mb-10">Peak-End Rule</h5>

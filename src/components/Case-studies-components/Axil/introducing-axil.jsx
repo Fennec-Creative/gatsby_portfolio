@@ -19,7 +19,7 @@ const IntroducingAxil = () => {
               </div>
             </div>
             <div className="col-lg-5 offset-rg-1 valign text-center">
-              <img src="/img/case-studies/axil-introducing-axil.png" alt="image" className="img-width-small"/>
+              <img src="/img/case-studies/axil-introducing-axil.png" alt="Axil logo" className="img-width-small"/>
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const ContextInquiresResearch = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30">
-              <img src="/img/case-studies/research-contextual-inquires.png" alt="image" />
+              <img src="/img/case-studies/research-contextual-inquires.png" alt=" " />
             </div>
           </div>
         </div>

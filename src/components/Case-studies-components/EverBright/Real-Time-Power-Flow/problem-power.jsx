@@ -19,7 +19,7 @@ const ProblemPower = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/power-problem.png" alt="image" className="img-width-large"/>
+              <img src="/img/case-studies/power-problem.png" alt="line chart showing steep decline in user engagement after two weeks" className="img-width-large"/>
             </div>
           </div>
         </div>

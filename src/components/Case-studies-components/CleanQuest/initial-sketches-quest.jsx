@@ -14,7 +14,7 @@ const InitialSketches = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30">
-              <img src="/img/case-studies/quest-initial-sketches.png" alt="image" />
+              <img src="/img/case-studies/quest-initial-sketches.png" alt="simple sketches of cards, board, and chore logic" />
             </div>
           </div>
         </div>

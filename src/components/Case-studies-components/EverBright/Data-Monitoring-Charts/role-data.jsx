@@ -14,7 +14,7 @@ const RoleData = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30">
-              <img src="/img/case-studies/data-my-role.png" alt="image" />
+              <img src="/img/case-studies/data-my-role.png" alt="Planning, UX strategy, design, testing, documentation, and handoff" />
             </div>
           </div>
         </div>

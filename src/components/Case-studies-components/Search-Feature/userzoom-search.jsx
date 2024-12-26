@@ -22,7 +22,7 @@ const UserzoomSearch = () => {
               </p>
             </div>
             <div className="col-lg-3 offset-rg-2 text-center margin-more-t">
-              <img src="/img/case-studies/search-userzoom.png" alt="image" className="img-width-small" />
+              <img src="/img/case-studies/search-userzoom.png" alt=" " className="img-width-small" />
             </div>
           </div>
 

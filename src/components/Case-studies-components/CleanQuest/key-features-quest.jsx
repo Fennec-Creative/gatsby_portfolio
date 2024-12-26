@@ -28,7 +28,7 @@ const KeyFeatures = ({ style, lines }) => {
               </p>
             </div>
             <div className="col-lg-4 offset-rg-1 text-center">
-              <img src="/img/case-studies/quest-curated-to-bring-joy.png" alt="image" className="img-width-medium" />
+              <img src="/img/case-studies/quest-curated-to-bring-joy.png" alt="custom illustration of a wizard" className="img-width-medium" />
             </div>
           </div>
 
@@ -43,7 +43,7 @@ const KeyFeatures = ({ style, lines }) => {
               </p>
             </div>
             <div className="col-lg-5 offset-rg-1 text-center">
-              <img src="/img/case-studies/quest-points-for-success.png" alt="image" className="img-width-medium" />
+              <img src="/img/case-studies/quest-points-for-success.png" alt="Chore list showing daily, weekly, and monthly chores" className="img-width-medium" />
             </div>
           </div>
 
@@ -58,7 +58,7 @@ const KeyFeatures = ({ style, lines }) => {
               </p>
             </div>
             <div className="col-lg-5 offset-rg-1">
-              <img src="/img/case-studies/quest-shared-accountability.png" alt="image" />
+              <img src="/img/case-studies/quest-shared-accountability.png" alt="four cards, each showcasing a boss with a number of assigned experience points" />
             </div>
           </div>
 
@@ -71,7 +71,7 @@ const KeyFeatures = ({ style, lines }) => {
               <p>Typically we chose rewards that were fun for both of us - such as a nice date night for two where the winner gets to pick the restaurant. </p>
             </div>
             <div className="col-lg-4 offset-rg-1 text-center">
-              <img src="/img/case-studies/quest-reward-for-victory.png" alt="image" className="img-width-medium"/>
+              <img src="/img/case-studies/quest-reward-for-victory.png" alt="victory badge" className="img-width-medium"/>
             </div>
           </div>
 

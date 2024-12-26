@@ -22,7 +22,7 @@ const DocumentationHandoffData = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/data-documentation-handoff.png" alt="image"/>
+              <img src="/img/case-studies/data-documentation-handoff.png" alt="detailed hand-off showing exact specifications for touch behaviors and chart specifications"/>
             </div>
           </div>
         </div>

@@ -64,7 +64,7 @@ const NavbarArch = ({ navbarRef, theme }) => {
                   className="dropdown-item"
                   href={`/case-studies/quest-for-a-clean-house`}
                 >
-                  Chore Quest
+                  Cleaning Quest
                 </a>
                 
               </div>

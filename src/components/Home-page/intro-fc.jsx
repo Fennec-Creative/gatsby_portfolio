@@ -24,7 +24,7 @@ const IntroFC = ({ sliderRef, blackStar }) => {
         <div className="row">
           <div className="col-lg-6 valign margin-more-b margin-more-t">
           <div className="img ">
-              <img src="/img/fc-fennec-fox.svg" />
+              <img src="/img/fc-fennec-fox.svg" alt=" " />
             </div>
           </div>
 

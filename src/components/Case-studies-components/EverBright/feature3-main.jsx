@@ -26,7 +26,7 @@ const Feature3Main = () => {
         </div>
         <div className="row">
           <div className="col-lg-5 offset-lg-1 valign">
-          <img className="img-width-medium mb-60" src="/img/case-studies/fc-animated-gif.gif" />
+          <img className="img-width-medium mb-60" src="/img/case-studies/fc-animated-gif.gif" alt="isometric house with solar panel, battery, and power pole. Animated arrows depict poer flow" />
             </div>
             <div className="col-lg-5 offset-rg-1 mb-40">
               <div className="mb-20">
@@ -44,7 +44,7 @@ const Feature3Main = () => {
         </div>
         <div className="row">
           <div className="col-lg-5 offset-lg-1 valign">
-            <img className="img-width-large margin-more-b" src="/img/case-studies/main-real-time-power-flow.png" alt="image" />
+            <img className="img-width-large margin-more-b" src="/img/case-studies/main-real-time-power-flow.png" alt="Two snapshots of home screen shwoing animated graphic and buttons to pay bill and view contracts" />
             </div>
             <div className="col-lg-5 offset-rg-1">
               <div className="mb-20">
@@ -53,19 +53,19 @@ const Feature3Main = () => {
                 </h3>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                  <img src="/img/case-studies/main-real-time-data-that.svg" />
+                  <img src="/img/case-studies/main-real-time-data-that.svg" alt=" " />
                 </span>
                   Real-time power flow at a glance
                 </p>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                  <img src="/img/case-studies/main-inclusive-accessibility-first-design.svg" />
+                  <img src="/img/case-studies/main-inclusive-accessibility-first-design.svg" alt=" " />
                 </span>
                 Accessibility-focused controls
                 </p>
                 <p className="mb-20">
                 <span className="fc-bullet-icon">
-                  <img src="/img/case-studies/main-custom-animations.svg" />
+                  <img src="/img/case-studies/main-custom-animations.svg" alt=" " />
                 </span>
                 Custom animations for every possible scenario
                 </p>

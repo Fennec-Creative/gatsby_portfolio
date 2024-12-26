@@ -16,7 +16,7 @@ const HeaderSearch = () => {
       </div>
       <div className="row justify-content-center">
         <div className="fc-image-container search-colors">
-            <img src="/img/case-studies/search-hero.png" alt="image" className="fc-axil-container"/>
+            <img src="/img/case-studies/search-hero.png" alt=" " className="fc-axil-container"/>
         </div>
       </div>
     </div>

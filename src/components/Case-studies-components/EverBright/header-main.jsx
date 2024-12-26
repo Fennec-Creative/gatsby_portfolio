@@ -16,8 +16,8 @@ const HeaderMain = () => {
       </div>
       <div className="row justify-content-center">
         <div className="fc-image-container">
-            <img src="/img/case-studies/phone-graphic-200.png" alt="image" className="main-head"/>
-            <img src="/img/case-studies/main-header-overlay.png" alt="image" className="main-para" />
+            <img src="/img/case-studies/phone-graphic-200.png" alt=" " className="main-head"/>
+            <img src="/img/case-studies/main-header-overlay.png" alt=" " className="main-para" />
         </div>
       </div>
     </div>

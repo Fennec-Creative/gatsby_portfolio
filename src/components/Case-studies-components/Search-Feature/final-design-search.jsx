@@ -14,7 +14,7 @@ const FinalDesignSearch = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30 text-center">
-              <img src="/img/case-studies/search-final-design.png" alt="image" className="img-width-medium" />
+              <img src="/img/case-studies/search-final-design.png" alt="Home screen showing four destinct search fields: name, location, and insurance provider. " className="img-width-medium" />
             </div>
           </div>
         </div>

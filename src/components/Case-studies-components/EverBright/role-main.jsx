@@ -34,7 +34,7 @@ const RoleMain = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30">
-              <img src="/img/case-studies/main-my-role.png" alt="image" />
+              <img src="/img/case-studies/main-my-role.png" alt="product definition, research, analysis, planning and prioritization, design, testing, and handoff" />
             </div>
           </div>
         </div>

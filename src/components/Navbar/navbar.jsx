@@ -57,7 +57,7 @@ const Navbar = ({ lr, nr, theme }) => {
                   Improved Search
                 </Link>
                 <Link to={`/`} className="dropdown-item">
-                  Chore Quest 
+                Cleaning Quest
                 </Link>
               </div>
             </li>

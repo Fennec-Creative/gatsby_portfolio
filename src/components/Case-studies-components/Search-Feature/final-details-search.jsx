@@ -18,7 +18,7 @@ const FinalDetailsSearch = () => {
               </p>
             </div>
             <div className="col-lg-4 offset-rg-2 text-center">
-              <img src="/img/case-studies/search-auto-fill.png" alt="image" className="img-width-large" />
+              <img src="/img/case-studies/search-auto-fill.png" alt="autofill works for letters in key terms and zip codes" className="img-width-large" />
             </div>
           </div>
 
@@ -30,7 +30,7 @@ const FinalDetailsSearch = () => {
               </p>
             </div>
             <div className="col-lg-3 offset-rg-2 text-center">
-              <img src="/img/case-studies/search-eliminating-ambiguity.png" alt="image" className="img-width-small" />
+              <img src="/img/case-studies/search-eliminating-ambiguity.png" alt="three separate fields for doctor name or specialty, location, and insurance provider" className="img-width-small" />
             </div>
           </div>
 
@@ -42,7 +42,7 @@ const FinalDetailsSearch = () => {
               </p>
             </div>
             <div className="col-lg-4 offset-rg-2 ">
-              <img src="/img/case-studies/search-intentional-constraints.png" alt="image" />
+              <img src="/img/case-studies/search-intentional-constraints.png" alt=" " />
             </div>
           </div>
 

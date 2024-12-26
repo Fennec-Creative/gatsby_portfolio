@@ -28,7 +28,7 @@ const ProcessOverviewLanguage = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/language-process-overview.png" alt="image" className="img-width-medium"/>
+              <img src="/img/case-studies/language-process-overview.png" alt=" " className="img-width-medium"/>
             </div>
           </div>
         </div>

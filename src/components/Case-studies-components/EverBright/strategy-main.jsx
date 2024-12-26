@@ -7,7 +7,7 @@ const StrategyMain = () => {
       <div className="row justify-content-center">
           <div className="col-lg-7 col-md-10">
             <div className="text-center mb-60">
-            <img src="/img/case-studies/main-strategy.png" alt="image" className="img-width-large"/>
+            <img src="/img/case-studies/main-strategy.png" alt="Three simple wireframes depicting key features" className="img-width-large"/>
             </div>
           </div>
         </div>
@@ -23,23 +23,23 @@ const StrategyMain = () => {
             <div className="col-lg-4 offset-lg-2">
                 <p>
                   <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-information-architecture-restructure.svg" />
+                    <img src="/img/case-studies/main-information-architecture-restructure.svg" alt=" " />
                   </span>Information Architecture</p>
                 <p>
                 <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-new-feature-planning.svg" />
+                    <img src="/img/case-studies/main-new-feature-planning.svg" alt=" " />
                   </span>
                   New Feature Planning</p>
             </div>
             <div className="col-lg-4 offset-rg-2">
               <p>
               <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-sketches-wireframes.svg" />
+                    <img src="/img/case-studies/main-sketches-wireframes.svg" alt=" " />
                   </span>
                 Sketches & Wireframes</p>
               <p>
               <span className="fc-bullet-icon">
-                    <img src="/img/case-studies/main-stakeholder-review-updates.svg" />
+                    <img src="/img/case-studies/main-stakeholder-review-updates.svg" alt=" " />
                   </span>
                 Stakeholder Review & Updates</p>
             </div>

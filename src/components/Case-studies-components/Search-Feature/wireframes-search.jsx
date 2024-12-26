@@ -14,7 +14,7 @@ const WireframesSearch = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30 text-center">
-              <img src="/img/case-studies/search-wireframes.png" alt="image" className="fc-image-container" />
+              <img src="/img/case-studies/search-wireframes.png" alt="high-fi wireframes depecting feature flow" className="fc-image-container" />
             </div>
           </div>
         </div>

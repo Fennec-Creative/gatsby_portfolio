@@ -17,7 +17,7 @@ const ProblemMain = () => {
               </div>
             </div>
             <div className="col-lg-5 offset-lg-1 valign text-center">
-              <img src="/img/case-studies/main-the-problem.png" alt="image" className="img-width-medium"/>
+              <img src="/img/case-studies/main-the-problem.png" alt="snapshots of original app. Accessibility is poor and little content is shown above the fold" className="img-width-medium"/>
             </div>
           </div>
         </div>

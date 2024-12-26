@@ -17,7 +17,7 @@ const IdeationWorkshopLanguage = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-12">
-              <img src="/img/case-studies/language-ideation-workshop.png" alt="image" />
+              <img src="/img/case-studies/language-ideation-workshop.png" alt=" " />
             </div>
           </div>
         </div>

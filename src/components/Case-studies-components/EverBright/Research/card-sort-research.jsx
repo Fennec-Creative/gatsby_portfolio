@@ -26,7 +26,7 @@ const CardSortResearch = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/research-card-sort-study.png" alt="image" className="img-width-medium"/>
+              <img src="/img/case-studies/research-card-sort-study.png" alt=" " className="img-width-medium"/>
             </div>
           </div>
         </div>

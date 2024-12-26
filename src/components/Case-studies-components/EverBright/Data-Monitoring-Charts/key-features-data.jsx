@@ -21,7 +21,7 @@ const KeyFeaturesData = () => {
               </p>
             </div>
             <div className="col-lg-5 offset-rg-1 center-small">
-              <img src="/img/case-studies/data-clear-easy.png" alt="image" className="img-width-medium"/>
+              <img src="/img/case-studies/data-clear-easy.png" alt="two snapshots showcasing clean user interface with simplified data charts that are easy to understand" className="img-width-medium"/>
             </div>
           </div>
 
@@ -36,7 +36,7 @@ const KeyFeaturesData = () => {
               </p>
             </div>
             <div className="col-lg-5 offset-rg-1 center-small">
-              <img src="/img/case-studies/data-multiple-routes.png" alt="image"  className="img-width-medium"/>
+              <img src="/img/case-studies/data-multiple-routes.png" alt="A user can choose custom dates and tap on graph to get exact data points"  className="img-width-medium"/>
             </div>
           </div>
 
@@ -51,7 +51,8 @@ const KeyFeaturesData = () => {
               </p>
             </div>
             <div className="col-lg-5 offset-rg-1 center-small">
-              <img src="/img/case-studies/data-native-optimization.png" alt="image"  className="img-width-medium"/>
+              <img src="/img/case-studies/data-native-optimization.png" alt="two snapshots of the same design. One uses a native ios date selector and the other android
+              "  className="img-width-medium"/>
             </div>
           </div>
 
@@ -66,7 +67,7 @@ const KeyFeaturesData = () => {
               </p>
               </div>
             <div className="col-lg-5 offset-rg-1 center-small">
-              <img src="/img/case-studies/data-coloration-continuity.png" alt="image"  className="img-width-large"/>
+              <img src="/img/case-studies/data-coloration-continuity.png" alt="snapshots of how datasets appear with various color deficiencies"  className="img-width-large"/>
             </div>
           </div>
 

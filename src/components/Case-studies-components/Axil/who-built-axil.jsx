@@ -6,7 +6,7 @@ const WhoBuiltAxil = () => {
         <div className="container">
           <div className="row">
           <div className="col-lg-6 valign text-center margin-more-b">
-              <img src="/img/case-studies/axil-who-built-for.png" alt="image"/>
+              <img src="/img/case-studies/axil-who-built-for.png" alt="two user personas showcasing a front-end developer and ux designer"/>
             </div>
             <div className="col-lg-6">
               <div className="mb-20">

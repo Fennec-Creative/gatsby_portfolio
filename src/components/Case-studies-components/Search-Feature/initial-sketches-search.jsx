@@ -14,7 +14,7 @@ const InitialSketchesSearch = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30 text-center">
-              <img src="/img/case-studies/search-initial-sketches.png" alt="image" className="search-wireframes" />
+              <img src="/img/case-studies/search-initial-sketches.png" alt="simple pencil sketches of interface" className="search-wireframes" />
             </div>
           </div>
         </div>

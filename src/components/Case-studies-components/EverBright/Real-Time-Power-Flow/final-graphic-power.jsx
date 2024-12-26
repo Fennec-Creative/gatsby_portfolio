@@ -19,7 +19,7 @@ const FinalGraphicPower = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/power-final-graphic-direction.png" alt="image" className="img-width-large"/>
+              <img src="/img/case-studies/power-final-graphic-direction.png" alt="isometric graphic of house with solarpanels, inverter, battery, and grid" className="img-width-large"/>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ const UserTesting = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/quest-user-testing.png" alt="image" className="img-width-large"/>
+              <img src="/img/case-studies/quest-user-testing.png" alt="wireframe images taped to our refridgerator" className="img-width-large"/>
             </div>
           </div>
         </div>

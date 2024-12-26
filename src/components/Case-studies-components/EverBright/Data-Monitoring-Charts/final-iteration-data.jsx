@@ -19,7 +19,7 @@ const FinalIterationData = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/data-final-iteration.png" alt="image" className="img-width-large"/>
+              <img src="/img/case-studies/data-final-iteration.png" alt="four snapshots of system data feature, each snapshot showcasing a different set of data" className="img-width-large"/>
             </div>
           </div>
         </div>

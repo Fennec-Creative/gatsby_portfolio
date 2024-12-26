@@ -17,7 +17,7 @@ const SolutionResearch = () => {
             <div className="item mb-30">
               <div className="mb-10">
                 <div className="fc-icon" >
-                  <img src="/img/case-studies/research-competitive-analysis.svg" />
+                  <img src="/img/case-studies/research-competitive-analysis.svg" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5>Competitive Analysis</h5>
@@ -33,7 +33,7 @@ const SolutionResearch = () => {
             <div className="item mb-30">
               <div className="mb-10">
                 <div className="fc-icon">
-                  <img src="/img/case-studies/research-heuristics-evaluation.svg" />
+                  <img src="/img/case-studies/research-heuristics-evaluation.svg" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5>Heuristics Evaluation</h5>
@@ -49,7 +49,7 @@ const SolutionResearch = () => {
             <div className="item mb-30">
               <div className="mb-10">
                 <div className="fc-icon">
-                <img src="/img/case-studies/research-heatmap-analysis.svg" />
+                <img src="/img/case-studies/research-heatmap-analysis.svg" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5>Heatmap Analysis</h5>
@@ -65,7 +65,7 @@ const SolutionResearch = () => {
             <div className="item mb-30">
               <div className="mb-10">
                 <div className="fc-icon">
-                <img src="/img/case-studies/research-card-sort-study.svg" />
+                <img src="/img/case-studies/research-card-sort-study.svg" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5>Card Sort Study</h5>
@@ -81,7 +81,7 @@ const SolutionResearch = () => {
             <div className="item mb-30">
               <div className="mb-10">
                 <div className="fc-icon">
-                <img src="/img/case-studies/research-design-trends-study.svg" />
+                <img src="/img/case-studies/research-design-trends-study.svg" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5>UX Trends Study</h5>
@@ -97,7 +97,7 @@ const SolutionResearch = () => {
             <div className="item mb-30">
               <div className="mb-10">
                 <div className="fc-icon">
-                  <img src="/img/case-studies/research-contextual-inquires.svg" />
+                  <img src="/img/case-studies/research-contextual-inquires.svg" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5>Contextual Inquires</h5>

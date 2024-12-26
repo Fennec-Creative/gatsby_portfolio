@@ -6,7 +6,7 @@ const AboutFc = () => {
         <div className="container">
           <div className="row">
           <div className="col-lg-6 valign">
-            <img className="img-width-medium" src="/img/fc-avatar.svg" alt="image" />
+            <img className="img-width-medium" src="/img/fc-avatar.svg" alt=" " />
             </div>
             <div className="col-lg-6 padding-more-t padding-more-b small-background">
               <div className="mb-20">

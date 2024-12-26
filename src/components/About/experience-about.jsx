@@ -27,7 +27,7 @@ const ExperienceAbout = () => {
                       <img
                         className="thumparallax-down"
                         src="/img/about_small1.png"
-                        alt=""
+                        alt="app preview of most recent project"
                       />
                     </div>
                     <div className="exp hide-on-mobile">
@@ -45,7 +45,7 @@ const ExperienceAbout = () => {
                       <img
                         className="thumparallax hide-on-mobile"
                         src="/img/about_large1.png"
-                        alt=""
+                        alt="app preview of most recent project"
                       />
                     </div>
                   </div>

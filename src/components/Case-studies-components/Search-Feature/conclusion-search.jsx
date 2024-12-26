@@ -19,7 +19,7 @@ const ConclusionSearch = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/search-conclusion.png" alt="image" className="img-width-medium"/>
+              <img src="/img/case-studies/search-conclusion.png" alt=" " className="img-width-medium"/>
             </div>
           </div>
         </div>

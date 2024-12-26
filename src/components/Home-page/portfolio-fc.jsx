@@ -45,7 +45,7 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
             <div className={`${grid === 3 ? "col-lg-4 col-md-6" : grid === 2 ? "col-md-6" : "col-12"} items graphic wow fadeInUp`} data-wow-delay=".4s">
               <div className="item-img">
                 <Link to={`/case-studies/myeverbright`} className="imago wow">
-                  <img src="/img/fc-everbright.png" alt="image" />
+                  <img src="/img/fc-everbright.png" alt="mobile application with light and dark mode depecting colorful data charts" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
@@ -63,7 +63,7 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <Link to={`/case-studies/axil-design-system`} className="imago wow">
-                  <img src="/img/fc-axil.png" alt="image" />
+                  <img src="/img/fc-axil.png" alt="Components of design system including logo, colors, fonts, and components" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
@@ -81,12 +81,12 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <Link to={`/case-studies/quest-for-a-clean-house`} className="imago wow">
-                  <img src="/img/fc-quest.png" alt="image" />
+                  <img src="/img/fc-quest.png" alt="Colorful game cards showcasing dnd-inspired chore game" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>
               <div className="cont">
-                <h6>Create With Creatives</h6>
+                <h6>Cleaning Quest</h6>
                 <span>
                   UX Design | Game Design
                 </span>
@@ -99,7 +99,7 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <Link to={`/case-studies/search-feature`} className="imago wow">
-                  <img src="/img/fc-search.png" alt="image" />
+                  <img src="/img/fc-search.png" alt="Search application for finding medical providers in an area" />
                   <div className="item-img-overlay"></div>
                 </Link>
               </div>

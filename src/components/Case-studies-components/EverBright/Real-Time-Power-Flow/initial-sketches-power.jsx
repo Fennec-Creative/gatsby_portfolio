@@ -17,7 +17,7 @@ const InitialSketchesPower = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10">
-              <img src="/img/case-studies/power-initial-sketches-wireframes.png" alt="image" />
+              <img src="/img/case-studies/power-initial-sketches-wireframes.png" alt="rough pencil sketch of app layout and diagrams" />
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ const ProblemAxil = () => {
             <div>
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-poor-adoption.png" />
+                  <img src="/img/case-studies/axil-poor-adoption.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Poor Adoption</h5>
@@ -41,7 +41,7 @@ const ProblemAxil = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-endless-design-debt.png" />
+                  <img src="/img/case-studies/axil-endless-design-debt.png" alt=" " />
                 </div>
                 <div className="text-tit margin-more-b">
                   <h5 className="mb-10">Endless Design Debt</h5>
@@ -56,7 +56,7 @@ const ProblemAxil = () => {
             <div className="mb-30">
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-developer-hesitancy.png" />
+                  <img src="/img/case-studies/axil-developer-hesitancy.png" alt=" " />
                 </div>
                 <div className="text-tit">
                   <h5 className="mb-10">Developer hesitancy </h5>

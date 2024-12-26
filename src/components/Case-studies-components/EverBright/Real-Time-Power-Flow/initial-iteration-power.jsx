@@ -19,7 +19,7 @@ const InitialIterationPower = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/power-initial-iterations.png" alt="image" className="img-width-large"/>
+              <img src="/img/case-studies/power-initial-iterations.png" alt="clean layouts with very simple graphics" className="img-width-large"/>
             </div>
           </div>
         </div>

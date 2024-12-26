@@ -17,7 +17,7 @@ const WireframesExplorationLanguage = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30 text-center">
-              <img src="/img/case-studies/language-wireframes-exploration.png" alt="image" className="img-width-large" />
+              <img src="/img/case-studies/language-wireframes-exploration.png" alt="low-fi wireframes showing key app features" className="img-width-large" />
             </div>
           </div>
         </div>

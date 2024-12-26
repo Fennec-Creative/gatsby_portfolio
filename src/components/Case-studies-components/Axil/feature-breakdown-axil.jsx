@@ -24,7 +24,7 @@ const FeatureBreakdownAxil = () => {
               </p>
             </div>
             <div className="col-lg-4 offset-rg-2">
-              <img src="/img/case-studies/axil-foundations.png" alt="image" />
+              <img src="/img/case-studies/axil-foundations.png" alt="View of typography, spacing, and elevation" />
             </div>
           </div>
 
@@ -39,7 +39,7 @@ const FeatureBreakdownAxil = () => {
               </p>
             </div>
             <div className="col-lg-6 center-small">
-              <img src="/img/case-studies/axil-optimized-components.png" alt="image" className="img-width-medium" />
+              <img src="/img/case-studies/axil-optimized-components.png" alt="image" className="Full-width button and icon-only button share the same component" />
             </div>
           </div>
 
@@ -54,7 +54,7 @@ const FeatureBreakdownAxil = () => {
               </p>
             </div>
             <div className="col-lg-4 offset-rg-2">
-              <img src="/img/case-studies/axil-future-proofing.png" alt="image" />
+              <img src="/img/case-studies/axil-future-proofing.png" alt="design system colors and states" />
             </div>
           </div>
 
@@ -69,7 +69,7 @@ const FeatureBreakdownAxil = () => {
               </p>
               </div>
             <div className="col-lg-4 offset-rg-2 text-center">
-              <img src="/img/case-studies/axil-wireframe-mode.png" alt="image" className="img-width-small"/>
+              <img src="/img/case-studies/axil-wireframe-mode.png" alt="wireframe mode example" className="img-width-small"/>
             </div>
           </div>
 
@@ -84,7 +84,7 @@ const FeatureBreakdownAxil = () => {
               </p>
               </div>
             <div className="col-lg-4 offset-rg-2 text-center">
-              <img src="/img/case-studies/axil-naming-conventions.png" alt="image" className="img-width-small"/>
+              <img src="/img/case-studies/axil-naming-conventions.png" alt="order of operations is category, component, type, variant, than state" className="img-width-small"/>
             </div>
           </div>
 
@@ -99,7 +99,7 @@ const FeatureBreakdownAxil = () => {
               </p>
               </div>
             <div className="col-lg-4 offset-rg-2 text-center">
-              <img src="/img/case-studies/axil-accessibility-section.png" alt="image" className="img-width-medium"/>
+              <img src="/img/case-studies/axil-accessibility-section.png" alt="Example of accessibility indicators" className="img-width-medium"/>
             </div>
           </div>
 
@@ -114,7 +114,7 @@ const FeatureBreakdownAxil = () => {
               </p>
               </div>
             <div className="col-lg-4 offset-rg-2 text-center">
-              <img src="/img/case-studies/axil-basic-documentation.png" alt="image" className="img-width-medium"/>
+              <img src="/img/case-studies/axil-basic-documentation.png" alt="Getting started documentation for new users" className="img-width-medium"/>
             </div>
           </div>
 
@@ -129,7 +129,7 @@ const FeatureBreakdownAxil = () => {
               </p>
               </div>
             <div className="col-lg-4 offset-rg-2 text-center">
-              <img src="/img/case-studies/axil-token-system.png" alt="image" className="img-width-small"/>
+              <img src="/img/case-studies/axil-token-system.png" alt="Example of token system organized by value, core, alias, then component" className="img-width-small"/>
             </div>
           </div>
 
@@ -144,7 +144,7 @@ const FeatureBreakdownAxil = () => {
               </p>
               </div>
             <div className="col-lg-4 offset-rg-2 text-center">
-              <img src="/img/case-studies/axil-feedback.png" alt="image" className="img-width-small"/>
+              <img src="/img/case-studies/axil-feedback.png" alt="Example of feedback form" className="img-width-small"/>
             </div>
           </div>
 

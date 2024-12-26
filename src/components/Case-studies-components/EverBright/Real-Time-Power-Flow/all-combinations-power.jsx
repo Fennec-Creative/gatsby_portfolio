@@ -13,7 +13,7 @@ const AllCombinationsPower = () => {
               </p>
             </div>
             <div className="col-lg-12">
-              <img src="/img/case-studies/power-all-possible-combinations.png" alt="image" />
+              <img src="/img/case-studies/power-all-possible-combinations.png" alt="three examples of powerflow graphic showcasing different solar system states" />
             </div>
           </div>
 

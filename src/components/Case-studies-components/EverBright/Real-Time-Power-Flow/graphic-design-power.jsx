@@ -17,7 +17,7 @@ const GraphicDesignPower = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30">
-              <img src="/img/case-studies/power-finding-graphic-direction.png" alt="image" />
+              <img src="/img/case-studies/power-finding-graphic-direction.png" alt="four examples of house graphic in different illustrative styles" />
             </div>
           </div>
         </div>

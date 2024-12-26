@@ -17,7 +17,7 @@ const OctalysisQuest = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30 text-center">
-              <img src="/img/case-studies/quest-octalysis-framework.png" alt="image" className="fc-image-container"/>
+              <img src="/img/case-studies/quest-octalysis-framework.png" alt="octalysis framework template customized to fit my project" className="fc-image-container"/>
             </div>
           </div>
         </div>

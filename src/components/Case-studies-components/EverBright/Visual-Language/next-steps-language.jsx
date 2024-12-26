@@ -20,7 +20,7 @@ const NextStepsLanguage = () => {
               </div>
             </div>
             <div className="col-lg-5 valign">
-              <img src="/img/case-studies/language-next-steps.png" alt="image"  className="img-width-medium"/>
+              <img src="/img/case-studies/language-next-steps.png" alt=" "  className="img-width-medium"/>
             </div>
           </div>
         </div>

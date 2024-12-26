@@ -19,7 +19,7 @@ const NextStepsLanguage = () => {
               </div>
             </div>
             <div className="col-lg-6 valign">
-              <img src="/img/case-studies/power-next-steps.png" alt="image"/>
+              <img src="/img/case-studies/power-next-steps.png" alt=" "/>
             </div>
           </div>
         </div>

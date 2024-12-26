@@ -18,7 +18,7 @@ const SkillsAbout = () => {
             <div className="item-box lightservices hide-margin-top">
               <div>
                 <span className="icon">
-                  <img src="/img/ux-design-icon.svg" className="skills-icon" />
+                  <img src="/img/ux-design-icon.svg" className="skills-icon" alt=" " />
                 </span>
               </div>
               <div className="cont">
@@ -33,7 +33,7 @@ const SkillsAbout = () => {
             <div className="item-box lightservices">
               <div>
                 <span className="icon">
-                  <img src="/img/ux-research-icon.svg" className="skills-icon" />
+                  <img src="/img/ux-research-icon.svg" className="skills-icon" alt=" "/>
                 </span>
               </div>
               <div className="cont">
@@ -50,7 +50,7 @@ const SkillsAbout = () => {
             <div className="item-box lightservices">
               <div>
                 <span className="icon">
-                  <img src="/img/front-end-dev.svg" className="skills-icon" />
+                  <img src="/img/front-end-dev.svg" className="skills-icon" alt=" " />
                 </span>
               </div>
               <div className="cont">
@@ -65,7 +65,7 @@ const SkillsAbout = () => {
             <div className="item-box lightservices">
               <div>
                 <span className="icon">
-                  <img src="/img/team-leadership-icon.svg" className="skills-icon" />
+                  <img src="/img/team-leadership-icon.svg" className="skills-icon" alt=" "/>
                 </span>
               </div>
               <div className="cont">

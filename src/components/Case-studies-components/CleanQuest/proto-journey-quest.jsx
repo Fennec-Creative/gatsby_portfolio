@@ -19,7 +19,7 @@ const ProtoJourney = () => {
               </div>
             </div>
             <div className="col-lg-7 valign text-center">
-              <img src="/img/case-studies/quest-proto.png" alt="image" />
+              <img src="/img/case-studies/quest-proto.png" alt="section from custom proto-journey document" />
             </div>
           </div>
         </div>

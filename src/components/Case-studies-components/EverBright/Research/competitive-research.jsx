@@ -26,7 +26,7 @@ const CompetitiveResearch = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/research-competitive analysis.png" alt="image" className="img-width-large"/>
+              <img src="/img/case-studies/research-competitive analysis.png" alt=" " className="img-width-large"/>
             </div>
           </div>
         </div>

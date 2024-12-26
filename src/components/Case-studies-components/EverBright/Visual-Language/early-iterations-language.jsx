@@ -16,7 +16,7 @@ const EarlyIterationsLanguage = () => {
         </div>
       </div>
       <div className="row justify-content-center">
-          <img src="/img/case-studies/language-early-iterations.png" alt="image" />
+          <img src="/img/case-studies/language-early-iterations.png" alt="four iterations of design, each more polished" />
         </div>
     </div>
   </section>

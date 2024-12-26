@@ -16,7 +16,7 @@ const HeaderAxil = () => {
       </div>
       <div className="row justify-content-center">
         <div className="sub-para-container">
-            <img src="/img/case-studies/axil-header-image.png" alt="image" className="sub-para mt-10" />
+            <img src="/img/case-studies/axil-header-image.png" alt=" " className="sub-para mt-10" />
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ const Feature4Main = () => {
         </div>
         <div className="row">
           <div className="col-lg-5 offset-lg-1 valign">
-            <img className="img-width-large margin-more-b" src="/img/case-studies/main-data-monitoring-charts-1.png" alt="image" />
+            <img className="img-width-large margin-more-b" src="/img/case-studies/main-data-monitoring-charts-1.png" alt="two snapshots showcasing energy consumed by house as a line chart and bar chart" />
           </div>
           <div className="col-lg-5 offset-rg-1">
               <div className="mb-20">
@@ -51,7 +51,7 @@ const Feature4Main = () => {
               </div>
             </div>
           <div className="row mt-60">
-            <img src="/img/case-studies/main-data-monitoring-charts-2.png" alt="image" />
+            <img src="/img/case-studies/main-data-monitoring-charts-2.png" alt="four datasets representing solar, battery, grid, and home consumption" />
           </div>
         </div>
         </div>

@@ -22,7 +22,7 @@ const DocumentationHandoffPower = () => {
               </div>
             </div>
             <div className="col-lg-6 valign text-center">
-              <img src="/img/case-studies/power-documentation-handoff.png" alt="image" className="img-width-large"/>
+              <img src="/img/case-studies/power-documentation-handoff.png" alt="Detailed decelopment document breaking down formula for output algorythm" className="img-width-large"/>
             </div>
           </div>
         </div>

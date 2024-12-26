@@ -16,12 +16,12 @@ const ResultsSearch = () => {
               </div>
             </div>
             <div className="col-lg-5 offset-rg-1 valign text-center">
-              <img src="/img/case-studies/search-results.png" alt="image" className="img-width-small"/>
+              <img src="/img/case-studies/search-results.png" alt=" " className="img-width-small"/>
             </div>
           </div>
           <div className="row mb-80 justify-content-center">
             <div className="col-lg-10">
-              <img src="/img/case-studies/search-result-1.png" alt="image"  />
+              <img src="/img/case-studies/search-result-1.png" alt=" "  />
             </div>
           </div>
 
@@ -33,7 +33,7 @@ const ResultsSearch = () => {
           
           <div className="row mb-80 justify-content-center">
             <div className="col-lg-10">
-              <img src="/img/case-studies/search-result2.png" alt="image" />
+              <img src="/img/case-studies/search-result2.png" alt=" " />
             </div>
           </div>
 

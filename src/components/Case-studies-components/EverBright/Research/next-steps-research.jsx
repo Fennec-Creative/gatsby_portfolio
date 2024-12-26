@@ -26,7 +26,7 @@ const HeatmapResearch = () => {
               </div></div>
             </div>
             <div className="col-lg-6 valign">
-              <img src="/img/case-studies/research-next-steps.png" alt="image"/>
+              <img src="/img/case-studies/research-next-steps.png" alt=" "/>
             </div>
           </div>
         </div>

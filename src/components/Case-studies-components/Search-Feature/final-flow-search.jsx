@@ -14,7 +14,7 @@ const FinalFlowSearch = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30 text-center">
-              <img src="/img/case-studies/search-final-flow.png" alt="image" />
+              <img src="/img/case-studies/search-final-flow.png" alt="From the home screen, user fills in name of provider, address, and insurance. Final results shows all relevent providers" />
             </div>
           </div>
         </div>

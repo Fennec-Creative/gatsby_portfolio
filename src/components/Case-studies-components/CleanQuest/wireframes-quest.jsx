@@ -14,7 +14,7 @@ const WireframesQuest = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10 col-md-10 mt-30">
-              <img src="/img/case-studies/quest-wireframes.png" alt="image" />
+              <img src="/img/case-studies/quest-wireframes.png" alt="hi-fidelity wireframes showcasing key game features" />
             </div>
           </div>
         </div>

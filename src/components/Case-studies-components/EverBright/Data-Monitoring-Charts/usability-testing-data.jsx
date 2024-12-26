@@ -17,7 +17,7 @@ const UsabilityTestingData = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-12 col-md-10">
-              <img src="/img/case-studies/data-usability-testing.png" alt="image" />
+              <img src="/img/case-studies/data-usability-testing.png" alt="snapshots of three iterations, each showing a different way to explore the same dataset" />
             </div>
           </div>
         </div>
