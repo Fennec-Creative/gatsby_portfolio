@@ -4,7 +4,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("C:\\Users\\cbass\\Documents\\GitHub\\gatsby_portfolio\\.cache\\dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("C:\\Users\\cbass\\Documents\\GitHub\\gatsby_portfolio\\src\\pages\\404.js")),
   "component---src-pages-about-jsx": preferDefault(require("C:\\Users\\cbass\\Documents\\GitHub\\gatsby_portfolio\\src\\pages\\about.jsx")),
   "component---src-pages-case-studies-axil-design-system-jsx": preferDefault(require("C:\\Users\\cbass\\Documents\\GitHub\\gatsby_portfolio\\src\\pages\\case-studies\\axil-design-system.jsx")),
