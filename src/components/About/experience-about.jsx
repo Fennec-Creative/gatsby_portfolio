@@ -70,7 +70,7 @@ const ExperienceAbout = () => {
               </Split>
               <div className="center-small margin-more-t">
               <a 
-                className="nav-link fc-btn ripple" href="">
+                className="nav-link fc-btn ripple" href="/case-studies/myeverbright">
                 View Case Study
               </a>
               </div>

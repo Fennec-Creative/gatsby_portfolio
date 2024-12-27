@@ -16,7 +16,7 @@ const NextStepsLanguage = () => {
                 <p className="mb-20">
                 This language was used throughout the MyEverBright mobile and eventual web redesign.
                 </p>
-                <a href="#0" className="butn-bord-dark rounded buton mt-30"><span>Back to Main Case Study</span></a>
+                <a href="/case-studies/myeverbright" className="butn-bord-dark rounded buton mt-30"><span>Back to Main Case Study</span></a>
               </div>
             </div>
             <div className="col-lg-5 valign">

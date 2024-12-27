@@ -17,7 +17,7 @@ const NextStepsData = () => {
                 Next we set up analytics and created a plan for future data-centric iterations 
                 </p>
                 <div className="center-small">
-                <a href="#0" className="butn-bord-dark rounded buton mt-30"><span>Back to Main Case Study</span></a>
+                <a href="/case-studies/myeverbright" className="butn-bord-dark rounded buton mt-30"><span>Back to Main Case Study</span></a>
               </div>
               </div>
             </div>

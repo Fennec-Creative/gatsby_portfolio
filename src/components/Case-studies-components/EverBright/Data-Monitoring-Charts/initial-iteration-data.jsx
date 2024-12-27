@@ -7,7 +7,7 @@ const InitialIterationData = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="mb-20">
-                <h2 className="mb-30 text-center">
+                <h2 className="mb-30">
                 Initial Iterations
                 </h2>
                 <p className="mb-20">

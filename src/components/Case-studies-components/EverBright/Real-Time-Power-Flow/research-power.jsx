@@ -68,7 +68,7 @@ const ResearchPower = () => {
         <div className="row justify-content-center">
               <div className="col-lg-7 col-md-10">
                 <div className="caption text-center mt-20">
-                <a href="#0" className="butn-bord-dark rounded buton mt-30"><span>View All Research</span></a>
+                <a href="/case-studies/myeverbright/research" className="butn-bord-dark rounded buton mt-30"><span>View All Research</span></a>
                 </div>
               </div>
           </div>

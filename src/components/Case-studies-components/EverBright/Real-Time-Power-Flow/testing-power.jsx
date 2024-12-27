@@ -12,7 +12,7 @@ const TestingPower = () => {
           <div className="row">
             <div className="col-lg-5 offset-lg-1">
               <div>
-                <h3 className="mb-20 text-center">
+                <h3 className="mb-20 ">
                 Impromptu Interviews
                 </h3>
                 <p className="mb-20">
@@ -24,7 +24,7 @@ const TestingPower = () => {
               </div>
             </div>
             <div className="col-lg-5 offset-lg-1 offset-rg-1">
-              <h3 className="mb-20 text-center">
+              <h3 className="mb-20 ">
               Useberry User Test
               </h3>
               <p className="mb-20">

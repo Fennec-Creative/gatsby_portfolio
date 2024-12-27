@@ -6,9 +6,9 @@ const AllCombinationsPower = () => {
         <div className="container">
 
           <div className="row mb-40 justify-content-center">
-            <div className="col-lg-7 text-center">
-              <h4 className="mb-20">All Possible Combinations</h4>
-              <p className="mb-60">
+            <div className="col-lg-7">
+              <h4 className="mb-20 text-center">All Possible Combinations</h4>
+              <p className="mb-80">
               I made sure every possible scenario was accounted for and documented before launching the development cycle. 
               </p>
             </div>
