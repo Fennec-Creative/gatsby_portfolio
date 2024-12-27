@@ -23,7 +23,7 @@ const SkillsAbout = () => {
               </div>
               <div className="cont">
                 <h6>UX Design</h6>
-                <p>Tempor asodf haweof asdfh oaehjfoaei </p>
+                <p>I'm experienced with every step of the design process from concept to launch</p>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ const SkillsAbout = () => {
               </div>
               <div className="cont">
                 <h6>UX Research</h6>
-                <p>Tempor asodf haweof asdfh oaehjfoaei </p>
+                <p>I know classic qualitative and quantitative research methods and I've lead workshops</p>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ const SkillsAbout = () => {
               </div>
               <div className="cont">
                 <h6>Front-End Development</h6>
-                <p>Tempor asodf haweof asdfh oaehjfoaei </p>
+                <p>I have a background in web development and can easily communicate with engineers</p>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ const SkillsAbout = () => {
               </div>
               <div className="cont">
                 <h6>Team Leadership</h6>
-                <p>Tempor asodf haweof asdfh oaehjfoaei </p>
+                <p>I am currently a team lead and love managing and mentoring other designers</p>
               </div>
             </div>
           </div>

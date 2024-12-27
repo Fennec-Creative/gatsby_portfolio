@@ -62,8 +62,10 @@ const ExperienceAbout = () => {
               </Split>
               <Split>
                 <p className="wow txt words chars splitting mb-20" data-splitting>
-                  {AboutUs3date.content.first} <br />
-                  {AboutUs3date.content.second}
+                  {AboutUs3date.content.first} 
+                </p>
+                <p className="wow txt words chars splitting mb-40" data-splitting>
+                {AboutUs3date.content.second}
                 </p>
               </Split>
               <div className="center-small margin-more-t">

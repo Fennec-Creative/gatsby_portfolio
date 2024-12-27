@@ -54,7 +54,7 @@ const ExperienceAxil = () => {
             <div>
               <div className="mb-10">
                 <div className="fc-block-icon mb-20" >
-                  <img src="/img/case-studies/axil-everbright.png" />
+                  <img src="/img/case-studies/axil-everbright.png" alt="EverBright Logo" />
                 </div>
                 <div className="text-tit">
                   <h5 className="mb-10">EverBright</h5>

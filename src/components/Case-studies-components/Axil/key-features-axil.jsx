@@ -1,5 +1,4 @@
 import React from "react";
-import featuresData from "data/sections/findings-main.json";
 
 const KeyFeaturesAxil = ({ style, lines }) => {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import featuresData from "data/sections/findings-main.json";
 
 const KeyFeaturesSearch = ({ style, lines }) => {
   return (

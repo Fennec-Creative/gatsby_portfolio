@@ -18,7 +18,7 @@ const Footer2 = () => {
               <div className="info">
               </div>
               <div className="social linklight">
-                <a href="https://www.linkedin.com/in/fenneccreative/" target="_blank">
+                <a href="https://www.linkedin.com/in/fenneccreative/" target="_blank" rel="noreferrer">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
                 <a href="mailto:cwilliamsdigital@gmail.com">

@@ -18,7 +18,6 @@ import LightFooter from "components/Case-studies-components/EverBright/light-foo
 
 const DataMonitoringCharts = () => {
   const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
 
   React.useEffect(() => {
     document.querySelector("body").classList.add("contact-page");

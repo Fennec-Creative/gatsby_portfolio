@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-b09c2f26b6b66f6914cf.js","mappings":"2IAMA,UAJkB,IACT,iD","sources":["webpack://fenenc_creative/./src/pages/404.js"],"sourcesContent":["import React from \"react\";\r\n\r\nconst ErrorPage = () => {\r\n  return <h1>404 - Page Not Found</h1>;\r\n};\r\n\r\nexport default ErrorPage;\r\n"],"names":[],"sourceRoot":""}
