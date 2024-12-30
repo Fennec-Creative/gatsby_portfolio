@@ -4,7 +4,19 @@ node_modules
 yarn-error.log
 package-lock.json
 yarn.lock
+deno.lock
 
 # Build directory
 /public
-.DS_Store 
+.DS_Store
+
+# Environment variables
+.env
+
+# Editor files
+*.swp
+*.swo
+*.swn
+
+# Netlify
+.netlify/ 
