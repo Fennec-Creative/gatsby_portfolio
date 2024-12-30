@@ -6,6 +6,7 @@ const Auth = ({ onAuthenticated }) => {
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const isDevelopment = process.env.NODE_ENV === "development";
+  const enableLogging = false;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -23,7 +24,7 @@ const Auth = ({ onAuthenticated }) => {
 
       const responseText = await response.text();
 
-      if (isDevelopment) {
+      if (enableLogging && isDevelopment) {
         console.log("Response status:", response.status);
         console.log("Response text:", responseText);
       }
@@ -47,7 +48,7 @@ const Auth = ({ onAuthenticated }) => {
         }
       }
     } catch (err) {
-      if (isDevelopment) {
+      if (enableLogging && isDevelopment) {
         console.error("Auth error details:", err);
       }
       setError("Connection error. Please try again.");
@@ -70,27 +71,6 @@ const Auth = ({ onAuthenticated }) => {
             <div className="col-lg-5 col-md-8">
               <div className="s-head text-center mb-80">
                 <h2 className="mb-20">Authentication Required</h2>
-                {isDevelopment && (
-                  <div className="mb-20">
-                    <p className="mb-10">Development Mode Active</p>
-                    <button
-                      onClick={resetAuth}
-                      style={{
-                        background: "#12c2e9",
-                        color: "#fff",
-                        border: "none",
-                        padding: "10px 20px",
-                        borderRadius: "4px",
-                        cursor: "pointer",
-                        boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-                        transition: "all 0.3s ease",
-                        marginTop: "10px",
-                      }}
-                    >
-                      Reset Auth
-                    </button>
-                  </div>
-                )}
               </div>
               <form onSubmit={handleSubmit} className="text-center">
                 <div className="mb-20">
@@ -142,6 +122,40 @@ const Auth = ({ onAuthenticated }) => {
                   </p>
                 )}
               </form>
+              {isDevelopment && (
+                <>
+                  <div
+                    style={{
+                      position: "fixed",
+                      bottom: "10px",
+                      left: "50%",
+                      transform: "translateX(-50%)",
+                      textAlign: "center",
+                      color: "#fff",
+                    }}
+                  >
+                    Development Mode Active
+                  </div>
+                  <button
+                    onClick={resetAuth}
+                    style={{
+                      position: "fixed",
+                      bottom: "10px",
+                      right: "10px",
+                      background: "#12c2e9",
+                      color: "#fff",
+                      border: "none",
+                      padding: "10px 20px",
+                      borderRadius: "4px",
+                      cursor: "pointer",
+                      boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+                      transition: "all 0.3s ease",
+                    }}
+                  >
+                    Reset Auth
+                  </button>
+                </>
+              )}
             </div>
           </div>
         </div>

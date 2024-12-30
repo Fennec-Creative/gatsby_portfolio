@@ -14,7 +14,7 @@ import ContextInquiresResearch from "components/Case-studies-components/EverBrig
 import KeyFindingsResearch from "components/Case-studies-components/EverBright/Research/key-findings-research.jsx";
 import NextStepsResearch from "components/Case-studies-components/EverBright/Research/next-steps-research.jsx";
 import LightFooter from "components/Case-studies-components/EverBright/light-footer.jsx";
-
+import { withAuth } from "../../../utils/withAuth";
 
 const Research = () => {
   const navbarRef = React.useRef(null);
@@ -24,19 +24,21 @@ const Research = () => {
 
     var navbar = navbarRef.current;
 
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-
-    window.addEventListener("scroll", () => {
+    if (navbar) {
       if (window.pageYOffset > 300) {
         navbar.classList.add("nav-scroll");
       } else {
         navbar.classList.remove("nav-scroll");
       }
-    });
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          navbar.classList.add("nav-scroll");
+        } else {
+          navbar.classList.remove("nav-scroll");
+        }
+      });
+    }
 
     return () => {
       document.querySelector("body").classList.remove("contact-page");
@@ -52,7 +54,7 @@ const Research = () => {
       <SolutionResearch />
       <CompetitiveResearch />
       <HeuristicsResearch />
-      <HeatmapResearch />  
+      <HeatmapResearch />
       <CardSortResearch />
       <DesignTrendsResearch />
       <ContextInquiresResearch />
@@ -68,7 +70,7 @@ export const Head = () => {
     <>
       <title>Vie - Contact Dark</title>
     </>
-  )
-}
+  );
+};
 
-export default Research;
+export default withAuth(Research);
