@@ -4385,7 +4385,7 @@ span:hover {
   color: #50BDEF; 
 }
 
-.services .item-box .icon {
+.services .item-box .icon, .fc-icon-container .icon {
   position: relative;
   width: 80px;
   height: 80px;
@@ -4394,7 +4394,7 @@ span:hover {
   margin-bottom: 30px;
 }
 
-.services .item-box .icon:after {
+.services .item-box .icon:after, .fc-icon-container .icon:after {
   content: "";
   position: absolute;
   top: 0;
@@ -4584,7 +4584,7 @@ span:hover {
   border-radius: 5px;
 }
 
-.services.lficon .item-box .icon {
+.services.lficon .item-box .icon, .fc-icon-container .icon {
   text-align: center;
 }
 
@@ -7975,10 +7975,11 @@ span:hover {
 .contact .form textarea {
   color: #fff;
   width: 100%;
-  padding: 15px 0;
+  max-width: 450px;
+  padding: 15px;
   background: transparent;
-  border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .contact .form textarea {
