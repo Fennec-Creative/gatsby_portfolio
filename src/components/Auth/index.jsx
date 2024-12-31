@@ -64,47 +64,38 @@ const Auth = ({ onAuthenticated }) => {
 
   // Always render the auth form if we haven't redirected yet
   return (
-    <DarkTheme>
-      <section className="section-padding min-area fc-lbg-dark-gray">
+    <DarkTheme customstyle>
+
+      <section className="section-padding min-areaf contact">
         <div className="container">
+          
           <div className="row justify-content-center">
-            <div className="col-lg-5 col-md-8">
+            <div className="fc-icon-container">
+            <span className="icon">
+                  <img src="/img/auth-lock-icon.svg" className="skills-icon" alt=" " />
+              </span>
+            </div>
+          </div>
+
+          <div className="row justify-content-center">
+            <div className="col-lg-12 col-md-8">
               <div className="s-head text-center mb-80">
-                <h2 className="mb-20">Authentication Required</h2>
+                <h2 className="mb-20">This Content is Protected</h2>
+                <p>To view, please enter the password. </p>
               </div>
-              <form onSubmit={handleSubmit} className="text-center">
-                <div className="mb-20">
+              <form onSubmit={handleSubmit} className="text-center form">
+                <div className="mb-20 contact-group">
                   <input
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Enter password"
                     required
-                    style={{
-                      width: "100%",
-                      padding: "15px",
-                      border: "1px solid #2a2a2a",
-                      borderRadius: "4px",
-                      marginBottom: "15px",
-                      fontSize: "16px",
-                      background: "rgba(255,255,255,0.02)",
-                      color: "#fff",
-                    }}
                   />
                 </div>
                 <button
                   type="submit"
-                  style={{
-                    background:
-                      "linear-gradient(to right, #12c2e9, #c471ed, #f64f59)",
-                    color: "#fff",
-                    border: "none",
-                    padding: "15px 40px",
-                    borderRadius: "4px",
-                    cursor: "pointer",
-                    fontSize: "16px",
-                    transition: "all 0.3s ease",
-                  }}
+                  className="nav-link fc-btn .ripple margin-more-b mt-20"
                   disabled={isLoading}
                 >
                   {isLoading ? "Authenticating..." : "Submit"}
@@ -112,7 +103,7 @@ const Auth = ({ onAuthenticated }) => {
                 {error && (
                   <p
                     style={{
-                      color: "#c471ed",
+                      color: "#E596FF",
                       marginTop: "15px",
                       fontSize: "14px",
                       opacity: 0.8,
