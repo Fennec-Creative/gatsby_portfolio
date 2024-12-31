@@ -173,6 +173,26 @@
     color: #fff !important;
 }
 
+.fc-back-icon {
+    width:8px;
+    margin-right: 16px;
+}
+
+.fc-back-button {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all ease-in 0.15s;
+}
+
+
+.fc-back-button:hover {
+    letter-spacing: 6px;
+    transition: all ease-in 0.3s;
+    border-bottom: 1px solid #8EF0FF;
+}
+
 
 /* Dark Mode */
 

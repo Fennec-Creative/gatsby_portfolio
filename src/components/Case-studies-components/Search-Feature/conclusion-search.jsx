@@ -14,7 +14,7 @@ const ConclusionSearch = () => {
                 This was a fun project for me to work on and I was happy for the opportunity to advocate for a better user experience.  
                 </p>
                 <p>
-                While our contract with Dignity ended before we got the chance to measure the impact of our improvements, I left confident that we had done our best to make using the provider search feature a seamless  and beneficial experience. 
+                While our contract with the client ended before we got the chance to measure the impact of our improvements, I left confident that we had done our best to make using the provider search feature a seamless  and beneficial experience. 
                 </p>
               </div>
             </div>

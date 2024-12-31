@@ -68,6 +68,14 @@ const Auth = ({ onAuthenticated }) => {
 
       <section className="section-padding min-areaf contact">
         <div className="container">
+
+        <div className="row justify-content-left linklight">
+            <a href="/case-studies/myeverbright" className="fc-back-button">
+                  <img src="/img/back-bracket-light.svg" className="fc-back-icon" alt=" " />
+                  <span>Back</span>
+              </a>
+              <span className="underline"></span>
+          </div>
           
           <div className="row justify-content-center">
             <div className="fc-icon-container">
