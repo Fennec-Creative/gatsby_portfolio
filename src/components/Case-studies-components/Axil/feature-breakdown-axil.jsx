@@ -137,7 +137,7 @@ const FeatureBreakdownAxil = () => {
             <div className="col-lg-4 offset-lg-2">
               <h4 className="mb-20 center-small">Feedback is Golden</h4>
               <p className="mb-20">
-              Developer feedback to paramount for a successful implementation.
+              Developer feedback is paramount to a successful implementation.
               </p>
               <p >
               I included a <strong>feedback system</strong> with friendly instructions that encouraged developers and other stakeholders to leave feedback. 

@@ -42,7 +42,7 @@ const KeyFeaturesLanguage = () => {
             <div className="col-lg-5 offset-lg-2">
               <h4 className="mb-20 center-small">Minimalism</h4>
               <p className="mb-20">
-                In the absence of user data, I strongly thought minimalism was the best route for ensuring <strong>usability</strong> and <strong>positive reception</strong>. 
+                In the absence of user data, I was confident that minimalism was the best route for ensuring <strong>usability</strong> and <strong>positive reception</strong>. 
               </p>
               <p className="mb-20">
                 I also chose this direction to:  

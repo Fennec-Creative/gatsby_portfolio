@@ -14,7 +14,7 @@ import KeyFeaturesData from "components/Case-studies-components/EverBright/Data-
 import DocumentationHandoffData from "components/Case-studies-components/EverBright/Data-Monitoring-Charts/documentation-handoff-data";
 import NextStepsData from "components/Case-studies-components/EverBright/Data-Monitoring-Charts/next-steps-data";
 import LightFooter from "components/Case-studies-components/EverBright/light-footer.jsx";
-
+import { withAuth } from "../../../utils/withAuth";
 
 const DataMonitoringCharts = () => {
   const navbarRef = React.useRef(null);
@@ -66,9 +66,9 @@ const DataMonitoringCharts = () => {
 export const Head = () => {
   return (
     <>
-      <title>Vie - Contact Dark</title>
+      <title>Data Monitoring Charts Case Study</title>
     </>
   )
 }
 
-export default DataMonitoringCharts;
+export default withAuth(DataMonitoringCharts);

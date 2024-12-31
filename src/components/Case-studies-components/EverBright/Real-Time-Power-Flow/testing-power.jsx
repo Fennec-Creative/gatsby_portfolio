@@ -19,7 +19,7 @@ const TestingPower = () => {
                 I went through several rounds of impromptu tests with solar energy homeowners in my personal network. 
                 </p>
                 <p className="mb-20">
-                This allowed me to refine the design as much as I could while negotiating with managing for a testing budget. 
+                This allowed me to refine the design as much as I could while negotiating with management for a testing budget. 
                 </p>
               </div>
             </div>
@@ -31,7 +31,7 @@ const TestingPower = () => {
               I oversaw a series of unmoderated user studies via Useberry where users were asked to describe what they thought they saw and complete a series of tasks. 
               </p>
               <p className="mb-20">
-              The test had a very high success rate and gave me valuable feedback on how I could improve with my final iteration.
+              The test had a very high success rate and gave me valuable feedback on how I could improve my final iteration.
               </p>
             </div>
           </div>

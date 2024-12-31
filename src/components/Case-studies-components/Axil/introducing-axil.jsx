@@ -11,7 +11,7 @@ const IntroducingAxil = () => {
                 Introducing Axil
                 </h2>
                 <p className="mb-20">
-                Axil is simple, yet extensive Design System template for small to medium-sized teams. 
+                Axil is a simple, yet extensive Design System template for small to medium-sized teams. 
                 </p>
                 <p>
                 With a strong focus on reducing complexity and optimizing accessibility, Axil sets both designers and developers up for success. 

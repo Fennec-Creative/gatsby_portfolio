@@ -55,9 +55,9 @@ const ResearchAxil = () => {
 
           <div className="row">
             <div className="col-lg-4 offset-lg-2">
-              <h4 className="mb-20 center-small">Accissibility-oholic</h4>
+              <h4 className="mb-20 center-small">Accessibility-oholic</h4>
               <p className="mb-20">
-              I couldn’t count the number of items I’ve seen accessibility treated as an afterthought in the design process. 
+              I couldn’t count the number of times I’ve seen accessibility treated as an afterthought in the design process. 
               </p>
               <p className="mb-20">
               For this project I frequently referenced WCAG3 guidelines to ensure I was addressing as many usability issues upfront as possible.  

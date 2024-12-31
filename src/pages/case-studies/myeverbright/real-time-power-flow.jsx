@@ -18,7 +18,7 @@ import KeyFeaturesPower from "components/Case-studies-components/EverBright/Real
 import DocumentationHandoffPower from "components/Case-studies-components/EverBright/Real-Time-Power-Flow/documentation-handoff-power.jsx";
 import NextStepsPower from "components/Case-studies-components/EverBright/Real-Time-Power-Flow/next-steps-power.jsx";
 import LightFooter from "components/Case-studies-components/EverBright/light-footer.jsx";
-
+import { withAuth } from "../../../utils/withAuth";
 
 
 const RealTimePowerFlow = () => {
@@ -76,9 +76,9 @@ const RealTimePowerFlow = () => {
 export const Head = () => {
   return (
     <>
-      <title>Vie - Contact Dark</title>
+      <title>Real-Time Power Flow Case Study</title>
     </>
   )
 }
 
-export default RealTimePowerFlow;
+export default withAuth(RealTimePowerFlow);

@@ -59,9 +59,9 @@ const ProblemAxil = () => {
                   <img src="/img/case-studies/axil-developer-hesitancy.png" alt=" " />
                 </div>
                 <div className="text-tit">
-                  <h5 className="mb-10">Developer hesitancy </h5>
+                  <h5 className="mb-10">Developer Hesitancy </h5>
                   <p className="fc-block-icon-p">
-                  Developers resist systems that aren't easy implement 
+                  Developers resist systems that aren't easy to implement 
                   </p>
                 </div>
               </div>

@@ -66,7 +66,7 @@ const Main = () => {
 export const Head = () => {
   return (
     <>
-      <title>Vie - Contact Dark</title>
+      <title>MyEverBright - Case Study</title>
     </>
   )
 }

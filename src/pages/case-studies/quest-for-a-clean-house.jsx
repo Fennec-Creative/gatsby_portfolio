@@ -72,7 +72,7 @@ const VisualLanguage = () => {
 export const Head = () => {
   return (
     <>
-      <title>Vie - Contact Dark</title>
+      <title>Cleaning Quest - Case Study</title>
     </>
   )
 }

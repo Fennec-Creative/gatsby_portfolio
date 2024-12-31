@@ -14,7 +14,7 @@ import EarlyIterationsLanguage from "components/Case-studies-components/EverBrig
 import FinalDirectionLanguage from "components/Case-studies-components/EverBright/Visual-Language/final-direction-language";
 import NextStepsLanguage from "components/Case-studies-components/EverBright/Visual-Language/next-steps-language.jsx";
 import LightFooter from "components/Case-studies-components/EverBright/light-footer.jsx";
-
+import { withAuth } from "../../../utils/withAuth";
 
 const VisualLanguage = () => {
   const navbarRef = React.useRef(null);
@@ -66,9 +66,9 @@ const VisualLanguage = () => {
 export const Head = () => {
   return (
     <>
-      <title>Vie - Contact Dark</title>
+      <title>Creating a Visual Language - Case Study</title>
     </>
   )
 }
 
-export default VisualLanguage;
+export default withAuth(VisualLanguage);

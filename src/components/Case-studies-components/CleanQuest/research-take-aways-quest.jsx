@@ -24,7 +24,7 @@ const ResearchQuest = ({ style, lines }) => {
                     Both users experience a drop in mood when navigating a messy house 
                     </li>
                     <li className="wow fadeInUp">
-                    Messiness effects mood on a daily basis
+                    Messiness affects mood on a daily basis
                     </li>
                     <li className="wow fadeInUp">
                     Messiness reduces efficiency in cooking and getting ready for work
@@ -49,7 +49,7 @@ const ResearchQuest = ({ style, lines }) => {
                     Long breaks tend to interrupt cleaning and push tasks to next day 
                     </li>
                     <li className="wow fadeInUp">
-                    When cleaning is done, both users tend to feel bored and under-stimulated
+                    While cleaning, both users tend to feel bored and under-stimulated
                     </li>
                     <li className="wow fadeInUp">
                     Chores are boring -  we didn’t really need data to establish this one. 
@@ -109,7 +109,7 @@ const ResearchQuest = ({ style, lines }) => {
                     Both users have been trying to do better for years 
                     </li>
                     <li className="wow fadeInUp">
-                    Typically they form new habits when the house is very messy, then those habit wain
+                    Typically they attempt new habits when the house is very messy, then those habits wain
                     </li>
                   </ul>
                 </div>

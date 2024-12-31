@@ -68,7 +68,7 @@ const Research = () => {
 export const Head = () => {
   return (
     <>
-      <title>Vie - Contact Dark</title>
+      <title>EverBright Research - Case Study</title>
     </>
   );
 };

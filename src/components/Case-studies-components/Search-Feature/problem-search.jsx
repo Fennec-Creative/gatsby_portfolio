@@ -25,7 +25,7 @@ const ProblemSearch = () => {
                     Ability to search by location or zip code was not clear 
                     </li>
                     <li className="wow fadeInUp">
-                    Initial results were dependent on user’s location permissions and often shows irrelevant results
+                    Initial results were dependent on user’s location permissions and often showed irrelevant results
                     </li>
                     <li className="wow fadeInUp">
                     Data filter issues existed in results

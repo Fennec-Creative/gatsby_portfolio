@@ -106,7 +106,7 @@ const Services8 = () => {
                   <img src="/img/case-studies/main-contextual-inquires.svg" alt=" " />
                 </div>
                 <div className="text-tit">
-                  <h5>Contextual Inquires</h5>
+                  <h5>Contextual Inquiries</h5>
                 </div>
               </div>
 
