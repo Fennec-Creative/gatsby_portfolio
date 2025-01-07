@@ -11,7 +11,7 @@ const IntroData = () => {
                 EverBright needed a seamless data monitoring experience that empowered users to monitor their systems and optimize their solar energy use. 
                 </p>
                 <p>
-                To achieve this I built a user-centered solution focused on ease of understanding with multiple pathways to success. 
+                To achieve this, I built a user-centered solution focused on ease of understanding with multiple pathways to success. 
                 </p>
               </div>
             </div>

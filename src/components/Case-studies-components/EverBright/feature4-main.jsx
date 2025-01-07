@@ -34,16 +34,28 @@ const Feature4Main = () => {
                 Defining Features: 
                 </h3>
                 <p className="mb-20">
+                <span className="fc-bullet-icon">
+                  <img src="/img/case-studies/real-time-data-clear-controls.svg" alt=" " />
+                </span>
                 Real-time data with clear controls
                 </p>
                 <p className="mb-20">
+                <span className="fc-bullet-icon">
+                  <img src="/img/case-studies/multiple-selection-customization-options.svg" alt=" " />
+                </span>
                 Multiple selection & customization options for data
                 </p>
                 <p className="mb-20">
+                <span className="fc-bullet-icon">
+                  <img src="/img/case-studies/optimal-usability-from-test.svg" alt=" " />
+                </span>
                 Optimal usability from testing & iterations
                 </p>
                 <p className="mb-20">
-                Comprehension enhanced with coordinated coloration 
+                <span className="fc-bullet-icon">
+                  <img src="/img/case-studies/comprehension-enhanced-colors.svg" alt=" " />
+                </span>
+                Comprehension enhanced with coloration
                 </p> 
                 <div className="center-small">
                 <a href="/case-studies/myeverbright/data-monitoring-charts" className="nav-link fc-btn-case mt-30"><span>View Details</span></a>

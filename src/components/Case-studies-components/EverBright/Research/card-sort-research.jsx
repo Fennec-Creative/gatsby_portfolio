@@ -11,7 +11,7 @@ const CardSortResearch = () => {
                 Card Sort Study  
                 </h2>
                 <p className="mb-20">
-                To help optimize information architecture in the app, My team and I conducted a card sort study using UseBerry. 
+                To help optimize information architecture in the app, my team and I conducted a card sort study using UseBerry. 
                 </p>
                 <p classname="mb-20">
                 While the data set was small, we were able to: 

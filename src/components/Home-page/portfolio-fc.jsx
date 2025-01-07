@@ -52,7 +52,7 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>MyEverBright</h6>
                 <span>
-                  Design Leadership | UX & UI Design
+                  Design Leadership • UX & UI Design
                 </span>
               </div>
             </div>
@@ -88,7 +88,7 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Cleaning Quest</h6>
                 <span>
-                  UX Design | Game Design
+                  UX Design • Game Design
                 </span>
               </div>
             </div>

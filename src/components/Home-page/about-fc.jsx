@@ -14,7 +14,7 @@ const AboutFc = () => {
                 About Me
                 </h2>
                 <p className="mb-20">
-                I love solving complex problems and helping companies meet their goals by creating products that are thoughtful, intuitive, and enjoyable to use. In building my career, I have developed a versatile skill set and am always seeking new challenges.
+                I love solving complex problems and helping companies meet their goals by creating products that are thoughtful, intuitive, and enjoyable to use. Throughout my career, I have developed a versatile skill set and am always seeking new challenges.
                 </p>
                 <p className="mb-40">
                 When I'm not hammering code or illustrating graphics I can be found jamming with my band or climbing outside of San Francisco.

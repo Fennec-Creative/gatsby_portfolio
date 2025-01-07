@@ -38,7 +38,7 @@ const SkillsAbout = () => {
               </div>
               <div className="cont">
                 <h6>UX Research</h6>
-                <p>I know classic qualitative and quantitative research methods and I've lead workshops</p>
+                <p>I have experience collecting and analyzing qualitative and quantitative data</p>
               </div>
             </div>
           </div>

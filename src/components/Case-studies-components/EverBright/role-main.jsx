@@ -27,7 +27,7 @@ const RoleMain = () => {
                   <li class="wow fadeInUp">Development team documentation & handoff</li>
                   <li class="wow fadeInUp">Design team leadership and direction </li>
                   <li class="wow fadeInUp">UI design of key features </li>
-                  <li class="wow fadeInUp">Animation & interaction Design </li>
+                  <li class="wow fadeInUp">Animation & interaction design </li>
                 </ul>
               </div>
             </div>

@@ -11,7 +11,7 @@ const ProblemMain = () => {
                   The Problem
                 </h2>
                 <p className="mb-20">
-                When I joined, EverBright was a fast-growing, solar energy software solutions company. Their homeowner portal app was bare-bones and infrequently used.
+                When I joined, EverBright was a fast-growing solar energy software solutions company. Their homeowner portal app was bare-bones and infrequently used.
                 </p>
                 <p>EverBright needed an application that matched their ambitions and provided their customers a one-of-a-kind user experience. </p>
               </div>
