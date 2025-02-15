@@ -8,7 +8,7 @@ const HeaderResearch = () => {
     <div className="row justify-content-left linkdark">
             <a href="/case-studies/myeverbright/#research_overview" className="fc-back-button">
                   <img src="/img/back-bracket-dark.svg" className="fc-back-icon" alt=" " />
-                  <span>Main Case Study</span>
+                  <span>Back</span>
               </a>
               <span className="underline"></span>
           </div>
