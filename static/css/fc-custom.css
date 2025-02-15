@@ -200,6 +200,7 @@
     background-image: url('/img/fc-static-back.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 

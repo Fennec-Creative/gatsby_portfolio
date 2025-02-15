@@ -4,6 +4,15 @@ const HeaderResearch = () => {
   return (
     <header className="pb-0 section-padding position-relative elevation-high fc-lbg-gradient-grey">
     <div className="container">
+
+    <div className="row justify-content-left linklight">
+            <a href="/case-studies/myeverbright/#research_overview" className="fc-back-button">
+                  <img src="/img/back-bracket-light.svg" className="fc-back-icon" alt=" " />
+                  <span>Back</span>
+              </a>
+              <span className="underline"></span>
+          </div>
+
       <div className="row justify-content-center">
         <div className="col-lg-9 col-md-10">
           <div className="sec-head text-center mb-70">
