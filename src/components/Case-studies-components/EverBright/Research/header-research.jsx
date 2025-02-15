@@ -5,10 +5,10 @@ const HeaderResearch = () => {
     <header className="pb-0 section-padding position-relative elevation-high fc-lbg-gradient-grey">
     <div className="container">
 
-    <div className="row justify-content-left linklight">
+    <div className="row justify-content-left linkdark">
             <a href="/case-studies/myeverbright/#research_overview" className="fc-back-button">
                   <img src="/img/back-bracket-light.svg" className="fc-back-icon" alt=" " />
-                  <span>Back</span>
+                  <span>Main Case Study</span>
               </a>
               <span className="underline"></span>
           </div>

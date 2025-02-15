@@ -165,6 +165,11 @@
 }
 
 .linkdark a {
+    color: #111 !important;
+    float: left;
+}
+
+.linkdark a {
     color: #262B36 !important;
 }
 
