@@ -14,6 +14,7 @@ import Feature3Main from "components/Case-studies-components/EverBright/feature3
 import Feature4Main from "components/Case-studies-components/EverBright/feature4-main";
 import ResultsMain from "components/Case-studies-components/EverBright/results-main";
 import NextMain from "components/Case-studies-components/EverBright/next-main";
+import { withAuth } from "../../utils/withAuth";
 
 
 const Main = () => {
@@ -71,4 +72,4 @@ export const Head = () => {
   )
 }
 
-export default Main;
+export default withAuth(Main);
