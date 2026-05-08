@@ -18,6 +18,29 @@ const IntroFC = ({ sliderRef, blackStar }) => {
     document.querySelector('#particles-js canvas')?.style.removeProperty('position');
   }, []);
 
+  const metrics = [
+  {
+    value: "500%+",
+    label: "Traffic Growth",
+    context: "MyEverBright redesign",
+  },
+  {
+    value: "115%",
+    label: "Retention Lift",
+    context: "MyEverBright redesign",
+  },
+  {
+    value: "0→1",
+    label: "Enterprise SaaS Launched",
+    context: "GoodLeap Roofer Plus in 6 months",
+  },
+  {
+    value: "6",
+    label: "Design Systems Built",
+    context: "Powered by Axil framework",
+  },
+];
+
   return (
     <header ref={sliderRef} className="particles valign" id="home">
       <div className="container fc-make-front">
@@ -30,11 +53,11 @@ const IntroFC = ({ sliderRef, blackStar }) => {
 
           <div className="col-lg-6 valign">
             <div className="cont md-mb40">
-              <h1 classname="mb-40 fw-600>">
-                Hi There!
-              </h1>
-              <p className="mb-20 mt-20"><strong>I’m Chelsea</strong>, a Product Designer based in San Francisco. </p>
-              <p className="mb-40">I have 10 years of experience in mobile & web design as well as a background in front-end development. </p>
+              <h2 classname="mb-40 fw-600>">
+                Hi, I'm Chelsea
+              </h2>
+              <p className="mb-20 mt-20">I'm a Staff Product Designer with 10 years of experience taking applications from zero to launch. </p>
+              <p className="mb-40">Recently I designed an all-in-one enterprise SaaS in less than 6 months, and led a complete app redesign that grew monthly visits from 200 to over 1,000 and boosted 30-day retention by 115%.</p>
               
              
     <Link 
@@ -42,13 +65,68 @@ const IntroFC = ({ sliderRef, blackStar }) => {
                 to="case_studies"
                 spy={true}gatsby
                 smooth={true}
-                offset={50}
+                offset={-150}
                 duration={500}
               >
                 View Case Studies
               </Link>
             </div>
           </div>
+
+<section
+      className="section-padding pt-60 pb-60"
+      style={{ borderTop: "1px solid rgba(255,255,255,0.06)", width: "100%", marginTop: "10%" }}
+    >
+      <div className="container">
+        <div className="row justify-content-center">
+          {metrics.map((m, i) => (
+            <div
+              key={i}
+              className="col-6 col-md-3 text-center wow fadeInUp"
+              data-wow-delay={`${0.1 + i * 0.1}s`}
+              style={{ padding: "1.5rem 1rem" }}
+            >
+              <div
+                style={{
+                  fontSize: "2.4rem",
+                  fontWeight: 700,
+                  letterSpacing: "-0.02em",
+                  lineHeight: 1,
+                  marginBottom: "0.5rem",
+                  background: "linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.65) 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
+                }}
+              >
+                {m.value}
+              </div>
+              <div
+                style={{
+                  fontSize: "0.9rem",
+                  fontWeight: 600,
+                  textTransform: "uppercase",
+                  letterSpacing: "0.08em",
+                  marginBottom: "0.35rem",
+                  color: "rgba(255,255,255,0.9)",
+                }}
+              >
+                {m.label}
+              </div>
+              <div
+                style={{
+                  fontSize: "0.75rem",
+                  color: "rgba(255,255,255,0.45)",
+                  lineHeight: 1.4,
+                }}
+              >
+                {m.context}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
 
         </div>
       </div>
@@ -60,6 +138,7 @@ const IntroFC = ({ sliderRef, blackStar }) => {
       <div className="gradient-circle"></div>
       <div className="gradient-circle two"></div>
     </header>
+
   );
 };
 
