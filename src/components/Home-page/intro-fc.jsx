@@ -56,8 +56,8 @@ const IntroFC = ({ sliderRef, blackStar }) => {
               <h2 classname="mb-40 fw-600>">
                 Hi, I'm Chelsea
               </h2>
-              <p className="mb-20 mt-20">I'm a Staff Product Designer with 10 years of experience taking applications from zero to launch. </p>
-              <p className="mb-40">Recently I designed an all-in-one enterprise SaaS in less than 6 months, and led a complete app redesign that grew monthly visits from 200 to over 1,000 and boosted 30-day retention by 115%.</p>
+              <p className="mb-20 mt-20">I'm a Staff Product Designer with 10 years of experience taking products from zero to launch. </p>
+              <p className="mb-40">Recently, I designed an all-in-one enterprise SaaS platform in less than 6 months and led a complete app redesign that increased monthly visits from 200 to over 1,000 and boosted 30-day retention by 115% year over year.</p>
               
              
     <Link 

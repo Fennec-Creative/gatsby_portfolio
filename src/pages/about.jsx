@@ -3,6 +3,8 @@ import NavbarArch from "components/Navbar-arch/navbar-arch";
 import DarkTheme from "layouts/Dark";
 import IntroAbout from "components/About/intro-about";
 import SkillsAbout from "components/About/skills-about";
+import CareerTimelineAbout from "components/About/career-timeline-about";
+import ToolsAbout from "components/About/tools-about";
 import ExperienceAbout from "components/About/experience-about";
 import Footer2 from "components/Footer2/footer2";
 
@@ -33,6 +35,8 @@ const About = () => {
       <NavbarArch navbarRef={navbarRef} />
       <IntroAbout />
       <SkillsAbout style="4item" />
+      <CareerTimelineAbout />
+      <ToolsAbout />
       <ExperienceAbout />
       <Footer2 />
     </DarkTheme>

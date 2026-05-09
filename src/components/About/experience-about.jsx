@@ -12,7 +12,7 @@ const ExperienceAbout = () => {
   }, []);
 
   return (
-    <section className="agency section-padding position-re">
+    <section className="agency fc-dbg-dark-gray section-padding position-re">
       <div className="container">
         <div className="row">
           <div className="col-lg-7">

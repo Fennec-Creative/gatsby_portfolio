@@ -17,10 +17,10 @@ const IntroAbout = () => {
                 About Me
               </h1>
               <p className="mb-20 mt-20">
-              I love solving complex problems and helping companies meet their goals by creating products that are thoughtful, intuitive, and enjoyable to use. Throughout my career, I have developed a versatile skill set and am always seeking new challenges.
+              I specialize in end-to-end products where the problem space is ambiguous and complex. I collaborate closely with cross-functional teams to ensure users never feel that complexity.
               </p>
               <p className="mb-40">
-              When I'm not hammering code or illustrating graphics I can be found jamming with my band or climbing outside of San Francisco.
+              More than a decade into my career, I’ve worked across mobile, web, and the spaces in between at companies ranging from early-stage startups to Fortune 500 organizations. Outside of work, you’ll usually find me playing with my band or climbing around San Francisco.
               </p>
 
               <div className="col-lg-12 text-right app-footer fc-social">

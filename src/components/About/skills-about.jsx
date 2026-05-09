@@ -18,12 +18,12 @@ const SkillsAbout = () => {
             <div className="item-box lightservices hide-margin-top">
               <div>
                 <span className="icon">
-                  <img src="/img/ux-design-icon.svg" className="skills-icon" alt=" " />
+                  <img src="/img/team-leadership-icon.svg" className="skills-icon" alt=" "/>
                 </span>
               </div>
               <div className="cont">
-                <h6>UX Design</h6>
-                <p>I'm experienced with every step of the design process from concept to launch</p>
+                <h6>Design Leadership</h6>
+                 <p>Leading and mentoring design teams, shaping strategic direction across product experiences, and partnering closely with product and engineering leadership.</p>
               </div>
             </div>
           </div>
@@ -33,12 +33,12 @@ const SkillsAbout = () => {
             <div className="item-box lightservices">
               <div>
                 <span className="icon">
-                  <img src="/img/ux-research-icon.svg" className="skills-icon" alt=" "/>
+                  <img src="/img/ux-design-icon.svg" className="skills-icon" alt=" " />
                 </span>
               </div>
               <div className="cont">
-                <h6>UX Research</h6>
-                <p>I have experience collecting and analyzing qualitative and quantitative data</p>
+                <h6>Product & UX Design</h6>
+                <p>Driving end-to-end product design from discovery and problem framing through wireframes, prototypes, testing, and implementation across mobile and web.</p>
               </div>
             </div>
           </div>
@@ -50,12 +50,12 @@ const SkillsAbout = () => {
             <div className="item-box lightservices">
               <div>
                 <span className="icon">
-                  <img src="/img/front-end-dev.svg" className="skills-icon" alt=" " />
+                  <img src="/img/ux-research-icon.svg" className="skills-icon" alt=" "/>
                 </span>
               </div>
               <div className="cont">
-                <h6>Front-End Development</h6>
-                <p>I have a background in web development and can easily communicate with engineers</p>
+                <h6>UX Research</h6>
+                <p>Conducting qualitative and quantitative research including usability testing, contextual inquiry, card sorting, and AI-assisted synthesis.</p>
               </div>
             </div>
           </div>
@@ -69,8 +69,9 @@ const SkillsAbout = () => {
                 </span>
               </div>
               <div className="cont">
-                <h6>Team Leadership</h6>
-                <p>I am currently a team lead and love managing and mentoring other designers</p>
+                <h6>Front-End Development</h6>
+                 <p>Comfortable working in HTML, CSS, React, and Vue.js, with the technical fluency to communicate and collaborate effectively with engineers.</p>
+
               </div>
             </div>
           </div>
