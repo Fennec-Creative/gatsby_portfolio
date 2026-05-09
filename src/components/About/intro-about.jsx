@@ -28,10 +28,10 @@ const IntroAbout = () => {
               <div className="info">
               </div>
               <div className="social linklight ">
-                <a href="#0">
+                <a href="https://www.linkedin.com/in/fenneccreative/" target="_blank" rel="noreferrer">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a href="#0">
+                <a href="mailto:cwilliamsdigital@gmail.com">
                   <i className="fa fa-envelope"></i>
                 </a>
               </div>
