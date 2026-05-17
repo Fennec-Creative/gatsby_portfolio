@@ -70,7 +70,17 @@ const Auth = ({ onAuthenticated }) => {
         <div className="container">
 
         <div className="row justify-content-left linklight">
-            <a href="/case-studies/myeverbright" className="fc-back-button">
+            <a
+              href="/"
+              onClick={(e) => {
+                if (typeof window !== "undefined" && window.history.length > 1) {
+                  e.preventDefault();
+                  sessionStorage.removeItem("redirectAfterAuth");
+                  window.history.back();
+                }
+              }}
+              className="fc-back-button"
+            >
                   <img src="/img/back-bracket-light.svg" className="fc-back-icon" alt=" " />
                   <span>Back</span>
               </a>
