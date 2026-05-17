@@ -43,6 +43,12 @@ const NavbarArch = ({ navbarRef, theme }) => {
               <div className="dropdown-menu">
                 <a
                   className="dropdown-item"
+                  href={`/case-studies/goodleap`}
+                >
+                  GoodLeap Pros
+                </a>
+                <a
+                  className="dropdown-item"
                   href={`/case-studies/myeverbright`}
                 >
                   MyEverBright
@@ -53,19 +59,6 @@ const NavbarArch = ({ navbarRef, theme }) => {
                 >
                   Axil Design System
                 </a>
-                <a
-                  className="dropdown-item"
-                  href={`/case-studies/search-feature`}
-                >
-                  A Better Search 
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/case-studies/quest-for-a-clean-house`}
-                >
-                  Cleaning Quest
-                </a>
-                
               </div>
             </li>
 

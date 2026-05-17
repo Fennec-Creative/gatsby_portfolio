@@ -42,6 +42,23 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
           }
 
           <div className="gallery full-width">
+            <div className={`${grid === 3 ? "col-lg-10 col-md-12" : grid === 2 ? "col-md-12" : "col-12"} items graphic wow fadeInUp`} data-wow-delay=".4s">
+              <div className="item-img">
+                <Link to={`/case-studies/goodleap`} className="imago wow">
+                  <img src="/img/goodleap-pros-thumb.png" alt="mobile application with light and dark mode depecting colorful data charts" />
+                  <div className="item-img-overlay"></div>
+                </Link>
+              </div>
+              <div className="cont">
+                <h6>Goodleap Pros</h6>
+                <span>
+                  Staff UX Designer • UX & UI Design
+                </span>
+              </div>
+            </div>
+          </div> 
+
+          <div className="gallery full-width">
             <div className={`${grid === 3 ? "col-lg-4 col-md-6" : grid === 2 ? "col-md-6" : "col-12"} items graphic wow fadeInUp`} data-wow-delay=".4s">
               <div className="item-img">
                 <Link to={`/case-studies/myeverbright`} className="imago wow">
@@ -75,41 +92,6 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
               </div>
             </div>
 
-            <div
-              className={`${grid === 3 ? "col-lg-4 col-md-6" : grid === 2 ? "col-md-6" : "col-12"} items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link to={`/case-studies/quest-for-a-clean-house`} className="imago wow">
-                  <img src="/img/fc-quest.png" alt="Colorful game cards showcasing dnd-inspired chore game" />
-                  <div className="item-img-overlay"></div>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>Cleaning Quest</h6>
-                <span>
-                  UX Design • Game Design
-                </span>
-              </div>
-            </div>
-
-            <div
-              className={`${grid === 3 ? "col-lg-4 col-md-6" : grid === 2 ? "col-md-6" : "col-12"} items graphic wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link to={`/case-studies/search-feature`} className="imago wow">
-                  <img src="/img/fc-search.png" alt="Search application for finding medical providers in an area" />
-                  <div className="item-img-overlay"></div>
-                </Link>
-              </div>
-              <div className="cont">
-                <h6>A Better Search Experience</h6>
-                <span>
-                  UI & UX Design
-                </span>
-              </div>
-            </div>
 
           
             
