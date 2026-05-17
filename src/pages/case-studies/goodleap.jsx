@@ -1774,3 +1774,4 @@ const GoodLeapCaseStudy = () => {
 };
 
 export default withAuth(GoodLeapCaseStudy);
+//export default GoodLeapCaseStudy;
