@@ -45,7 +45,7 @@ const IntroFC = ({ sliderRef, blackStar }) => {
     <header ref={sliderRef} className="particles valign" id="home">
       <div className="container fc-make-front">
         <div className="row">
-          <div className="col-lg-6 valign margin-more-b margin-more-t">
+          <div className="col-lg-6 valign margin-more-b margin-more-t pt-30">
           <div className="img ">
               <img src="/img/fc-fennec-fox.svg" alt=" " />
             </div>
@@ -74,8 +74,8 @@ const IntroFC = ({ sliderRef, blackStar }) => {
           </div>
 
 <section
-      className="section-padding pt-60 pb-60"
-      style={{ borderTop: "1px solid rgba(255,255,255,0.06)", width: "100%", marginTop: "10%" }}
+      className="section-padding pt-30 pb-30"
+      style={{ borderTop: "1px solid rgba(255,255,255,0.06)", width: "100%", marginTop: "5%" }}
     >
       <div className="container">
         <div className="row justify-content-center">
