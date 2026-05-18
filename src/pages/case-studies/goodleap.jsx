@@ -3,7 +3,7 @@ import NavbarArch from "components/Navbar-arch/navbar-arch";
 import DarkTheme from "layouts/Dark";
 import HeaderMain from "components/Case-studies-components/GoodLeap/header-main";
 import IntroMain from "components/Case-studies-components/GoodLeap/intro-main";
-import { withAuth } from "../../utils/withAuth";
+//import { withAuth } from "../../utils/withAuth";
 
 
 /* ------------------------------------------------------------------
@@ -286,8 +286,8 @@ function ProblemSection() {
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0, 1fr)", gap: 64 }}>
           <SectionTitle
             kicker="The Problem"
-            title="A hard pivot. A harder deadline."
-            lead="In early 2025, GoodLeap made a sudden strategic pivot from clean energy financing into roofing and HVAC. I was four months into a solar proposal tool and the launch date didn't move.  That meant starting over — new domain, new users, new competitive landscape, while keeping the same deadline."
+            title="A hard pivot with a harder deadline"
+            lead="In early 2025, external factors forced GoodLeap to make a sudden strategic pivot from clean energy financing into roofing and HVAC. I had already invested 4 months into my original project, a proposal tool for solar installers, when the shift happened. This pivot forced me to start the project from scratch while retaining the same deadline."
             follow="As the sole designer, I owned everything: research, information architecture, design system, high-fidelity mockups, prototypes, and developer handoff."
           />
 
@@ -296,8 +296,8 @@ function ProblemSection() {
             {[
               { title: "Limited time",    body: "Six months to complete all design work. No room for delays or rework.", c: "#F27D9C" },
               { title: "Research gaps",   body: "No time for new research. Every assumption needed to be explicit and testible", c: "#F2B155" },
-              { title: "Fluid scope",     body: "Requirements shifted weekly as leadership learned the roofing field alongside us.", c: "#B299FF" },
-              { title: "No design system", body: "The solar team had patterns, not a system. Nothing portable, nothing documented.", c: "#5FB1FF" },
+              { title: "Fluid scope",     body: "Requirements shifted weekly as leadership learned the roofing industry alongside us.", c: "#B299FF" },
+              { title: "No design system", body: "The hard pivot came with a company-wide rebrand with no centralized design system.", c: "#5FB1FF" },
             ].map(c => (
               <div key={c.title} style={{
                 padding: 24,
@@ -331,7 +331,7 @@ function ProblemSection() {
                   "Enter a mature, competitive SaaS category as a credible player",
                   "Open a new revenue stream from existing contractor relationships",
                   "Launch at parity with competitors, then differentiate on financing + AI",
-                  "Post-launch NPS above 30 within the first quarter of release",
+                  "Post-launch NPS score above 30 within the first quarter of release",
                 ].map((g, i) => (
                   <li key={i} style={{
                     fontFamily: "'Inter', sans-serif",
@@ -389,9 +389,9 @@ function ProblemSection() {
 function ApproachSection() {
   const pillars = [
     { n: "01", title: "Assumption-driven research", body: "Treated generative AI output as hypothesis, not truth. Every Lean UX artifact shipped with a test plan attached.", c: "#5FB1FF" },
-    { n: "02", title: "Parallel design tracks", body: "Wireframes, hi-fi, and DS work moved in parallel across features — so review cycles never stalled the critical path.", c: "#7ED9A7" },
-    { n: "03", title: "Template-first handoff", body: "Built a reusable Figma template system. Same pattern, same spec, same component — across every flow.", c: "#B299FF" },
-    { n: "04", title: "Negotiated quality", body: "Made scope tradeoffs visible and tangible. \"Here's what speed looks like. Here's what quality looks like. Pick.\" Weekly.", c: "#F27D9C" },
+    { n: "02", title: "Parallel design tracks", body: "Wireframes, hi-fi, and DS work moved in parallel across features.", c: "#7ED9A7" },
+    { n: "03", title: "Template-first handoff", body: "Built a reusable Figma template system, with the same patterns, specs, and components across every flow.", c: "#B299FF" },
+    { n: "04", title: "Negotiated quality", body: "Made scope tradeoffs visible and tangible to leadership and drew hard lines to maintain momentum", c: "#F27D9C" },
   ];
 
   return (
@@ -399,7 +399,7 @@ function ApproachSection() {
       <Container>
         <SectionTitle
           kicker="My Approach"
-          title="A framework to balance speed and quality under live pressure."
+          title="A framework to balance speed and quality under pressure"
           lead="I needed to work fast, but couldn't afford to be sloppy. I built a four-pillar operating model inspired by lean UX and agile methodologies to find a point of convergence between quality and speed."
         />
         <div style={{ marginTop: 64, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 20 }}>
@@ -501,26 +501,9 @@ function ResearchSection() {
       <Container>
         <SectionTitle
           kicker="Research"
-          title="Turning AI-generated assumptions into testable hypotheses."
+          title="Turning AI-generated assumptions into testable hypotheses"
           lead="With no time for upfront field research, I inverted the usual order. I used generative AI to build a first-pass research artifact set, then treated every output as an assumption that had to be confirmed or refuted against real data, on a rolling basis."
         />
-
-        <div style={{
-          marginTop: 56,
-          padding: "32px 40px",
-          borderRadius: 16,
-          background: "linear-gradient(135deg, rgba(78,185,232,0.08), rgba(139,107,240,0.08))",
-          border: "1px solid rgba(78,185,232,0.18)",
-          maxWidth: 880,
-        }}>
-          <div style={{ fontSize: 36, color: "var(--fc-primary)", lineHeight: 0.8, marginBottom: 8 }}>"</div>
-          <p>
-            How do I build an accurate research foundation inside a window that doesn't allow for one?
-          </p>
-          <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 13, color: "#A9B4C8", marginTop: 14, letterSpacing: "0.04em" }}>
-            — Framing question for my research approach 
-          </div>
-        </div>
 
         <div style={{ marginTop: 72, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 32 }}>
           <div>
@@ -567,10 +550,10 @@ function ResearchSection() {
             <Eyebrow color="#B299FF">What I learned</Eyebrow>
             <div style={{ marginTop: 20 }}>
               {[
-                { tag: "Insight #1",       c: "#7ED9A7", text: "Roofing sales reps live in their truck. Mobile-first wasn't a nice-to-have — it was the primary scenario for ~70% of proposal creation.", struck: false },
-                { tag: "Insight #2",       c: "#F27D9C", text: "Contractors fear loan rejection in front of the homeowner. Our financing flow had to succeed-or-fail fast to minimize ambiguity.", struck: false },
+                { tag: "Insight #1",       c: "#7ED9A7", text: "Roofing sales reps live in their truck, meaning mobile and tablet use accounted for 70% of proposal creation.", struck: false },
+                { tag: "Insight #2",       c: "#F27D9C", text: "Contractors fear loan rejection in front of the homeowner. Our financing flow had to show results fast to minimize ambiguity.", struck: false },
                 { tag: "Insight #3",       c: "#B299FF", text: "Measurement accuracy is the top admin burden. Roofers re-measure because they don't trust their tools or existing software.", struck: false },
-                { tag: "Assumption killed", c: "#F2B155", text: "I assumed users wanted a single universal template. Interviews said the opposite. Every franchise wanted their own branded flow.", struck: true },
+                { tag: "Assumption killed", c: "#F2B155", text: "I assumed users wanted a single universal template. Interviews said the opposite. Every franchise wanted their own branded flow.", struck: false },
               ].map(({ tag, c, text, struck }) => (
                 <div key={tag} style={{
                   padding: "20px 22px",
@@ -640,13 +623,13 @@ function wireframePlaceholder(label) {
 }
 
 const WIREFRAMES = [
-  { name: "DeDe AI",   description: "Conversational and agentic patterns for in-product AI." },
-  { name: "Leads",     description: "Address-first pipeline and lead detail layout." },
-  { name: "Proposals", description: "Auto-generated proposal flow with embedded financing." },
-  { name: "Pricebook", description: "Catalog management with measurement-linked items." },
-  { name: "Loans",     description: "Real-time qualification and counter-offer handling." },
-  { name: "Contracts", description: "Template-driven contracts that flow from proposal acceptance." },
-  { name: "Invoices",  description: "Lightweight invoicing with status visible across the pipeline." },
+  { name: "DeDe AI",   description: "Conversational and agentic patterns for in-product AI.",        image: "/img/case-studies/dedeai-wireframe.png" },
+  { name: "Leads",     description: "Address-first pipeline and lead detail layout.",                image: "/img/case-studies/leads-wireframes.png" },
+  { name: "Proposals", description: "Auto-generated proposal flow with embedded financing.",         image: "/img/case-studies/proposals-wireframes.png" },
+  { name: "Pricebook", description: "Catalog management with measurement-linked items.",             image: "/img/case-studies/pricebook-wireframes.png" },
+  { name: "Loans",     description: "Real-time qualification and counter-offer handling.",           image: "/img/case-studies/loans-wireframes.png" },
+  { name: "Contracts", description: "Template-driven contracts that flow from proposal acceptance.", image: "/img/case-studies/contracts-wireframes.png" },
+  { name: "Invoices",  description: "Lightweight invoicing with status visible across the pipeline.", image: "/img/case-studies/invoices-wireframes.png" },
 ];
 
 function Carousel({ slides, index, onChange, onSlideClick }) {
@@ -772,7 +755,7 @@ function NorthStarSection() {
 
   const slides = WIREFRAMES.map(w => ({
     ...w,
-    src: wireframePlaceholder(w.name),
+    src: w.image || wireframePlaceholder(w.name),
   }));
 
   return (
@@ -780,8 +763,8 @@ function NorthStarSection() {
       <Container>
         <SectionTitle
           kicker="North Star"
-          title="A single file that defined the long-term vision."
-          lead="Before pixel-perfect work began, I built a North Star file — low-fidelity wireframes covering every key feature. It let me align stakeholders on shape and intent without burning time on visual debates, and it became the reference the team returned to throughout the project."
+          title="Setting the long-term vision with early iterations"
+          lead="Before pixel-perfect work began, I built a North Star file consisting of low-fidelity wireframes covering every key feature. It let me align stakeholders on shape and intent without burning time on visual debates, and it became the reference the team returned to throughout the project."
         />
 
         <div style={{ marginTop: 56 }}>
@@ -795,7 +778,7 @@ function NorthStarSection() {
       </Container>
 
       <Lightbox
-        images={slides.map(s => ({ src: s.src, caption: `${s.name} · Wireframe` }))}
+        images={slides.map(s => ({ src: s.src, caption: `${s.name} · Wireframes` }))}
         index={lightboxIndex}
         onClose={() => setLightboxIndex(null)}
         onIndexChange={setLightboxIndex}
@@ -815,7 +798,7 @@ function DesignSystemSection() {
         <SectionTitle
           kicker="Design System"
           title="Merlin - a system built in two weeks"
-          lead="GoodLeap had new branding, and expected a new system with GoodLeap Pros. I needed to move fast, so I forked my own pre-built Figma template, Axil and pulled GoodLeap brand tokens directly from their site. I refined the tokens for accessibility and updated my templated components to match. The system later became the seed for the company-wide DS."
+          lead="GoodLeap had new branding, and expected a new system with GoodLeap Pros. I needed to move fast, so I took my own pre-built Figma template, Axil, and pulled GoodLeap brand tokens directly from their website. I refined the tokens for accessibility and updated my templated components to match. The system later became the seed for the company-wide DS."
         />
 
         <div style={{ marginTop: 64, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24 }}>
@@ -903,7 +886,7 @@ function DesignSystemSection() {
           {[
             ["52",    "Components shipped"],
             ["22",    "Documented patterns"],
-            ["2 wks", "Foundation to first handoff"],
+            ["2 weeks", "Foundation to first handoff"],
             ["1",     "System, reused across the org"],
           ].map(([v, l], i) => (
             <div key={i}>
@@ -928,7 +911,7 @@ const FEATURES = [
     name: "DeDe AI",
     tag: "Assistant",
     headline: "A personal assistant for all roofing needs.",
-    body: "I led discovery and initial concepts for DeDe, our in-product AI. In a market oversaturated with chatbots, DeDe needed to stand out as a true AI assistantI designed DeDe with a combination of agentic AI and reliable automation - creating an agent that can reliably help with all roofing needs.",
+    body: "I led discovery and initial concepts for DeDe, our in-product AI. In a market oversaturated with chatbots, DeDe needed to stand out as a true AI assistant. I designed DeDe with a combination of agentic AI and reliable automation, creating an agent that can reliably help with all roofing needs.",
     bullets: [
       "Fast proposal generaiton with minimal instruction",
       "Agentic performance statistics and visuals",
@@ -976,10 +959,10 @@ const FEATURES = [
     name: "Pricebook",
     tag: "Admin + pricing",
     headline: "Dynamic pricebook made easy for everyone",
-    body: "Pricebook is a dynamic catalog feature that allows users to easily create items, packages, and discounts. From measurements to varying hourly wages, Pricebook allows variable linking with specific measurements and custom rounding - allowing a truly automated experience in proposal creation. Covering all possible variants for this feature was both challenging and rewarding",
+    body: "Pricebook is a dynamic catalog feature that allows users to easily create items, packages, and discounts. From measurements to varying hourly wages, Pricebook allows variable linking with specific measurements and custom rounding, allowing a truly automated experience in proposal creation. Covering all possible variants for this feature was both challenging and rewarding",
     bullets: [
       "Dynamic measurement linkage across materials",
-      "Granular org permissions — add, edit, archive, restore",
+      "Granular org permissions: add, edit, archive, restore",
       "Discount engine and pre-built packages",
       "Bulk operations for franchise-level rollouts",
     ],
@@ -991,7 +974,7 @@ const FEATURES = [
     name: "Loans",
     tag: "Financing",
     headline: "Financing options with instant qualifications",
-    body: "Our existing loan experience was built primarily for solar and existed accross multiple applications. I designed Pros to combine all of these experiences into one, seamless flow optimized for roofing.",
+    body: "Our existing loan experience was built primarily for solar and existed accross multiple applications. I designed Pros to combine all of these experiences into one seamless flow, optimized for roofing.",
     bullets: [
       "In-proposal attachment of up to 3 financing options",
       "Real-time approval, counter-offer, or rejection",
@@ -1424,8 +1407,8 @@ function TensionsSection() {
       <Container>
         <SectionTitle
           kicker="Managing tension"
-          title="Two leaders, two priorities, and how I navigated both."
-          lead="My project manager needed me to move fast as possible and my design manager needed me to slow down and iterate on existing patterns. Both were important and lead to frequent tension between the two. I needed to find a sustainable middle-ground"
+          title="Two leaders, two priorities, and how I navigated both"
+          lead="My project manager needed me to move as fast as possible and my design manager needed me to slow down and iterate on existing patterns. Both were important and lead to frequent tension between the two. I needed to find a sustainable middle-ground"
         />
         <div style={{ marginTop: 56, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 20 }}>
           {[
@@ -1441,7 +1424,7 @@ function TensionsSection() {
             },
             {
               side: "My response", want: "Compromise", color: "#3BC0B9",
-              points: ["Staggered design cycles to create more time for review", "Template system to reduce repetition", "Set hard lines for new scope", "Use a parking lot system to make sure innovative ideas weren't lost"],
+              points: ["Staggered design cycles to create more time for review", "Template system to reduce repetition", "Set hard limits for new scope", "Use a parking lot system to make sure innovative ideas weren't lost"],
               emphasized: true,
             },
           ].map(({ side, want, color, points, emphasized }) => (
@@ -1511,7 +1494,7 @@ function DataStageSection() {
           <div>
             <Eyebrow>Setting the stage for optimization</Eyebrow>
             <h2>
-              Launching without metrics was a risk I refused to take.
+              Launching without metrics was a risk I refused to take
             </h2>
             <p style={{ fontFamily: "'Inter', sans-serif", fontSize: 16, lineHeight: 1.65, color: "#A9B4C8" }}>
               Before a single screen shipped, I advocated for analytics instrumentation and scoped a systematic customer feedback program. The goal: walk into the first post-launch review with evidence, not anecdotes.
@@ -1571,15 +1554,15 @@ function ImpactSection() {
         <SectionTitle
           kicker="Impact"
           title="Pre-launch results"
-          lead="At the time of this case study, this applicaiton hadn't gone live yet, so I don't have post-launch conversion metrics inluded. What I can speak to are the organizational and delivery outcomes that set launch up for success."
+          lead="At the time of publishing, this applicaiton hadn't gone live yet, so I don't have post-launch conversion metrics inluded. What I can speak to are the organizational and delivery outcomes that set launch up for success."
         />
 
         <div style={{ marginTop: 56, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 20 }}>
           {[
-            { v: "Q1",  l: "Shipped ahead of a deadline leadership called \"almost impossible\"", c: "#3BC0B9" },
-            { v: "7",   l: "Core features designed, specced, and handed off solo", c: "#5FB1FF" },
-            { v: "52",  l: "Reusable components that became the seed of the company DS", c: "#B299FF" },
-            { v: "1st", l: "Project to define DeDe AI, a core feature to GoodLeap as a whole", c: "#F27D9C" },
+            { v: "Q1",  l: "Design work completed ahead of a deadline team lead called \"almost impossible\"", c: "#3BC0B9" },
+            { v: "7",   l: "Core features designed, spec'd, and handed off solo", c: "#5FB1FF" },
+            { v: "52",  l: "Reusable components that became the backbone for the company DS", c: "#B299FF" },
+            { v: "1st", l: "Project to define DeDe AI - a core feature to GoodLeap as a whole", c: "#F27D9C" },
           ].map((s, i) => (
             <div key={i} style={{
               padding: 28,
@@ -1596,37 +1579,22 @@ function ImpactSection() {
 
         <div style={{ marginTop: 40, padding: 36, borderRadius: 20, background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}>
           <Eyebrow>Qualitative Impact</Eyebrow>
-          <div style={{ marginTop: 20, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
+          <div style={{ marginTop: 24, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 26 }}>
             {[
-              ["Executive visibility",    "Roofer Plus became the flagship example of a GoodLeap pivot executed on-time."],
+              ["Executive visibility",    "GoodLeap Pros became the flagship example of our department's ability to execute under pressure."],
               ["Team efficiency",         "The Figma template system cut handoff-revision cycles in half on later features."],
-              ["Design system foundation","Axil was adopted — with adjustments — by three additional product teams."],
-              ["DeDe precedent",          "Set the pattern and guardrails for every AI surface that came after."],
+              ["Design system foundation","My design system was adopted (with adjustments) by three additional product teams."],
+              ["DeDe precedent",          "Set the vision and use patterns for every AI feature that came after."],
+              ["Vision alignment",         "Defined the long-term vision of roofing technology at GoodLeap"],
+              ["Innovation Definer",         "My designwork was the face of GoodLeap's 2026 Innovation Summit"],
             ].map(([t, b], i) => (
               <div key={i}>
-                <h5>{t}</h5>
+                <h5 style={{marginBottom: "12px"}}>{t}</h5>
                 <p>{b}</p>
               </div>
             ))}
           </div>
-          <div style={{
-            marginTop: 28,
-            padding: "14px 18px",
-            borderRadius: 10,
-            background: "rgba(95,177,255,0.08)",
-            border: "1px solid rgba(95,177,255,0.2)",
-            fontFamily: "'Inter', sans-serif",
-            fontSize: 13,
-            color: "#C8E0F6",
-            display: "flex",
-            gap: 12,
-            alignItems: "flex-start",
-          }}>
-            <span style={{ color: "#5FB1FF", fontSize: 14, marginTop: 1 }}>ℹ</span>
-            <span>
-              <b style={{ color: "#fff" }}>Note on metrics:</b> Launch-based KPIs (activation, NPS, retention) will be instrumented on release. I've scoped the dashboard and set success thresholds — a full post-launch update will go here.
-            </span>
-          </div>
+          
         </div>
       </Container>
     </Section>
@@ -1643,27 +1611,27 @@ function ReflectionsSection() {
       t: "What worked",
       c: "#7ED9A7",
       pts: [
-        "Parallel design tracks. The only reason we hit Q1.",
-        "Treating AI output as assumption, not truth. Kept me honest.",
-        "Shared the DS early. Made developers partners, not recipients.",
+        "Parallel design tracks paid off in hitting my deadline.",
+        "Shared the DS early and made developers partners, not recipientsl",
+        "Early user testing overwhelmingly positive and surfaced no major issues.",
       ],
     },
     {
       t: "What I'd change",
       c: "#F2B155",
       pts: [
-        "Started user interviews in week one instead of week four.",
-        "Negotiated explicit \"flagship vs. MVP\" bar with leadership sooner.",
-        "Written the DS documentation as I shipped, not retroactively.",
+        "Earlier implimentation of AI in my design process.",
+        "Negotiate explicit \"flagship vs. MVP\" bar with leadership sooner.",
+        "Harder advocacy for more staff to cover the major scope increase.",
       ],
     },
     {
       t: "What's next",
       c: "#B299FF",
       pts: [
-        "Instrument and review post-launch metrics against the scoped dashboard.",
-        "Run the deferred contextual inquiries to close the remaining research gaps.",
-        "Graduate DeDe from assistive to agentic on the proposal + client flows.",
+        "Data-based iteration using post-laumch analytics and user feedback.",
+        "Run contextual inquiries to close the remaining research gaps.",
+        "Revisit parking lot features and prioritize based on user needs and impact.",
       ],
     },
   ];
@@ -1673,8 +1641,9 @@ function ReflectionsSection() {
       <Container>
         <SectionTitle
           kicker="Reflections"
-          title="The version of this I'd ship with more time."
-          lead="Staff design isn't about getting it perfect. It's about seeing what you got wrong clearly enough to do better next time. Here's my honest accounting."
+          title="What went well and what I'd change"
+          lead="This project was a crash course in execution under pressure, and I'm proud of how I navigated the competing priorities, ambiguity, and sheer scope of it all. That said, there are definitely things I would have done differently in hindsight."
+          follow="While I met my deadline for design work, the software ultimately did not launch on time. We simply had too small of a team and not enough time. If I could do it again, I'd push harder for more research and iteration time. I'd also impliment AI into my process sooner to cut down on wireframing and prototyping time."
         />
         <div style={{ marginTop: 56, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 20 }}>
           {items.map(it => (
@@ -1709,13 +1678,13 @@ function CaseStudyFooter() {
     <footer style={{ padding: "80px 0 40px", textAlign: "center", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
       <Container>
         <div style={{ fontWeight: 800, fontSize: "clamp(28px, 4vw, 44px)", letterSpacing: "-0.025em", color: "#fff", lineHeight: 1.1 }}>
-          Thanks for scrolling.
+          Thanks for scrolling
         </div>
         <p style={{ fontFamily: "'Inter', sans-serif", fontSize: 15, color: "#A9B4C8", marginTop: 16, maxWidth: 480, marginLeft: "auto", marginRight: "auto" }}>
-          Want to talk about the tradeoffs, the AI scoping, or the day the pivot dropped? I'd love to walk you through it.
+          Want to talk about the tradeoffs, AI scoping, or the day the pivot dropped? I'd love to walk you through it.
         </p>
         <div style={{ marginTop: 28, display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
-          <a href="mailto:cwilliamsdigital@gmail.com" style={{
+          <a href="https://www.linkedin.com/in/fenneccreative/" style={{
             padding: "12px 22px",
             borderRadius: 999,
             background: "var(--fc-primary)",
@@ -1773,5 +1742,5 @@ const GoodLeapCaseStudy = () => {
   );
 };
 
-export default withAuth(GoodLeapCaseStudy);
-//export default GoodLeapCaseStudy;
+//export default withAuth(GoodLeapCaseStudy);
+export default GoodLeapCaseStudy;
