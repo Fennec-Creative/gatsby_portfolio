@@ -759,7 +759,7 @@ function NorthStarSection() {
   }));
 
   return (
-    <Section id="north-star">
+    <Section id="north-star" style={{background:"#262B36"}}>
       <Container>
         <SectionTitle
           kicker="North Star"
@@ -793,7 +793,7 @@ function NorthStarSection() {
 
 function DesignSystemSection() {
   return (
-    <Section style={{background:"#262B36"}}>
+    <Section>
       <Container>
         <SectionTitle
           kicker="Design System"
@@ -1024,7 +1024,7 @@ function FeaturesSection() {
   const activeIdx = FEATURES.findIndex(x => x.id === active);
 
   return (
-    <Section id="features" bg="linear-gradient(180deg, rgba(22,35,60,0.4) 0%, rgba(11,19,34,1) 50%, rgba(22,35,60,0.4) 100%)">
+    <Section id="features"  style={{background:"#262B36"}}>
       <Container>
         <SectionTitle
           kicker="Key Features"
@@ -1403,7 +1403,7 @@ function InvoicesVisual({ accent }) {
 
 function TensionsSection() {
   return (
-    <Section style={{background: "#262B36"}}>
+    <Section>
       <Container>
         <SectionTitle
           kicker="Managing tension"
@@ -1488,7 +1488,7 @@ function MiniChart() {
 
 function DataStageSection() {
   return (
-    <Section bg="linear-gradient(180deg, transparent 0%, rgba(22,35,60,0.5) 50%, transparent 100%)">
+    <Section  style={{background:"#262B36"}}>
       <Container>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 48, alignItems: "center" }}>
           <div>
