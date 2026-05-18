@@ -3,7 +3,7 @@ import NavbarArch from "components/Navbar-arch/navbar-arch";
 import DarkTheme from "layouts/Dark";
 import HeaderMain from "components/Case-studies-components/GoodLeap/header-main";
 import IntroMain from "components/Case-studies-components/GoodLeap/intro-main";
-//import { withAuth } from "../../utils/withAuth";
+import { withAuth } from "../../utils/withAuth";
 
 
 /* ------------------------------------------------------------------
@@ -1742,5 +1742,5 @@ const GoodLeapCaseStudy = () => {
   );
 };
 
-//export default withAuth(GoodLeapCaseStudy);
-export default GoodLeapCaseStudy;
+export default withAuth(GoodLeapCaseStudy);
+//export default GoodLeapCaseStudy;
