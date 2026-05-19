@@ -15,7 +15,7 @@ const HeaderMain = () => {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="fc-image-container" style={{height: "551px",maxWidth: "1170px"}}>
+        <div className="fc-image-container fc-goodleap-header-image" style={{height: "551px",maxWidth: "1170px"}}>
             <img src="/img/case-studies/goodleap-header.png" alt=" " className="main-para-2"/>
         </div>
       </div>

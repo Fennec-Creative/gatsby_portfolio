@@ -35,6 +35,45 @@ const CSS_TOKENS = `
   }
   .gl-nav-btn:hover { background: rgba(255,255,255,0.06) !important; }
   .gl-tab-btn:hover { opacity: 0.85; }
+
+  /* Key Features section — mobile (<=768px) */
+  @media (max-width: 768px) {
+    /* Tabs: keep them on a single line as a horizontally-scrollable strip
+       so the pill background stays continuous and tabs don't wrap into a stack */
+    .gl-features-tabs {
+      flex-wrap: nowrap !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x proximity;
+      scrollbar-width: none;
+    }
+    .gl-features-tabs::-webkit-scrollbar { display: none; }
+    .gl-features-tabs .gl-tab-btn {
+      flex-shrink: 0;
+      scroll-snap-align: start;
+    }
+    /* Collapse the 2-col content area to single column */
+    .gl-feature-row {
+      grid-template-columns: 1fr !important;
+      gap: 20px !important;
+    }
+    /* Tighter padding inside the copy card */
+    .gl-feature-copy {
+      padding: 24px !important;
+    }
+    /* Release the fixed 480px height so the image controls its own height */
+    .gl-feature-visual {
+      min-height: 0 !important;
+    }
+    .gl-feature-visual img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
 `;
 
 /* ------------------------------------------------------------------
@@ -163,7 +202,7 @@ function CaseStudyNav() {
           marginRight: 4,
           whiteSpace: "nowrap",
         }}>
-          <span style={{ color: "var(--fc-primary)" }}>◆</span>&nbsp; Roofer Plus
+          <span style={{ color: "var(--fc-primary)" }}>◆</span>&nbsp; GoodLeap Pros
         </div>
         <div style={{ display: "flex", gap: 2 }}>
           {items.map(it => (
@@ -664,7 +703,7 @@ function Carousel({ slides, index, onChange, onSlideClick }) {
         position: "relative",
         borderRadius: 20,
         overflow: "hidden",
-        background: "linear-gradient(180deg, #16233C 0%, #0B1322 100%)",
+        background: "#1a1d27",
         border: "1px solid rgba(255,255,255,0.08)",
         boxShadow: "0 24px 60px rgba(0,0,0,0.5)",
         aspectRatio: "16 / 10",
@@ -1033,7 +1072,7 @@ function FeaturesSection() {
           follow="Each feature represents a phase in the roofing journey and is built to optimize the user experience within the context of that phase."
         />
 
-        <div style={{
+        <div className="gl-features-tabs" style={{
           marginTop: 56,
           display: "flex",
           flexWrap: "wrap",
@@ -1068,7 +1107,7 @@ function FeaturesSection() {
           ))}
         </div>
 
-        <div style={{
+        <div className="gl-feature-row" style={{
           marginTop: 32,
           display: "grid",
           gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.2fr)",
@@ -1077,7 +1116,7 @@ function FeaturesSection() {
           animation: "fcFade 400ms cubic-bezier(0.22,1,0.36,1)",
         }}>
           {/* Left: copy */}
-          <div style={{
+          <div className="gl-feature-copy" style={{
             padding: 36,
             borderRadius: 20,
             background: "rgba(255,255,255,0.03)",
@@ -1138,10 +1177,10 @@ function FeaturesSection() {
             role="button"
             tabIndex={0}
             aria-label={`View ${f.name} at full resolution`}
+            className="gl-feature-visual"
             style={{
               borderRadius: 20,
               overflow: "hidden",
-              background: "linear-gradient(180deg, #16233C 0%, #0B1322 100%)",
               border: "1px solid rgba(255,255,255,0.08)",
               boxShadow: "0 24px 60px rgba(0,0,0,0.5)",
               minHeight: 480,
@@ -1518,7 +1557,7 @@ function DataStageSection() {
             </ul>
           </div>
 
-          <div style={{ padding: 24, borderRadius: 20, background: "linear-gradient(180deg, #16233C 0%, #0B1322 100%)", border: "1px solid rgba(255,255,255,0.08)", boxShadow: "0 24px 60px rgba(0,0,0,0.5)" }}>
+          <div style={{ padding: 24, borderRadius: 20, background: "#212328", border: "1px solid rgba(255,255,255,0.08)", boxShadow: "0 24px 60px rgba(0,0,0,0.5)" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
               <div>
                 <div style={{ fontSize: 15, fontWeight: 700, color: "#fff" }}>Post-launch dashboard</div>

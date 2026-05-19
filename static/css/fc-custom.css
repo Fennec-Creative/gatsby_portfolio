@@ -456,3 +456,16 @@
 }
 
 }
+
+/* GoodLeap header: collapse the fixed-height image slot on mobile so the
+   image hugs the intro section below it instead of leaving a 350px+ gap */
+@media (max-width: 768px) {
+    .fc-goodleap-header-image {
+        height: auto !important;
+        max-width: 100% !important;
+    }
+    .fc-goodleap-header-image .main-para-2 {
+        position: static !important;
+        max-width: 100% !important;
+    }
+}
