@@ -923,7 +923,7 @@ function DesignSystemSection() {
           gap: 28,
         }}>
           {[
-            ["52",    "Components shipped"],
+            ["50",    "Components shipped"],
             ["22",    "Documented patterns"],
             ["2 weeks", "Foundation to first handoff"],
             ["1",     "System, reused across the org"],
@@ -1452,12 +1452,12 @@ function TensionsSection() {
         <div style={{ marginTop: 56, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 20 }}>
           {[
             {
-              side: "PM", want: "Speed", color: "#F2B155",
+              side: "Project Manager", want: "Speed", color: "#F2B155",
               points: ["Ship the MVP before Q1 at any cost", "Parity with competitors, polish later", "Quick review cycles",],
               emphasized: false,
             },
             {
-              side: "Design Lead", want: "Quality", color: "#B299FF",
+              side: "Head of Design", want: "Quality", color: "#B299FF",
               points: ["Raise the DS bar for the whole company", "Iterate and improve existing features", "Innovation that surpasses competitors"],
               emphasized: false,
             },
@@ -1600,7 +1600,7 @@ function ImpactSection() {
           {[
             { v: "Q1",  l: "Design work completed ahead of a deadline team lead called \"almost impossible\"", c: "#3BC0B9" },
             { v: "7",   l: "Core features designed, spec'd, and handed off solo", c: "#5FB1FF" },
-            { v: "52",  l: "Reusable components that became the backbone for the company DS", c: "#B299FF" },
+            { v: "50",  l: "Reusable components that became the backbone for the company DS", c: "#B299FF" },
             { v: "1st", l: "Project to define DeDe AI - a core feature to GoodLeap as a whole", c: "#F27D9C" },
           ].map((s, i) => (
             <div key={i} style={{
@@ -1744,7 +1744,7 @@ function CaseStudyFooter() {
             fontSize: 14,
             fontWeight: 600,
             textDecoration: "none",
-          }}>← Back to portfolio</a>
+          }}>← Back home</a>
         </div>
         <div style={{ marginTop: 60, fontFamily: "'Inter', sans-serif", fontSize: 12, color: "#6E7B96" }}>
           © 2026 · Chelsea Williams · Staff Product Designer

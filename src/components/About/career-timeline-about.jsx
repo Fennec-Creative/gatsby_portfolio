@@ -81,7 +81,7 @@ const CareerTimelineAbout = () => {
         <div className="row justify-content-center mb-60">
           <div className="col-lg-8 text-center">
             <h2 className="mb-20">Experience</h2>
-            <p style={{ color: "rgba(255,255,255,0.55)", maxWidth: "520px", margin: "0 auto" }}>
+            <p style={{ color: "rgba(255,255,255,0.85)", maxWidth: "520px", margin: "0 auto" }}>
             Over a decade of experience across startups, Fortune 500 companies, and everything in between. Deep expertise in enterprise solutions, data-heavy products, and zero-to-one product development.
             </p>
           </div>
@@ -158,7 +158,7 @@ const CareerTimelineAbout = () => {
                       </h5>
                       <span
                         style={{
-                          color: "rgba(255,255,255,0.5)",
+                          color: "rgba(255,255,255,0.85)",
                           fontSize: "0.9rem",
                         }}
                       >
@@ -167,7 +167,7 @@ const CareerTimelineAbout = () => {
                       {role.location && (
                         <span
                           style={{
-                            color: "rgba(255,255,255,0.35)",
+                            color: "rgba(255,255,255,0.70)",
                             fontSize: "0.8rem",
                           }}
                         >
@@ -180,7 +180,7 @@ const CareerTimelineAbout = () => {
                         fontSize: "0.75rem",
                         textTransform: "uppercase",
                         letterSpacing: "0.07em",
-                        color: "rgba(255,255,255,0.35)",
+                        color: "rgba(255,255,255,0.70)",
                         marginBottom: "0.9rem",
                         fontWeight: 500,
                       }}
@@ -203,7 +203,7 @@ const CareerTimelineAbout = () => {
                             key={j}
                             style={{
                               fontSize: "0.875rem",
-                              color: "rgba(255,255,255,0.6)",
+                              color: "rgba(255,255,255,0.85)",
                               lineHeight: 1.6,
                               paddingLeft: "1rem",
                               position: "relative",

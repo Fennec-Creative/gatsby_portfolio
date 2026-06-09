@@ -67,7 +67,7 @@ const ToolsAbout = () => {
                   fontSize: "0.7rem",
                   textTransform: "uppercase",
                   letterSpacing: "0.1em",
-                  color: "rgba(255,255,255,0.35)",
+                  color: "rgba(255,255,255,0.7)",
                   fontWeight: 600,
                   marginBottom: "0.75rem",
                 }}
@@ -103,7 +103,7 @@ const ToolsAbout = () => {
                 fontSize: "0.7rem",
                 textTransform: "uppercase",
                 letterSpacing: "0.1em",
-                color: "rgba(255,255,255,0.35)",
+                color: "rgba(255,255,255,0.70)",
                 fontWeight: 600,
                 marginBottom: "1rem",
                 textAlign: "center",
@@ -127,7 +127,7 @@ const ToolsAbout = () => {
                     border: "1px solid rgba(255,255,255,0.14)",
                     borderRadius: "100px",
                     fontSize: "0.8rem",
-                    color: "rgba(255,255,255,0.6)",
+                    color: "rgba(255,255,255,0.85)",
                     background: "rgba(255,255,255,0.03)",
                     whiteSpace: "nowrap",
                   }}
