@@ -3,7 +3,7 @@ import NavbarArch from "components/Navbar-arch/navbar-arch";
 import DarkTheme from "layouts/Dark";
 import HeaderMain from "components/Case-studies-components/GoodLeap/header-main";
 import IntroMain from "components/Case-studies-components/GoodLeap/intro-main";
-import { withAuth } from "../../utils/withAuth";
+//import { withAuth } from "../../utils/withAuth";
 
 
 /* ------------------------------------------------------------------
@@ -182,7 +182,7 @@ function CaseStudyNav() {
       }}>
       <div style={{
         pointerEvents: visible ? "auto" : "none",
-        background: "rgba(17,28,48,0.88)",
+        background: "#262B36",
         backdropFilter: "blur(24px)",
         WebkitBackdropFilter: "blur(24px)",
         border: "1px solid rgba(255,255,255,0.08)",
@@ -430,7 +430,7 @@ function ApproachSection() {
     { n: "01", title: "Assumption-driven research", body: "Treated generative AI output as hypothesis, not truth. Every Lean UX artifact shipped with a test plan attached.", c: "#5FB1FF" },
     { n: "02", title: "Parallel design tracks", body: "Wireframes, hi-fi, and DS work moved in parallel across features.", c: "#7ED9A7" },
     { n: "03", title: "Template-first handoff", body: "Built a reusable Figma template system, with the same patterns, specs, and components across every flow.", c: "#B299FF" },
-    { n: "04", title: "Negotiated quality", body: "Made scope tradeoffs visible and tangible to leadership and drew hard lines to maintain momentum", c: "#F27D9C" },
+    { n: "04", title: "Structured negotiations", body: "Made scope tradeoffs visible and tangible to leadership and drew hard lines to maintain momentum", c: "#F27D9C" },
   ];
 
   return (
@@ -489,7 +489,7 @@ function Timeline() {
       marginTop: 24,
       padding: 32,
       borderRadius: 20,
-      background: "rgba(11,19,34,0.5)",
+      background: "linear-gradient(rgb(22, 24, 30) 0%, rgb(23, 26, 33) 54.7%, rgb(22, 24, 30) 100%)",
       border: "1px solid rgba(255,255,255,0.06)",
     }}>
       <div style={{
@@ -549,10 +549,10 @@ function ResearchSection() {
             <Eyebrow color="#5FB1FF">What I did</Eyebrow>
             <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 12 }}>
               {[
-                ["Generative persona pass", "Used AI to generate proto-personas, journey maps, and pain-point clusters from public roofer-industry data."],
-                ["Competitor sweep", "Catalogued 11 competitors across 40+ features. Mapped feature gaps, not feature parity."],
+                ["Generative persona data", "Used AI to generate proto-personas, journey maps, and pain-point clusters from public roofer-industry data."],
+                ["Competitor analysis", "Catalogued 11 competitors across 40+ features. Mapped feature gaps, not feature parity."],
                 ["Cross-reference pass", "Compared AI phrasing against solar interview transcripts to surface overlapping language and likely truths."],
-                ["Live validation plan", "Assisted 2-week interview cycles during build. Every hypothesis got a confirmation or rejection by MVP."],
+                ["Live validation plan", "Assisted 2-week interview cycles during build. Most hypotheses got a confirmation or rejection by MVP."],
               ].map(([t, b], i) => (
                 <div key={i} style={{
                   padding: "18px 20px",
@@ -1440,7 +1440,7 @@ function InvoicesVisual({ accent }) {
    STAKEHOLDER TENSIONS
 -------------------------------------------------------------------*/
 
-function TensionsSection() {
+/*function TensionsSection() {
   return (
     <Section>
       <Container>
@@ -1493,13 +1493,12 @@ function TensionsSection() {
       </Container>
     </Section>
   );
-}
-
+}*/
 /* ------------------------------------------------------------------
    DATA STAGE
 -------------------------------------------------------------------*/
 
-function MiniChart() {
+/*function MiniChart() {
   const pts = [20, 35, 28, 45, 52, 48, 62, 58, 70, 68, 82, 78];
   const max = 100, w = 320, h = 120;
   const step = w / (pts.length - 1);
@@ -1579,7 +1578,7 @@ function DataStageSection() {
       </Container>
     </Section>
   );
-}
+}*/
 
 
 /* ------------------------------------------------------------------
@@ -1772,8 +1771,6 @@ const GoodLeapCaseStudy = () => {
       <NorthStarSection />
       <DesignSystemSection />
       <FeaturesSection />
-      <TensionsSection />
-      <DataStageSection />
       <ImpactSection />
       <ReflectionsSection />
       <CaseStudyFooter />
@@ -1781,5 +1778,5 @@ const GoodLeapCaseStudy = () => {
   );
 };
 
-export default withAuth(GoodLeapCaseStudy);
-//export default GoodLeapCaseStudy;
+//export default withAuth(GoodLeapCaseStudy);
+export default GoodLeapCaseStudy;
