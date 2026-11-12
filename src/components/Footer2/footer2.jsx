@@ -8,7 +8,7 @@ const Footer2 = () => {
           <div className="col-lg-6 col-md-6">
             <div className="item-clumn our md-mb50">
               <p>
-              © 2024 Chelsea Williams. All Rights Reserved
+              © 2026 Chelsea Williams. All Rights Reserved
               </p>
             </div>
           </div>

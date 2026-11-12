@@ -30,9 +30,9 @@ const IntroFC = ({ sliderRef, blackStar }) => {
     context: "MyEverBright redesign",
   },
   {
-    value: "0→1",
-    label: "Enterprise SaaS Launched",
-    context: "GoodLeap Roofer Plus in 6 months",
+    value: "7",
+    label: "Workflows in 6 Months",
+    context: "GoodLeap Roofer Plus",
   },
   {
     value: "6",
@@ -56,8 +56,8 @@ const IntroFC = ({ sliderRef, blackStar }) => {
               <h2 classname="mb-40 fw-600>">
                 Hi, I'm Chelsea
               </h2>
-              <p className="mb-20 mt-20">I'm a Staff Product Designer and a Frontend Engineer with 11+ years of experience taking products from zero to launch. </p>
-              <p className="mb-40">Recently, I designed an all-in-one enterprise SaaS platform in less than 6 months and led a complete app redesign that increased annual visits from 15k to over 90k and boosted 30-day retention by 115% year over year.</p>
+              <p className="mb-20 mt-20">I'm a Staff product designer for AI and enterprise products with 11+ years of experience. </p>
+              <p className="mb-40">I take ambiguous 0-to-1 problems from strategy to shipped UI, and I prototype in code. Recently, I was the sole designer on GoodLeap’s roofing platform and its agentic AI assistant, shipping 7 core workflows in 6 months.</p>
               
              
     <Link 
@@ -116,7 +116,7 @@ const IntroFC = ({ sliderRef, blackStar }) => {
               <div
                 style={{
                   fontSize: "0.75rem",
-                  color: "rgba(255,255,255,0.45)",
+                  color: "rgba(255,255,255,0.65)",
                   lineHeight: 1.4,
                 }}
               >
