@@ -1681,7 +1681,7 @@ function ReflectionsSection() {
           kicker="Reflections"
           title="What went well and what I'd change"
           lead="This project was a crash course in execution under pressure, and I'm proud of how I navigated the competing priorities, ambiguity, and sheer scope of it all. That said, there are definitely things I would have done differently in hindsight."
-          follow="While I met my deadline for design work, the software ultimately did not launch on time. We simply had too small of a team and not enough time. If I could do it again, I'd push harder for more research and iteration time. I'd also impliment AI into my process sooner to cut down on wireframing and prototyping time."
+          follow="While I met my deadline for design work, the software ultimately didn’t launch on time. If I could do it again, I’d negotiate for a phased launch earlier and push harder for more research and iteration."
         />
         <div style={{ marginTop: 56, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 20 }}>
           {items.map(it => (
