@@ -1591,8 +1591,8 @@ function ImpactSection() {
       <Container>
         <SectionTitle
           kicker="Impact"
-          title="Pre-launch results"
-          lead="At the time of publishing, this applicaiton hadn't gone live yet, so I don't have post-launch conversion metrics inluded. What I can speak to are the organizational and delivery outcomes that set launch up for success."
+          title="Results"
+          lead="At the time of publishing, this applicaiton was available to a limited audience, so I don't have extensive post-laumch metrics. What I can speak to are the organizational and delivery outcomes that set launch up for success."
         />
 
         <div style={{ marginTop: 56, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 20 }}>

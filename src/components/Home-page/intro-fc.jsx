@@ -57,7 +57,7 @@ const IntroFC = ({ sliderRef, blackStar }) => {
                 Hi, I'm Chelsea
               </h2>
               <p className="mb-20 mt-20">I'm a Staff product designer for AI and enterprise products with 11+ years of experience. </p>
-              <p className="mb-40">I take ambiguous 0-to-1 problems from strategy to shipped UI, and I prototype in code. Recently, I was the sole designer on GoodLeap’s roofing platform and its agentic AI assistant, shipping 7 core workflows in 6 months.</p>
+              <p className="mb-40">I take ambiguous 0-to-1 problems from strategy to shipped UI, and I prototype in code. Recently, I was the sole designer on GoodLeap’s roofing platform and its agentic AI assistant, delivering 7 core workflows in 6 months.</p>
               
              
     <Link 
