@@ -32,7 +32,7 @@ const IntroFC = ({ sliderRef, blackStar }) => {
   {
     value: "7",
     label: "Workflows in 6 Months",
-    context: "GoodLeap Roofer Plus",
+    context: "GoodLeap Pros",
   },
   {
     value: "6",

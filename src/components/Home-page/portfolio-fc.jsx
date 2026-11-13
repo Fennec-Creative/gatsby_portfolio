@@ -52,7 +52,7 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Goodleap Pros</h6>
                 <span>
-                  Staff UX Designer • UX & UI Design
+                  0 to 1 roofing platform and agentic AI assistant
                 </span>
               </div>
             </div>
@@ -69,7 +69,7 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>MyEverBright</h6>
                 <span>
-                  Design Leadership • UX & UI Design
+                  Cross-platform redesign that grew traffic 500%
                 </span>
               </div>
             </div>
@@ -87,7 +87,7 @@ const PortfolioFc = ({ grid, hideFilter, filterPosition }) => {
               <div className="cont">
                 <h6>Axil Design System</h6>
                 <span>
-                  UX & UI Design
+                  Design system template used to build 6 design systems
                 </span>
               </div>
             </div>
